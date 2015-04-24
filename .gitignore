@@ -1,0 +1,16 @@
+node_modules
+public/bower_components
+.idea
+vendor
+.DS_Store
+public/forums
+public/gallery2
+public/dist/js/timeline
+public/dist/css/wrapbootstrap
+public/dist/js/wrapbootstrap
+public/dist/css/timeline
+public/blog
+public/cgi-bin
+berks_cookbooks
+gallery2data
+public/avrc
