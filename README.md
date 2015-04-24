@@ -15,6 +15,11 @@ I also use [Content Timeline](http://www.shindiristudio.com/plugins/html-plugins
 plugin for rendering the timelines seen on the anime pages, etc. There is likely no equivalent plugin that you could
 drop in its place. If you do not wish to invest in the plugin, you will need to rework the sections that use it.
 
+##What You DO Get
+
+You get... everything else! All the content, images, etc. I have curated over the years. This is an exact replica of
+the site content as it appears on [www.lupinencyclopedia.com](http://www.lupinencyclopedia.com).
+
 ##Installation
 
    ```bash
