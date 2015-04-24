@@ -39,7 +39,10 @@ try {
 <?php
 if(!empty($forumRss)) {
   foreach($forumRss->{'recent-post'} as $item) {
-    $pubTimestamp = strtotime($item->time);
+    $pubTimestamp = time();
+    if(false === stripos($item->time, "Today")) {
+      $pubTimestamp = strtotime($item->time);
+    }
 ?>
 
           <div class="profile-event">
