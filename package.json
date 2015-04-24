@@ -1,0 +1,18 @@
+{
+  "name": "lupin-encyclopedia",
+
+  "description": "Lupin III Encyclopedia web site",
+
+  "author": "Luis A. Cruz <sprak3000+lupinencyc@gmail.com>",
+
+  "homepage": "http://www.lupinencyclopedia.com/",
+
+  "version": "0.5.0",
+
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "bower": "~1.*"
+  }
+}

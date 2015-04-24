@@ -1,0 +1,17 @@
+{
+  "name": "lupin-encyclopedia",
+
+  "version": "0.5.0",
+
+  "dependencies": {
+    "jquery": "~1.9.*",
+    "jquery-migrate": "~1.*",
+    "backbone": "~1.*",
+    "lodash": "~2.*",
+    "handlebars": "~1.*",
+    "bootstrap": "~3.*"
+  },
+
+  "devDependencies": {
+  }
+}

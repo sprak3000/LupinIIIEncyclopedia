@@ -1,0 +1,47 @@
+{
+  "name": "sprak3000/lupin-encyclopedia",
+
+  "description": "Lupin III Encyclopedia web site",
+
+  "version": "1.0.0",
+
+  "type": "project",
+
+  "homepage": "http://www.lupinencyclopedia.com/",
+
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Luis A. Cruz",
+      "email": "sprak3000+github@gmail.com",
+      "homepage": "http://www.lupinencyclopedia.com/blog/",
+      "role": "Developer"
+    }
+  ],
+
+  "require": {
+    "slim/slim": "2.*",
+    "sprak3000/anime-news-network-data-api": "~0.1"
+  },
+
+  "require-dev": {
+
+  },
+
+  "scripts" : {
+    "post-install-cmd" : [
+      "npm install",
+      "./node_modules/.bin/bower install"
+    ],
+
+    "post-update-cmd" : [
+    ]
+  },
+
+  "autoload": {
+    "psr-4": {
+      "sprak3000\\lupinencyclopedia\\": "src"
+    }
+  }
+}
