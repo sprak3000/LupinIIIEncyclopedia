@@ -1,8 +1,11 @@
 #CHANGELOG
 
+##1.2.0 - 2015 Apr 24
+* Issue #6: Add Hulu links for Conan and Jigen films
+
 ##1.1.1 - 2015 Apr 24
 
-###Enhancements
+###Bug Fix
 * Issue #2: Fix homepage video to be responsive design
 
 ##1.1.0 - 2015 Apr 24

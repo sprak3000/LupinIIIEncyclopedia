@@ -21,6 +21,9 @@
                   This film is notable for being the first theatrical release that is a sequel (of sorts) to a TV special. Lupin
                   and Conan first crossed paths in a similarly titled TV special, though their interaction was brief.
                 </p>
+                <div>
+                  <a href="http://www.hulu.com/watch/743069" class="linked" target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a>
+                </div>
                 <dl class="dl-horizontal">
                   <dt>Japanese Title:</dt><dd><em>Rupan Sansei Basasu Meitantei Konan The Movie</em></dd>
                   <dt>Jacket Color:</dt><dd>Red</dd>

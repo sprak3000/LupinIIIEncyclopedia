@@ -23,6 +23,9 @@
                   TV series to see a continuation of its style and tone. Picking up after that series, the goal of the film was to
                   show how Lupin and Jigen became close partners. The film was given a limited screening at Tokyo's Shinjuku Wald 9 theater.
                 </p>
+                <div>
+                  <a href="http://www.hulu.com/watch/783085" class="linked" target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a>
+                </div>
                 <dl class="dl-horizontal">
                   <dt>Japanese Title:</dt><dd><em>Lupin the IIIrd: Jigen Daisuke no Bohyo</em></dd>
                   <dt>Jacket Color:</dt><dd>Green</dd>
