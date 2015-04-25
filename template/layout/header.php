@@ -31,8 +31,6 @@
     <?php /** CSS Theme  */ ?>
     <link rel="stylesheet" href="/dist/css/wrapbootstrap/unify/HTML/assets/css/theme-colors/default.css">
 
-    <?php /** Overrides of the above */?>
-    <link rel="stylesheet" href="/dist/css/wrapbootstrap/unify/HTML/assets/css/custom.css">
 <?php
 /** File based CSS */
 if( isset( $includeCss ) && is_array( $includeCss ) && !empty( $includeCss ) )
@@ -46,18 +44,24 @@ if( isset( $includeCss ) && is_array( $includeCss ) && !empty( $includeCss ) )
 }
 
 /** Inline CSS */
-if( isset( $inline_css ) && is_array( $inline_css ) && !empty( $inline_css ) )
+if( isset( $inlineCss ) && is_array( $inlineCss ) && !empty( $inlineCss ) )
 {
 ?>
     <style type="text/css">
-      <?php echo implode("\r\n", $inline_css); ?>
+      <?php echo implode("\r\n", $inlineCss); ?>
     </style>
 <?php
 }
+
+/** Overrides of the above */
 ?>
+    <link rel="stylesheet" href="/dist/css/wrapbootstrap/unify/HTML/assets/css/custom.css">
   </head>
 
   <body>
+<?php
+if(!isset($is404)) {
+?>
     <div class="wrapper">
 
     <?php /** Header */ ?>
@@ -152,22 +156,24 @@ if( isset( $inline_css ) && is_array( $inline_css ) && !empty( $inline_css ) )
            <ul class="pull-right breadcrumb">
                <li><a href="/">Home</a></li>
 <?php
-if( isset($nav) && is_array($nav) && !empty($nav) )
-{
-  foreach( $nav as $title => $link )
+  if( isset($nav) && is_array($nav) && !empty($nav) )
   {
-    $text = $title;
-    if(!empty($link))
+    foreach( $nav as $title => $link )
     {
-      $text = '<a href="' . $link . '">' . $text . "</a>";
-    }
+      $text = $title;
+      if(!empty($link))
+      {
+        $text = '<a href="' . $link . '">' . $text . "</a>";
+      }
 ?>
                <li><?php echo $text; ?></li>
 <?php
+    }
   }
-}
 ?>
            </ul>
        </div><?php /** /container */ ?>
    </div><?php /** /breadcrumbs */ ?>
    <?php /** End Breadcrumbs */ ?>
+<?php
+}

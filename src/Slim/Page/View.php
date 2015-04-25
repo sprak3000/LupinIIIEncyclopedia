@@ -29,7 +29,7 @@ class View extends Slim\View
    * NOTE: This method should be overridden by custom view subclasses
    *
    * @param  string $pTemplate     The template pathname, relative to the template base directory
-   * @param  array  $pData         Any additonal data to be passed to the template.
+   * @param  array  $pData         Any additional data to be passed to the template.
    * @return string               The rendered template
    * @throws \RuntimeException    If resolved template pathname is not a valid file
    */

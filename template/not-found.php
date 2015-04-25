@@ -1,10 +1,10 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
-      <div class="error-v1">
-        <span class="error-v1-title">404</span>
-        <span>That’s an error!</span>
-        <p>The requested URL was not found on this server. That’s all we know.</p>
+      <div class="error-v2">
+        <span class="error-v2-title">404</span>
+        <span>You're not going to get lucky here!</span>
+        <p>Try starting from the <a href="/">home page</a>&hellip;</p>
       </div>
     </div>
   </div>
