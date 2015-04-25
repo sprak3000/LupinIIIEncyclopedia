@@ -1,5 +1,10 @@
 #CHANGELOG
 
+##1.2.2 - 2015 Apr 24
+
+### Bug Fixes
+* Issue #11: Anime sub-nav link no longer a link
+
 ##1.2.1 - 2015 Apr 24
 
 ###Bug Fixes

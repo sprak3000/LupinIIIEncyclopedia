@@ -28,7 +28,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     $pageData['inlineJs'] = $inlineJs;
 
     $nav = array ();
-    $nav['Anime'] = '/anime';
+    $nav['Anime'] = '';
     $pageData['nav'] = $nav;
     $pageData['animeNav'] = true;
     $pageData['pilotNav'] = true;
@@ -60,7 +60,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
       $pageData['filmNav'] = true;
@@ -83,7 +83,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -109,7 +109,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -138,7 +138,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -167,7 +167,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -196,7 +196,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -225,7 +225,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -255,7 +255,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -284,7 +284,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -313,7 +313,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -349,7 +349,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
       $pageData['ovaNav'] = true;
@@ -372,7 +372,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -396,7 +396,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -420,7 +420,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -449,7 +449,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -479,7 +479,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -509,7 +509,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -544,7 +544,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
       $pageData['specialsNav'] = true;
@@ -567,7 +567,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -593,7 +593,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -619,7 +619,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -645,7 +645,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -671,7 +671,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -700,7 +700,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -727,7 +727,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -753,7 +753,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -779,7 +779,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -805,7 +805,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -831,7 +831,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -857,7 +857,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -883,7 +883,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -912,7 +912,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -939,7 +939,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -965,7 +965,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -991,7 +991,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1020,7 +1020,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1050,7 +1050,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1080,7 +1080,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1110,7 +1110,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1140,7 +1140,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1170,7 +1170,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1197,7 +1197,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1223,7 +1223,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1254,7 +1254,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
       $pageData['fourthTvNav'] = true;
@@ -1284,7 +1284,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
       $pageData['thirdTvNav'] = true;
@@ -1314,7 +1314,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
       $pageData['secondTvNav'] = true;
@@ -1342,7 +1342,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
       $pageData['viiiTvNav'] = true;
@@ -1373,7 +1373,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
       $pageData['firstTvNav'] = true;
@@ -1404,7 +1404,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
       $pageData['fujikoTvNav'] = true;
@@ -1437,7 +1437,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
       $pageData['nonNav'] = true;
@@ -1460,7 +1460,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1489,7 +1489,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1519,7 +1519,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1551,7 +1551,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1581,7 +1581,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1613,7 +1613,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1645,7 +1645,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['inlineJs'] = $inlineJs;
 
       $nav = array ();
-      $nav['Anime'] = '/anime';
+      $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
