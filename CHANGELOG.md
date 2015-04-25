@@ -1,5 +1,10 @@
 #CHANGELOG
 
+##1.1.1 - 2015 Apr 24
+
+###Enhancements
+* Issue #2: Fix homepage video to be responsive design
+
 ##1.1.0 - 2015 Apr 24
 
 ###Enhancements

@@ -19,7 +19,7 @@ try {
     </div>
 
     <div class="col-sm-6 md-margin-bottom-20">
-      <div class="panel panel-profile no-bg">
+      <div class="panel panel-profile no-bg responsive-video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL1145010B3E6D78A9" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
