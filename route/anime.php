@@ -1239,6 +1239,31 @@ $app->group('/anime', function () use ($app, $pageUtil) {
    * Routes for TV Series
    */
   $app->group('/tv-series', function () use ($app, $pageUtil) {
+    $app->get('/fourth/', function () use ($app, $pageUtil) {
+      $includeCss = array ();
+
+      $includeJs = array ();
+
+      $inlineJs = array ();
+
+      $pageData = array ();
+      $pageData['pageTitle'] = 'Lupin III Fourth TV Series';
+      $pageData['pageDescription'] = '';
+      $pageData['includeCss'] = $includeCss;
+      $pageData['includeJs'] = $includeJs;
+      $pageData['inlineJs'] = $inlineJs;
+
+      $nav = array ();
+      $nav['Anime'] = '/anime';
+      $pageData['nav'] = $nav;
+      $pageData['animeNav'] = true;
+      $pageData['fourthTvNav'] = true;
+
+      $pageData['annData'] = $pageUtil->GetAnimeData(16347);
+
+      $app->render('view/anime/tv-series/fourth.php', $pageData);
+    })->name('fourth-tv-series');
+
     $app->get('/third/', function () use ($app, $pageUtil) {
       $includeCss = array ();
       $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
