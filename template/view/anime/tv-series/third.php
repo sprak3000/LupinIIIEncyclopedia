@@ -20,7 +20,7 @@
               <div class="col-md-10">
                 <p>
                   The &quot;Pink Jacket&quot; series has seen little play outside of Japan and is chiefly judged by
-                  <em><a href="" class="linked color-green">Legend of the Gold of Babylon</a></em>, the film produced during
+                  <em><a href="/anime/theatrical-films/legend-of-the-gold-of-babylon" class="linked color-green">Legend of the Gold of Babylon</a></em>, the film produced during
                   the same time period. While <em>Babylon</em> and this series share the same comedy style, the third series
                   fares a bit better in its execution.
                 </p>
@@ -854,7 +854,7 @@
 
           <div id="review" class="tab-pane fade in">
             <p>
-              My preconceptions going into this series were based on <em><a href="" class="linked color-green">Legend of the
+              My preconceptions going into this series were based on <em><a href="/anime/theatrical-films/legend-of-the-gold-of-babylon" class="linked color-green">Legend of the
                   Gold of Babylon</a></em>; I was expecting an arduous journey through fifty episodes. However, this third TV
               series managed to be more entertaining, though not by much. Most of the episodes are mediocre heists lacking the
               wacky panache the second series mustered. The rest range from absurd slapstick to some of the hard edge the
