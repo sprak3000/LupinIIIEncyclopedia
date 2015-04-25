@@ -1,5 +1,10 @@
 #CHANGELOG
 
+##1.4.0 - 2015 Apr 25
+
+###Enhancements
+* Google Sitemaps XML file
+
 ##1.3.0 - 2015 Apr 24
 
 ###Bug Fixes
