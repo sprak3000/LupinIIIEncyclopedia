@@ -1,5 +1,6 @@
 <?php
-/**
+if(!isset($is404)) {
+  /**
  * Common Page Footer
  * Based on the wrapbootstrap Unify theme
  */
@@ -42,6 +43,10 @@
   </div>
 
   </div> <?php /** End wrapper in header */ ?>
+<?php
+}
+?>
+
   <?php /** JS Global Compulsory */ ?>
   <script type="text/javascript" src="/bower_components/jquery/jquery.min.js"></script>
   <script type="text/javascript" src="/bower_components/jquery-migrate/jquery-migrate.min.js"></script>

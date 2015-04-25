@@ -1,5 +1,13 @@
 #CHANGELOG
 
+##1.3.0 - 2015 Apr 24
+
+###Bug Fixes
+* Typo in doc block comment on my page view class
+
+###Enhancements
+* Issue #5: Awesome 404 page styling
+
 ##1.2.2 - 2015 Apr 24
 
 ### Bug Fixes
