@@ -1,5 +1,10 @@
 #CHANGELOG
 
+##1.4.1 - 2015 Apr 26
+
+###Bug Fixes
+* Issue #15: Missing GTM for analytics
+
 ##1.4.0 - 2015 Apr 25
 
 ###Enhancements
