@@ -1,5 +1,11 @@
 #CHANGELOG
 
+##1.4.2 - 2015 May 21
+
+###Bug Fixes
+* Issue #18: Redirects for old pages
+* Did not check in fourth TV series image previously
+
 ##1.4.1 - 2015 Apr 26
 
 ###Bug Fixes
