@@ -1,5 +1,10 @@
 #CHANGELOG
 
+##1.4.3 - 2015 May 21
+
+###Bug Fixes
+* Issue #20: Redirects result in application error
+
 ##1.4.2 - 2015 May 21
 
 ###Bug Fixes
