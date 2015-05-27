@@ -1241,10 +1241,13 @@ $app->group('/anime', function () use ($app, $pageUtil) {
   $app->group('/tv-series', function () use ($app, $pageUtil) {
     $app->get('/fourth/', function () use ($app, $pageUtil) {
       $includeCss = array ();
+      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
+      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
 
       $inlineJs = array ();
+      $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
       $pageData = array ();
       $pageData['pageTitle'] = 'Lupin III Fourth TV Series';
@@ -1259,6 +1262,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['animeNav'] = true;
       $pageData['fourthTvNav'] = true;
 
+      $pageData['images'] = $pageUtil->GetImagesForGallery(__DIR__ . "/../public/dist/asset/img/anime/fourth-tv-series/media");
       $pageData['annData'] = $pageUtil->GetAnimeData(16347);
 
       $app->render('view/anime/tv-series/fourth.php', $pageData);

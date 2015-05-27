@@ -1,5 +1,10 @@
 #CHANGELOG
 
+##1.5..0 - 2015 May 26
+
+###Enhancements
+* Updating information and images for fourth TV series
+
 ##1.4.3 - 2015 May 21
 
 ###Bug Fixes
