@@ -25,7 +25,14 @@
                   in charge of the series scripts.
                 </p>
                 <p>
-                  It will initially be broadcast in Italy in 2015 May with a Japanese broadcast in fall 2015.
+                  The series is set to open with Zenigata receiving an invitation to Lupin's wedding. Lupin is marrying
+                  Rebecca Rossellini, the young president of a conglomerate based in the Republic of San Marino. She has
+                  also worked as a model and an actress, and has been rumored to be involved in a number of celebrity
+                  affairs. She has an independent wild streak and has a secret she cannot tell anyone.
+                </p>
+                <p>
+                  It was expected to initially be broadcast in Italy in 2015 May with a Japanese broadcast in fall 2015. Recent
+                  promotional materials has removed any reference to the May Italian release.
                 </p>
                 <dl class="dl-horizontal">
                   <dt>Japanese Title:</dt><dd><em>Rupan Sansei</em> (<em>Lupin the Third</em>)</dd>
@@ -43,8 +50,33 @@
           </div>
 
           <div id="media" class="tab-pane fade in">
+<?php
+foreach($images as $row) {
+?>
+              <div class="row">
+<?php
+  foreach($row as $image) {
+?>
+                  <div class="col-md-3">
+                    <div class="thumbnails thumbnail-style">
+                      <a class="fancybox-button zoomer" href="<?php echo $image; ?>" title="" data-rel="fancybox-button">
+                    <span class="overlay-zoom">
+                      <img class="img-responsive" alt="" src="<?php echo $image; ?>">
+                      <div class="zoom-icon"></div>
+                    </span>
+                      </a>
+                    </div>
+                  </div>
+<?php
+  }
+?>
+              </div>
+<?php
+}
+?>
+
             <div class="responsive-video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/K6pky53HwFE?rel=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/hTTbKLjjf3o?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
