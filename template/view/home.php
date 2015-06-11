@@ -1,13 +1,3 @@
-<?php
-$forumRss = array();
-$blogRss = array();
-try {
-  $forumRss = simplexml_load_file("http://www.lupinencyclopedia.com/forums/index.php?action=.xml");
-  $eBayRss = simplexml_load_file("http://pipes.yahoo.com/pipes/pipe.run?_id=dbe543e31b0bf07dc00838c34456a978&_render=rss");
-} catch(Exception $e) {
-  // TODO: Log this appropriately
-}
-?>
 <div class="profile container">
 
   <div class="profile-body row margin-bottom-20">
@@ -78,14 +68,33 @@ if(!empty($forumRss)) {
 
         <div id="scrollbar4" class="panel-body contentHolder">
 <?php
-if(!empty($eBayRss)) {
-  foreach($eBayRss->channel->item as $item) {
+if(!empty($ebayResults)) {
+  foreach($ebayResults as $item) {
+    $ebayItemId = $item['itemId'][0];
+
+    $currentPrice = preg_replace('/^(\d+\.\d)$/', '${1}0', $item['sellingStatus'][0]['convertedCurrentPrice'][0]['__value__']);
+    $currency = $item['sellingStatus'][0]['currentPrice'][0]['@currencyId'];
+//Wednesday, 2015 Jun 17
+    $endsOn = date('l, Y M j', strtotime($item['listingInfo'][0]['endTime'][0]));
 ?>
 
               <div class="profile-event">
                 <div class="overflow-h">
-                  <h3 class="heading-xs"><a href="<?php echo $item->link; ?>" target="_blank"><?php echo $item->title; ?></a></h3>
-                  <?php echo $item->description; ?>
+                  <h3 class="heading-xs"><a href="<?php echo $item['viewItemURL'][0]; ?>" target="_blank"><?php echo $item['title'][0]; ?></a></h3>
+                  <div>
+                    <div style="margin-right:20px;float:left;">
+                      <img src="<?php echo $item['galleryURL'][0]; ?>" />
+                    </div>
+                    <div>
+                      <strong>Current Price:</strong> <?php echo $currentPrice . ' ' . $currency; ?> (<?php echo (isset($item['sellingStatus'][0]['bidCount'][0])) ? $item['sellingStatus'][0]['bidCount'][0] : '0'; ?> bids)
+                    </div>
+                    <div>
+                      <strong>End Date:</strong> <?php echo $endsOn; ?>
+                    </div>
+                    <div>
+                      <a rel="nofollow" target="_blank" href="<?php echo $item['viewItemURL'][0]; ?>">Bid Now</a> | <a rel="nofollow" target="_blank" href="http://cgi1.ebay.com/ws/eBayISAPI.dll?MfcISAPICommand=MakeTrack&item=<?php echo $ebayItemId; ?>">Add to Watch List</a>
+                    </div>
+                  </div>
                 </div>
               </div>
 <?php

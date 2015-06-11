@@ -1,6 +1,15 @@
 #CHANGELOG
 
-##1.5..0 - 2015 May 26
+##1.6.0 - 2015 June 10
+
+###Enhancements
+* Issue #23: Move RSS feed fetching out of "home" view template
+* Issue #24: Change how eBay RSS feed works
+
+###Bug Fixes
+* Issue #25: CodeClimate bug risk reports 
+ 
+##1.5.0 - 2015 May 26
 
 ###Enhancements
 * Updating information and images for fourth TV series
