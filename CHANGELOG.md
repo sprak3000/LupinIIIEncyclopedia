@@ -1,5 +1,11 @@
 #CHANGELOG
 
+##1.7.0 - 2015 June 14
+
+###Enhancements
+* Created eBay RSS feed for others to use; converted eBay listings on home route to use it
+* Altered custom view renderer to not use the layout files if the template starts with `view/rss`
+
 ##1.6.0 - 2015 June 10
 
 ###Enhancements
