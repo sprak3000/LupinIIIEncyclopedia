@@ -35,24 +35,7 @@ $app->get('/', function () use ($app) {
   }
 
   try {
-    $pageData['ebayResults'] = [];
-    $configFile = file_get_contents(__DIR__ . '/../application/config.json');
-    if (false !== $configFile) {
-      $config = json_decode($configFile, true);
-      if (isset($config['ebay']['url']) && !empty($config['ebay']['url']) && isset($config['ebay']['apiKey']) && !empty($config['ebay']['apiKey'])) {
-        $ebayResults = file_get_contents(str_replace('__APIKEY__', $config['ebay']['apiKey'], $config['ebay']['url']));
-        if (false !== $ebayResults) {
-          $ebayResults = json_decode($ebayResults, true);
-
-          if (isset($ebayResults['findItemsAdvancedResponse'][0]['searchResult'][0]['item'])
-            && is_array($ebayResults['findItemsAdvancedResponse'][0]['searchResult'][0]['item'])
-            && !empty($ebayResults['findItemsAdvancedResponse'][0]['searchResult'][0]['item'])
-          ) {
-            $pageData['ebayResults'] = array_slice($ebayResults['findItemsAdvancedResponse'][0]['searchResult'][0]['item'], 0, 25);
-          }
-        }
-      }
-    }
+    $pageData['eBayRss'] = simplexml_load_file("http://www.lupinencyclopedia.com/rss/ebay");
   } catch (Exception $e) {
     // TODO: Log this appropriately
   }

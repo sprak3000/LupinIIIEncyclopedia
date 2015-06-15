@@ -14,11 +14,11 @@ class View extends Slim\View
    */
   public function render($pTemplate)
   {
-    $header = $this->renderPageFragment('layout/header.php');
+    $header = (false === stripos($pTemplate, 'view/rss')) ? $this->renderPageFragment('layout/header.php') : '';
 
     $content = $this->renderPageFragment($pTemplate);
 
-    $footer = $this->renderPageFragment('layout/footer.php');
+    $footer = (false === stripos($pTemplate, 'view/rss')) ? $this->renderPageFragment('layout/footer.php') : '';
 
     return $header . $content . $footer;
   }
