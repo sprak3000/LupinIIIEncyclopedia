@@ -8,9 +8,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="servive-block rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/sony/ps1/lupin-the-3rd.gif" alt="Lupin the 3rd box cover" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>Daiki</dd>
           <dt>Release Date:</dt><dd>1998 November 26</dd>
           <dt>Price:</dt><dd>2300&yen;</dd>

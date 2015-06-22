@@ -1,6 +1,6 @@
 <div class="container">
 
-  <div class="row">
+  <div class="row margin-bottom-30">
 
     <div class="col-md-8">
       <p>This game for the Japanese only NEC PC-8801 platform is an RPG in the vein of <a target="_blank" class="linked color-green" href="http://en.wikipedia.org/wiki/The_Bard%27s_Tale_%281985%29">Bard's Tale</a>, <a target="_blank" class="linked color-green" href="http://en.wikipedia.org/wiki/Wizardry">Wizardry</a>, and other similar offerings of the time. There is at least one platform action sequence recreating the famous rooftop leaps Lupin made in <a target="_blank" class="linked color-green" href="/anime/film/castle_of_cagliostro">the film</a>. Rather than level grinding for experience, the game appears to emphasize the gathering of information to complete your quest. Each character has unique strengths and weaknesses, and battles are truly won only if you manage to keep the enemy alive and acquire their knowledge.</p>
@@ -9,9 +9,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/nec-pc-8801/castle-of-cagliostro.jpg" alt="Castle of Cagliostro NEC PC-8801 title screen" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>Toho Cinefile-Soft Library</dd>
           <dt>Release Date:</dt><dd>1985</dd>
           <dt>Genre:</dt><dd>Action, RPG</dd>

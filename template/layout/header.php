@@ -131,7 +131,7 @@ if(!isset($is404)) {
                           </a>
                           <ul class="dropdown-menu">
                             <li class="<?php if(isset($monkeyPunchNav)) { echo ' active'; } ?>"><a href="/profile/monkey-punch">Monkey Punch</a></li>
-                            <li class="<?php if(isset($lupinIIINav)) { echo ' active'; } ?>"><a href="/profile/lupin-iii">Ars&egrave;neLupin III</a></li>
+                            <li class="<?php if(isset($lupinIIINav)) { echo ' active'; } ?>"><a href="/profile/lupin-iii">Ars&egrave;ne Lupin III</a></li>
                             <li class="<?php if(isset($jigenDaisukeNav)) { echo ' active'; } ?>"><a href="/profile/jigen-daisuke">Jigen Daisuke</a></li>
                             <li class="<?php if(isset($ishikawaGoemonNav)) { echo ' active'; } ?>"><a href="/profile/ishikawa-goemon">Ishikawa Goemon</a></li>
                             <li class="<?php if(isset($mineFujikoNav)) { echo ' active'; } ?>"><a href="/profile/mine-fujiko">Mine Fujiko</a></li>
@@ -146,6 +146,7 @@ if(!isset($is404)) {
                                 <i class="icon-angle-down"></i>
                             </a>
                             <ul class="dropdown-menu">
+                                <li class="<?php if(isset($musicNav)) { echo ' active'; } ?>"><a href="/random-loot/music">Music</a></li>
                                 <li class="<?php if(isset($mlNav)) { echo ' active'; } ?>"><a href="/random-loot/kent-state-lupin-mailing-list">Kent State Mail List Archive</a></li>
                                 <li class="<?php if(isset($newsletterNav)) { echo ' active'; } ?>"><a href="/random-loot/newsletter">Yahoo! Group Newsletter Archive</a></li>
                                 <li class="<?php if(isset($tafNav)) { echo ' active'; } ?>"><a href="/random-loot/tokyo-international-anime-fair">Tokyo International Anime Fair</a></li>

@@ -10,6 +10,7 @@
           <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
           <li><a data-toggle="tab" href="#review">Review</a></li>
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
+          <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
         <div class="tab-content">
@@ -104,6 +105,82 @@
               <dt>Rats:</dt><dd>Yamadera Koichi</dd>
               <dt>Mark:</dt><dd>Yanami Joji</dd>
             </dl>
+          </div>
+
+          <div id="soundtracks" class="tab-pane fade in">
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin the Third Otakara Henkyaku Daisakuasen!! Original Soundtrack</h2>
+                <ol>
+                  <li>bersaglio rosso</li>
+                  <li>Theme from Lupin the III '78 &lt;2002 version&gt;</li>
+                  <li>mistral</li>
+                  <li>message (?)</li>
+                  <li>Destination Switzerland (?)</li>
+                  <li>penisola</li>
+                  <li>milchkaffee</li>
+                  <li>Lupin & Zenigata</li>
+                  <li>French Can-Can</li>
+                  <li>Outbound Crisis</li>
+                  <li>Ruscha Ruscha (?)</li>
+                  <li>penisola II</li>
+                  <li>Black ?</li>
+                  <li>schatz!</li>
+                  <li>maru damuru</li>
+                  <li>sagurada familiar</li>
+                  <li>le soleil d'or (TV size)</li>
+                  <li>rasou (?) (Bonus track from 2003 soundtrack)</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/tv-specials/operation-return-the-treasure/soundtrack/lupin-the-third-otakara-henkyaku-daisakuasen-original-soundtrack.jpg" alt="Lupin the Third Otakara Henkyaku Daisakuasen!! Original Soundtrack CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84802</dd>
+                    <dt>Release Date:</dt><dd>2004 March 17</dd>
+                    <dt>Price:</dt><dd>2500&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd><dd>Kahimi Karie (track 17)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin the Third Otakara Henkyaku Daisakusen !! &quot;LUPIN TROIS par Yuji Ohno et Kahimi Karie !!!&quot;</h2>
+                <ol>
+                  <li>Theme from Lupin III '78 &lt;2002 version&gt;</li>
+                  <li>le soleil d'or</li>
+                  <li>milchkaffee /TV size</li>
+                  <li>schatz! /TV size</li>
+                  <li>penisola /TV size</li>
+                  <li>bersaglio rosso /TV size</li>
+                  <li>le soleil d'or /TV size</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/tv-specials/operation-return-the-treasure/soundtrack/lupin-the-third-otakara-henkyaku-daisakusen-lupin-trois-par-yuji-ohno-et-kahimi-karie.jpg" alt="Lupin the Third Otakara Henkyaku Daisakusen !! &quot;LUPIN TROIS par Yuji Ohno et Kahimi Karie !!!&quot; CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84794</dd>
+                    <dt>Release Date:</dt><dd>2003 August 21</dd>
+                    <dt>Price:</dt><dd>2000&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd><dd>Kahimi Karie (track 2)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
           </div>
 
         </div>

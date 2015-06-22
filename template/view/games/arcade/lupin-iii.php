@@ -1,6 +1,6 @@
 <div class="container">
 
-  <div class="row">
+  <div class="row margin-bottom-30">
 
     <div class="col-md-8">
       <p>This is a pre-Nintendo era arcade game where you must avoid the security guards and a dog to steal all the money bags. The money bags are along the top of the screen; you can only carry two at a time.</p>
@@ -8,9 +8,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/arcade/lupin-iii.gif" alt="Lupin III arcade title screen" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>Taito</dd>
           <dt>Release Date:</dt><dd>1980</dd>
           <dt>Genre:</dt><dd>Action</dd>

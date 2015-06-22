@@ -1,6 +1,6 @@
 <div class="container">
 
-  <div class="row">
+  <div class="row margin-bottom-30">
 
     <div class="col-md-8">
       <div><strong>Submitted by P. Lesparre</strong></div>
@@ -8,9 +8,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/msx/legend-of-the-gold-of-babylon.gif" alt="Legend of the Gold of Babylon MSX title screen" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Genre:</dt><dd>Action, Platform</dd>
         </dl>
       </div>

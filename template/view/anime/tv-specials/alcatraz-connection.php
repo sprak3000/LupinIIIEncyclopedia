@@ -10,6 +10,7 @@
           <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
+          <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
         <div class="tab-content">
@@ -59,6 +60,32 @@
               <dt>Character Design:</dt><dd>Toshimitsu Honobayashi</dd>
             </dl>
           </div>
+
+          <div id="soundtracks" class="tab-pane fade in">
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin the Third Alcatraz Connection TV Special Original Soundtrack</h2>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/tv-specials/alcatraz-connection/soundtrack/lupin-the-third-alcatraz-connection-tv-special-original-soundtrack.jpg" alt="Lupin the Third Alcatraz Connection TV Special Original Soundtrack CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84734</dd>
+                    <dt>Release Date:</dt><dd>2001 September 21</dd>
+                    <dt>Price:</dt><dd>2500&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
 
       </div>

@@ -8,9 +8,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="servive-block rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/sony/ps1/lupin-iii-chateau-de-cagliostro-saikai.gif" alt="Lupin III: Chateau de Cagliostro Saikai box cover" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>Asmik Ace</dd>
           <dt>Release Date:</dt><dd>1997 January 10</dd>
           <dt>Price:</dt><dd>6800&yen;</dd>

@@ -12,6 +12,7 @@
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
           <li><a data-toggle="tab" href="#media">Media</a></li>
+          <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
         <div class="tab-content">
@@ -41,6 +42,43 @@
                 <img class="img-responsive" src="/dist/asset/img/anime/tv-specials/elusiveness-of-the-fog/elusiveness-of-the-fog.jpg" alt="Elusiveness of the Fog promotional image" />
               </div>
             </div>
+          </div>
+
+          <div id="soundtracks" class="tab-pane fade in">
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Memorial Sound Track of Lupin the Third (Elusive Memory at the Kiritappu)</h2>
+                <ol>
+                  <li>OPUS #1 (ISEKA'S THEME)</li>
+                  <li>OPUS #2 (THEME FROM LUPIN III &quot;Ice blue&quot; Version)</li>
+                  <li>OPUS #3</li>
+                  <li>OPUS #4</li>
+                  <li>OPUS #5 (ELUSIVE MEMORY AT THE KIRITAPPU)</li>
+                  <li>OPUS #6</li>
+                  <li>OPUS #7 (La valse froide)</li>
+                  <li>OPUS #8</li>
+                  <li>OPUS #9 (THEME FROM LUPIN III &quot;Elusive&quot; Version)</li>
+                  <li>Love Theme from Lupin the Third</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/tv-specials/elusiveness-of-the-fog/soundtrack/memorial-sound-track-of-lupin-the-third-elusive-memory-at-the-kiritappu.jpg" alt="Memorial Sound Track of Lupin the Third (Elusive Memory at the Kiritappu) CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84860</dd>
+                    <dt>Release Date:</dt><dd>2007 August 01</dd>
+                    <dt>Price:</dt><dd>2500&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd><dd>Imai Miki (track 10)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
           </div>
 
           <div id="review" class="tab-pane fade in">

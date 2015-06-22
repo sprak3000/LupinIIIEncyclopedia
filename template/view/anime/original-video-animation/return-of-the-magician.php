@@ -11,6 +11,7 @@
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
           <li><a data-toggle="tab" href="#media">Media</a></li>
+          <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
         <div class="tab-content">
@@ -96,6 +97,31 @@
               <dt>Music Supervision:</dt><dd>Kiyoshi Suzuki</dd>
               <dt>Music:</dt><dd>Oono Yuuji</dd>
             </dl>
+          </div>
+
+          <div id="soundtracks" class="tab-pane fade in">
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin the Third Return of Pycal Original Soundtrack</h2>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/ova/return-of-the-magician/soundtrack/lupin-the-third-return-of-pycal-original-soundtrack.jpg" alt="Lupin the Third Return of Pycal Original Soundtrack CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84784</dd>
+                    <dt>Release Date:</dt><dd>2003 April 23</dd>
+                    <dt>Price:</dt><dd>2200&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
           </div>
 
           <div id="media" class="tab-pane fade in">
