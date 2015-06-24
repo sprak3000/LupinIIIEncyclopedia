@@ -11,6 +11,7 @@
           <li><a data-toggle="tab" href="#review">Review</a></li>
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
+          <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
         <div class="tab-content">
@@ -88,6 +89,84 @@
               </dd>
             </dl>
           </div>
+
+          <div id="soundtracks" class="tab-pane fade in">
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin III Columbus no Tamago wa Arashi o Yobu ET (single)</h2>
+                <ol>
+                  <li>Da Capo of Love (Vocal)</li>
+                  <li>Fairy Night</li>
+                  <li>Da Capo of Love (Original Karaoke)</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/tv-specials/the-columbus-files/soundtrack/lupin-iii-columbus-no-tamago-wa-arashi-o-yobu-et-single.gif" alt="Lupin III Columbus no Tamago wa Arashi o Yobu ET (single) CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPDG-20808</dd>
+                    <dt>Release Date:</dt><dd>1999 July 14</dd>
+                    <dt>Price:</dt><dd>1020&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin the Third Da Capo of Love TV Special Original Soundtrack</h2>
+                <ol>
+                  <li>Lovely Night</li>
+                  <li>Remember (Short Size)</li>
+                  <li>Theme from Lupin III '89</li>
+                  <li>"I Love You" is hard to say...</li>
+                  <li>Lupin's Love Theme (Short Size)</li>
+                  <li>Columbus Fire</li>
+                  <li>Burton's Lab</li>
+                  <li>Fujiko's Lost Memory</li>
+                  <li>Angel Dance</li>
+                  <li>Nazaroff</li>
+                  <li>Isn't It Lupintic? (Short Size)</li>
+                  <li>Burton and Rosaria</li>
+                  <li>Peek-A-Boo (Short Size)</li>
+                  <li>Lupin's Treasure</li>
+                  <li>Columbus' Egg</li>
+                  <li>Memory of Father</li>
+                  <li>Orgone Energy</li>
+                  <li>Zenigata March (Short Version)</li>
+                  <li>Promise</li>
+                  <li>It won't if you don't cut it</li>
+                  <li>Funky Junky Trip (Short Size)</li>
+                  <li>Fujiko resembles a woman?</li>
+                  <li>Da Capo of Love</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/tv-specials/the-columbus-files/soundtrack/lupin-the-third-da-capo-of-love-tv-special-original-soundtrack.jpg" alt="Lupin the Third Da Capo of Love TV Special Original Soundtrack CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84679</dd>
+                    <dt>Release Date:</dt><dd>1999 September 22</dd>
+                    <dt>Price:</dt><dd>2500&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd><dd>Sakamoto Hidezou (20)</dd><dd>Sonia Rose (23)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
 
       </div>
