@@ -11,6 +11,7 @@
           <li><a data-toggle="tab" href="#review">Review</a></li>
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
+          <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
         <div class="tab-content">
@@ -107,6 +108,55 @@
               <dt>Distribution:</dt><dd>Toho Video</dd>
               <dt>Production:</dt><dd>Tokyo Movie Shinsha (TMS)</dd>
             </dl>
+          </div>
+
+          <div id="soundtracks" class="tab-pane fade in">
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin III Dead or Alive Original Soundtrack</h2>
+                <ol>
+                  <li>Theme from Lupin III '96</li>
+                  <li>Opening</li>
+                  <li>Secret of the Drifting Island</li>
+                  <li>Escape and Escape</li>
+                  <li>The Man Called &quot;The Headhunter General&quot;</li>
+                  <li>Soldier Fujiko's Appearance!</li>
+                  <li>? Secret Police Crisis</li>
+                  <li>Advertising Ballon Begins the Plan</li>
+                  <li>Beautiful, Mysterious Princess Emrra!</li>
+                  <li>Emera Gets It!</li>
+                  <li>Cornered Lupin</li>
+                  <li>Beautiful, Dangerous Oleander</li>
+                  <li>Hard Fighting Man Zenigata!</li>
+                  <li>Late Night on the Streets of Zufu</li>
+                  <li>Side Street of Yabaize</li>
+                  <li>Ole's Fate Sways</li>
+                  <li>Dictator's Evil Influence Falls on Oleander?</li>
+                  <li>Resistance Punishing</li>
+                  <li>Pay Attention to the Nano Machine!</li>
+                  <li>Who Wins!? Lupin and the General</li>
+                  <li>Golden Battle</li>
+                  <li>Sweet Trap Damage (Media Use)</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/theatrical-films/dead-or-alive/soundtrack/lupin-iii-dead-or-alive-original-soundtrack.jpg" alt="Lupin III Dead or Alive Original Soundtrack CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84605</dd>
+                    <dt>Release Date:</dt><dd>1996 July 01</dd>
+                    <dt>Price:</dt><dd>2548&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
           </div>
 
         </div>

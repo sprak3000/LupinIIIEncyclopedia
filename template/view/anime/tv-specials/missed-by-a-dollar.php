@@ -11,6 +11,7 @@
           <li><a data-toggle="tab" href="#review">Review</a></li>
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
+          <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
         <div class="tab-content">
@@ -109,6 +110,55 @@
               <dt>Production:</dt><dd>Tokyo Movie Shinsha (TMS)</dd>
             </dl>
           </div>
+
+          <div id="soundtracks" class="tab-pane fade in">
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin III: 1$ Money Wars TV Special Original Soundtrack</h2>
+                <ol>
+                  <li>Auction Hall</li>
+                  <li>Theme from Lupin III '97 (readymade 440 Mix)</li>
+                  <li>Life's a Flame (N.Y. Version) &lt;short size&gt;</li>
+                  <li>Symbol Owner</li>
+                  <li>Project Plan and the Road of Belief</li>
+                  <li>Sweet on You &lt;short version&gt;</li>
+                  <li>Beautfiul Bank President Cynthia</li>
+                  <li>Attack! Bow Bank</li>
+                  <li>Lupin Shot!</li>
+                  <li>Lupin's Funeral</li>
+                  <li>Saudades do Rio &lt;short version&gt;</li>
+                  <li>World Bank</li>
+                  <li>Lupin Is Alive</li>
+                  <li>Columbia Island</li>
+                  <li>Life's a Flame (Columbia Island version)</li>
+                  <li>Take Me &lt;short version&gt;</li>
+                  <li>Night before the Great Battle</li>
+                  <li>The Puzzle Broach Is Taken!</li>
+                  <li>Good Luck Broach</li>
+                  <li>Last Chance</li>
+                  <li>Life's a Flame &lt;short version&gt;</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/tv-specials/missed-by-a-dollar/soundtrack/lupin-iii-1-money-wars-tv-special-original-soundtrack.jpg" alt="Lupin III: 1$ Money Wars TV Special Original Soundtrack CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84708</dd>
+                    <dt>Release Date:</dt><dd>2000 September 21</dd>
+                    <dt>Price:</dt><dd>2500&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd><dd>DJ Yoshio (track 2)</dd><dd>You &amp; Explosion Band (tracks 3, 15, 21)</dd><dd>Yuhi Ohno Trio (track 16)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
 
       </div>

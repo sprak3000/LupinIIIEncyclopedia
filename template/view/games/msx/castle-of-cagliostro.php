@@ -1,6 +1,6 @@
 <div class="container">
 
-  <div class="row">
+  <div class="row margin-bottom-30">
 
     <div class="col-md-8">
       <div><strong>Submitted by P. Lesparre</strong></div>
@@ -10,69 +10,48 @@
 
       <table class="table table-striped">
         <thead>
-        <tr>
-          <th>Start on Level</th>
-          <th>Password</th>
-        </tr>
+          <tr>
+            <th>Start on Level</th>
+            <th>Password</th>
+          </tr>
         </thead>
         <tbody>
-        <tr>
-          <td>  2
-          </td>
-
-          <td>  R K V D D M F I V D
-          </td>
-        </tr>
-        <tr>
-          <td>  3
-          </td>
-
-          <td>  F M M F H D F N W R
-          </td>
-        </tr>
-        <tr>
-          <td>  4
-          </td>
-
-          <td>  W D M F S F M O K A
-          </td>
-        </tr>
-        <tr>
-          <td>  5
-          </td>
-
-          <td>  V T Q D M D F J F A
-          </td>
-        </tr>
-        <tr>
-          <td>  6
-          </td>
-
-          <td>  P V J M E E J M U F
-          </td>
-        </tr>
-        <tr>
-          <td>  7
-          </td>
-
-          <td>  E E Q V F M W L O A
-          </td>
-        </tr>
-        <tr>
-          <td>  8
-          </td>
-
-          <td>  W W S O M P O J F O
-          </td>
-        </tr>
-
-        </tbody></table>
+          <tr>
+            <td>2</td>
+            <td>R K V D D M F I V D</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>F M M F H D F N W R</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>W D M F S F M O K A</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>V T Q D M D F J F A</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>P V J M E E J M U F</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>E E Q V F M W L O A</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>W W S O M P O J F O</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/msx/castle-of-cagliostro.gif" alt="Castle of Cagliostro MSX title screen" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Genre:</dt><dd>Action, Platform</dd>
         </dl>
       </div>

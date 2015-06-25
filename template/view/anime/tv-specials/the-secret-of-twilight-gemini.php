@@ -10,6 +10,7 @@
           <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
+          <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
         <div class="tab-content">
@@ -66,6 +67,59 @@
               <dt>Plan:</dt><dd>NTV, Lupin 3 Producing Comittee</dd>
             </dl>
           </div>
+
+          <div id="soundtracks" class="tab-pane fade in">
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin III Twilight Gemini TV Special Original Soundtrack</h2>
+                <ol>
+                  <li>Dorune's Room</li>
+                  <li>Theme from Lupin III</li>
+                  <li>Attack by Train</li>
+                  <li>Beautiful Girl Lara</li>
+                  <li>Distant Wind</li>
+                  <li>Lupin &amp; Fujiko</li>
+                  <li>Old Officer Blutokarie</li>
+                  <li>Hitman Sadachiyo</li>
+                  <li>Old Woman's Recollection</li>
+                  <li>Escaping</li>
+                  <li>Chief John's Headquarters</li>
+                  <li>Senior Son's Gal</li>
+                  <li>Rescue Lara!</li>
+                  <li>Geld under Martial Law</li>
+                  <li>Archbishop's Puzzle</li>
+                  <li>Desert</li>
+                  <li>Far Wind</li>
+                  <li>No Bottom in the Quicksand for Two People</li>
+                  <li>Twilight Gemini's Secret</li>
+                  <li>Closing My Eyes Could Help You Say</li>
+                  <li>John's True Appearance</li>
+                  <li>Confrontation between Goemon and Sadachiyo</li>
+                  <li>Geld's Treasure Sanctuary</li>
+                  <li>Moon and Sun of Meguri</li>
+                  <li>Cross One Hundred Years</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/tv-specials/the-secret-of-twilight-gemini/soundtrack/lupin-iii-twilight-gemini-tv-special-original-soundtrack.jpg" alt="Lupin III Twilight Gemini TV Special Original Soundtrack CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84615</dd>
+                    <dt>Release Date:</dt><dd>1996 November 01</dd>
+                    <dt>Price:</dt><dd>2548&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
 
       </div>

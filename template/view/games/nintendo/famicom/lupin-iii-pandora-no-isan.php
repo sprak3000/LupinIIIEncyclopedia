@@ -1,6 +1,6 @@
 <div class="container">
 
-  <div class="row">
+  <div class="row margin-bottom-30">
 
     <div class="col-md-8">
       <p>It seems Clarice just cannot stay out of trouble. It was bad enough that she kidnapped and was almost forced into marrying the Count of Cagliostro; now, she has been kidnapped yet again and will not be released until &quot;Pandora's Inheritance&quot; is handed over to her kidnappers. Lupin, Jigen, and Goemon must once again rush to her rescue.</p>
@@ -11,9 +11,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/nintendo/famicom/lupin-iii-pandora-no-isan.jpg" alt="Lupin III: Pandora no Isan box cover" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>Namco</dd>
           <dt>Release Date:</dt><dd>1987</dd>
           <dt>Genre:</dt><dd>Action, Platform</dd>

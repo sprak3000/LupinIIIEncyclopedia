@@ -1,5 +1,16 @@
 #CHANGELOG
 
+##1.8.0 - 2015 June 20
+
+###Enhancements
+* Moved over the CD data I had from the previous iteration of the site; soundtracks specific to an anime are found on
+  that anime's page. Everything else is under the "Random Loot" nav.
+* Added a PDF of an interview with Monkey Punch to his profile page.
+* Adjusted color and layout of video game info boxes
+
+###Bug Fixes
+* Fixed a spacing issue with the text of one nav item
+
 ##1.7.0 - 2015 June 14
 
 ###Enhancements

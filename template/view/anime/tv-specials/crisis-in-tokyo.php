@@ -10,6 +10,7 @@
           <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
+          <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
         <div class="tab-content">
@@ -76,6 +77,81 @@
               <dt>Production:</dt><dd>Kyokuichi Tokyo Movie Shinsha</dd>
             </dl>
           </div>
+
+          <div id="soundtracks" class="tab-pane fade in">
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Akogare (Lupin III Honou no kioku Theme)</h2>
+                <ol>
+                  <li>Yearning</li>
+                  <li>Love Squall (Piano Torio Version)</li>
+                  <li>Yearning (Original Karaoke)</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/tv-specials/crisis-in-tokyo/soundtrack/akogare-lupin-iii-honou-no-kioku-theme.gif" alt="Akogare (Lupin III Honou no kioku Theme) CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPDG-20762</dd>
+                    <dt>Release Date:</dt><dd>1998 July 23</dd>
+                    <dt>Price:</dt><dd>1020&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin III Honou no kioku - Tokyo Crisis TV Special Original Soundtrack</h2>
+                <ol>
+                  <li>Zenigata's Theme</li>
+                  <li>Successful Plan?</li>
+                  <li>Theme from Lupin III '97</li>
+                  <li>Son no Keiki, Kan no Keiki</li>
+                  <li>Maria and Zenigata</li>
+                  <li>Transport Trailer, Lupin VS Zenigata VS?</li>
+                  <li>Heart Station</li>
+                  <li>Maria's Memory</li>
+                  <li>Aquapolis</li>
+                  <li>Michael Suzuki</li>
+                  <li>Maria's Father, Doctor Ishiki</li>
+                  <li>Gene Business, Suzuki's Laboratory</li>
+                  <li>Zenigata's Jitte Begins</li>
+                  <li>Gene Commodity</li>
+                  <li>Congratulatory Party</li>
+                  <li>Aqua Tower Occupation</li>
+                  <li>Jigen & Goemon Skill Demonstration</li>
+                  <li>Suzuki's Arrest!</li>
+                  <li>Tokugawa's Treasure</li>
+                  <li>Yearning</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/tv-specials/crisis-in-tokyo/soundtrack/lupin-iii-honou-no-kioku-tokyo-crisis-tv-special-original-soundtrack.jpg" alt="Lupin III Honou no kioku - Tokyo Crisis TV Special Original Soundtrack CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84662</dd>
+                    <dt>Release Date:</dt><dd>1998 September 21</dd>
+                    <dt>Price:</dt><dd>2500&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
 
       </div>

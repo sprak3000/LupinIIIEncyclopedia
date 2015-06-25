@@ -29,4 +29,14 @@
 
   </div>
 
+  <div class="row content-boxes-v2 margin-bottom-30">
+    <div class="col-md-12">
+      <h2 class="heading-sm">
+        <i class="icon-custom rounded-x icon-sm icon-bg-u fa fa-book"></i>
+        <span>Further Reading</span>
+      </h2>
+      <p><i class="fa fa-file-pdf-o"></i> <a href="/dist/asset/file/Monkey-Punch-Interview-Mangazine-1995-Jan.pdf" class="linked color-green">Interview, <em>Mangazine</em> January 1995</em></a></p>
+    </div>
+  </div>
+
 </div>

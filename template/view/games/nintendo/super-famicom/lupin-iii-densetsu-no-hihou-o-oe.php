@@ -1,6 +1,6 @@
 <div class="container">
 
-  <div class="row">
+  <div class="row margin-bottom-30">
 
     <div class="col-md-8">
       <p>A quiet night at the hideout is interrupted by a large man breaking down the door; a lady follows the man in and informs Lupin that Fujiko has been kidnapped. If Lupin wants to see her again, he has to find the fountain of youth. Lupin must battle through a skyscraper to rescue Fujiko and then an ancient castle to find the fountain of youth. To help him on his mission, Lupin arms himself with his trusty Walther P-38 and an array of gadgets.</p>
@@ -10,9 +10,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/nintendo/super-famicom/lupin-iii-densetsu-no-hihou-o-oe.jpg" alt="Lupin III: Densetsu no Hihou o Oe! box cover" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>Epoch</dd>
           <dt>Release Date:</dt><dd>1994</dd>
           <dt>Price:</dt><dd>9800&yen;</dd>

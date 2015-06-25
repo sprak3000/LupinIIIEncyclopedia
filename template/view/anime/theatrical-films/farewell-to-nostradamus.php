@@ -10,6 +10,7 @@
           <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
+          <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
         <div class="tab-content">
@@ -69,6 +70,64 @@
               <dt>Director:</dt><dd>Shunya Ito</dd>
               <dt>Music:</dt><dd>Oono Yuuji</dd>
             </dl>
+          </div>
+
+          <div id="soundtracks" class="tab-pane fade in">
+            <div class="row margin-bottom-30">
+
+              <div class="col-md-8">
+                <h2>Lupin III Kutabare Nostradamus Original Soundtrack</h2>
+                <ol>
+                  <li>Theme from Lupin III '89</li>
+                  <li>Zenigata's Power Game</li>
+                  <li>First Class Contact</li>
+                  <li>Highjack</li>
+                  <li>High Tech Tower, Earth Building</li>
+                  <li>Aim for the Vault</li>
+                  <li>Prediction Execution Unit</li>
+                  <li>Sky Gate</li>
+                  <li>At Execution Island</li>
+                  <li>Philip's Memories</li>
+                  <li>Boy Sergio</li>
+                  <li>Warming... It Lifts</li>
+                  <li>If You Want</li>
+                  <li>Chris' Intrigue</li>
+                  <li>Tania's Disappearance</li>
+                  <li>Prediction for the End of the Century</li>
+                  <li>Move Out</li>
+                  <li>Disappearance Ground 1000M</li>
+                  <li>The Women Now</li>
+                  <li>Aim for the Top</li>
+                  <li>Genocide Chute</li>
+                  <li>Julia</li>
+                  <li>Chaser</li>
+                  <li>Discouraged Inspector</li>
+                  <li>Eye Spell</li>
+                  <li>Leslie's Miscalculation</li>
+                  <li>High Tech Tower Falls Apart</li>
+                  <li>Welcome to the Playroom</li>
+                  <li>Linear Bathtub Coaster</li>
+                  <li>After the Smoke Cleared</li>
+                  <li>Continuation of Love</li>
+                </ol>
+              </div>
+
+              <div class="col-md-4">
+                <div class="rounded-2x service-block-light">
+                  <img class="img-responsive center-block" src="/dist/asset/img/anime/theatrical-films/farewell-to-nostradamus/soundtrack/lupin-iii-kutabare-nostradamus-original-soundtrack.jpg" alt="Lupin III Kutabare Nostradamus Original Soundtrack CD cover" />
+                  <dl class="dl-horizontal">
+                    <dt>Company:</dt><dd>Vap</dd>
+                    <dt>Catalog #:</dt><dd>VPCG-84254</dd>
+                    <dt>Release Date:</dt><dd>1995 July 01</dd>
+                    <dt>Price:</dt><dd>2548&yen;</dd>
+                    <dt># of Discs:</dt><dd>1</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd>
+                  </dl>
+                </div>
+              </div>
+
+            </div>
+
           </div>
 
         </div>

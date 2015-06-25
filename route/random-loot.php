@@ -3,6 +3,28 @@
  * Routes for /random-loot and below
  */
 $app->group('/random-loot', function () use ($app) {
+  $app->get('/music', function() use ($app) {
+    $includeCss = [];
+
+    $includeJs = [];
+
+    $nav = [];
+    $nav['Random Loot'] = '';
+
+    $pageData = [
+      'pageTitle' => 'Music',
+      'pageDescription' => 'Lupin the Third music on CD, vinyl, etc.',
+      'includeCss' => $includeCss,
+      'includeJs' => $includeJs,
+      'nav' => $nav,
+      'lootNav' => true,
+      'musicNav' => true
+    ];
+
+    $app->render('view/random-loot/music.php', $pageData);
+
+  })->name('music');
+
   $app->get('/newsletter(/:year/:month)/', function ($pYear = '2002', $pMonth = '12') use ($app) {
       $includeCss = array ();
       $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/css/pages/blog.css';

@@ -1,6 +1,6 @@
 <div class="container">
 
-  <div class="row">
+  <div class="row margin-bottom-30">
 
     <div class="col-md-8">
       <p>
@@ -18,9 +18,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/arcade/cliff-hanger.jpg" alt="Cliff Hanger arcade cabinet" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>Stern</dd>
           <dt>Release Date:</dt><dd>1983</dd>
           <dt>Genre:</dt><dd>Action</dd>

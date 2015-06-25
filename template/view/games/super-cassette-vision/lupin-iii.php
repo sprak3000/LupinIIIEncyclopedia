@@ -1,6 +1,6 @@
 <div class="container">
 
-  <div class="row">
+  <div class="row margin-bottom-30">
 
     <div class="col-md-8">
       <p>
@@ -11,9 +11,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/super-cassette-vision/lupin-iii.jpg" alt="Lupin III Super Cassette Vision title screen" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>EPOCH</dd>
           <dt>Release Date:</dt><dd>1984</dd>
           <dt>Genre:</dt><dd>Adventure, Action</dd>

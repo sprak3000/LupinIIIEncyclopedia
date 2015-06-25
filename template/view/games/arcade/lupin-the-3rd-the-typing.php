@@ -1,6 +1,6 @@
 <div class="container">
 
-  <div class="row">
+  <div class="row margin-bottom-30">
 
     <div class="col-md-8">
       <p>
@@ -11,9 +11,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/arcade/lupin-the-3rd-the-typing.jpg" alt="Lupin the 3rd: The Typing arcade game footage" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>Sega, Wow Entertainment Inc.</dd>
           <dt>Release Date:</dt><dd>2002</dd>
           <dt>Genre:</dt><dd>Keyboarding/Typing</dd>

@@ -15,9 +15,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="servive-block rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/sony/ps1/punch-the-monkey-game-edition.jpg" alt="PUNCH THE MONKEY! GAME EDITION box cover" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>Bandai</dd>
           <dt>Release Date:</dt><dd>2000 June 22</dd>
           <dt>Price:</dt><dd>5800&yen;</dd>

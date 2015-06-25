@@ -1,6 +1,6 @@
 <div class="container">
 
-  <div class="row">
+  <div class="row margin-bottom-30">
 
     <div class="col-md-8">
       <p>The title roughly translates to &quot;Lupin is dead, Zenigata is in love&quot;. The story description posted roughly translates as the following:</p>
@@ -48,9 +48,9 @@
     </div>
 
     <div class="col-md-4">
-      <div class="servive-block rounded-2x servive-block-u">
+      <div class="rounded-2x service-block-light">
         <img class="img-responsive center-block" src="/dist/asset/img/games/sony/ps2/lupin-iii-lupin-niwa-shi-o-zenigata-niwa-koi-o.jpg" alt="Lupin III: Lupin niwa shi o, Zenigata niwa koi o box cover" />
-        <dl>
+        <dl class="dl-horizontal">
           <dt>Company:</dt><dd>Banpresto</dd>
           <dt>Release Date:</dt><dd>2007 February 22</dd>
           <dt>Price:</dt><dd>7329&yen;</dd>
