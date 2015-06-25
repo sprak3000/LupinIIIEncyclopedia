@@ -143,7 +143,7 @@
                     <dt>Release Date:</dt><dd>2004 March 17</dd>
                     <dt>Price:</dt><dd>2500&yen;</dd>
                     <dt># of Discs:</dt><dd>1</dd>
-                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd><dd>Kahimi Karie (track 17)</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd><dd>Kahimi Karie (track 17)</dd>
                   </dl>
                 </div>
               </div>
@@ -174,7 +174,7 @@
                     <dt>Release Date:</dt><dd>2003 August 21</dd>
                     <dt>Price:</dt><dd>2000&yen;</dd>
                     <dt># of Discs:</dt><dd>1</dd>
-                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd><dd>Kahimi Karie (track 2)</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd><dd>Kahimi Karie (track 2)</dd>
                   </dl>
                 </div>
               </div>

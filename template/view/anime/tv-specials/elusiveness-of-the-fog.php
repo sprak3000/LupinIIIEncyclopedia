@@ -72,7 +72,7 @@
                     <dt>Release Date:</dt><dd>2007 August 01</dd>
                     <dt>Price:</dt><dd>2500&yen;</dd>
                     <dt># of Discs:</dt><dd>1</dd>
-                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd><dd>Imai Miki (track 10)</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd><dd>Imai Miki (track 10)</dd>
                   </dl>
                 </div>
               </div>

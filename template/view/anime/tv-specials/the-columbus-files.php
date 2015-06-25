@@ -111,7 +111,7 @@
                     <dt>Release Date:</dt><dd>1999 July 14</dd>
                     <dt>Price:</dt><dd>1020&yen;</dd>
                     <dt># of Discs:</dt><dd>1</dd>
-                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd>
                   </dl>
                 </div>
               </div>
@@ -158,7 +158,7 @@
                     <dt>Release Date:</dt><dd>1999 September 22</dd>
                     <dt>Price:</dt><dd>2500&yen;</dd>
                     <dt># of Discs:</dt><dd>1</dd>
-                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd><dd>Sakamoto Hidezou (20)</dd><dd>Sonia Rose (23)</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd><dd>Sakamoto Hidezou (20)</dd><dd>Sonia Rose (23)</dd>
                   </dl>
                 </div>
               </div>

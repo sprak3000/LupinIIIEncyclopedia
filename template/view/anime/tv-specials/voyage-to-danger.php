@@ -164,7 +164,7 @@
                     <dt>Release Date:</dt><dd>2000 October 21</dd>
                     <dt>Price:</dt><dd>1800&yen;</dd>
                     <dt># of Discs:</dt><dd>1</dd>
-                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd>
                   </dl>
                 </div>
               </div>

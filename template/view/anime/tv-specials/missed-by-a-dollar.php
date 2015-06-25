@@ -150,7 +150,7 @@
                     <dt>Release Date:</dt><dd>2000 September 21</dd>
                     <dt>Price:</dt><dd>2500&yen;</dd>
                     <dt># of Discs:</dt><dd>1</dd>
-                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd><dd>DJ Yoshio (track 2)</dd><dd>You &amp; Explosion Band (tracks 3, 15, 21)</dd><dd>Yuhi Ohno Trio (track 16)</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd><dd>DJ Yoshio (track 2)</dd><dd>You &amp; Explosion Band (tracks 3, 15, 21)</dd><dd>Yuhi Ohno Trio (track 16)</dd>
                   </dl>
                 </div>
               </div>

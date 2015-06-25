@@ -97,7 +97,7 @@
                     <dt>Release Date:</dt><dd>2002 October 23</dd>
                     <dt>Price:</dt><dd>2300&yen;</dd>
                     <dt># of Discs:</dt><dd>1</dd>
-                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd>
                   </dl>
                 </div>
               </div>

@@ -150,7 +150,7 @@
                     <dt>Release Date:</dt><dd>1996 July 01</dd>
                     <dt>Price:</dt><dd>2548&yen;</dd>
                     <dt># of Discs:</dt><dd>1</dd>
-                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd>
                   </dl>
                 </div>
               </div>

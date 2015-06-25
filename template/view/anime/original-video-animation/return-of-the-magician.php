@@ -115,7 +115,7 @@
                     <dt>Release Date:</dt><dd>2003 April 23</dd>
                     <dt>Price:</dt><dd>2200&yen;</dd>
                     <dt># of Discs:</dt><dd>1</dd>
-                    <dt>Artist(s):</dt><dd>Yuji Ohno (all tracks)</dd>
+                    <dt>Artist(s):</dt><dd>Ohno Yuji (all tracks)</dd>
                   </dl>
                 </div>
               </div>
