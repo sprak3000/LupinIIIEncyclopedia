@@ -1,5 +1,10 @@
 #CHANGELOG
 
+##1.8.1 - 2015 June 28
+
+###Bug Fixes
+* Adding additional eBay category exclusions 
+
 ##1.8.0 - 2015 June 20
 
 ###Enhancements
