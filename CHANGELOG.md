@@ -1,5 +1,15 @@
 #CHANGELOG
 
+##1.9.0 - 2015 July 04
+
+###Enhancements
+* Added image gallery for Alcatraz Connection
+* Refined eBay query reducing the amount of excluded categories in the config; will continue to monitor and adjust as needed
+* Added linked icons to eBay and forums RSS feeds for those that want to follow along off of the site
+
+###Bug Fixes
+* Fixed an issue where an eBay item without an image broke the RSS feed
+
 ##1.8.1 - 2015 June 28
 
 ###Bug Fixes

@@ -10,6 +10,7 @@
           <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
+          <li><a data-toggle="tab" href="#media">Media</a></li>
           <li><a data-toggle="tab" href="#soundtracks">Soundtracks</a></li>
         </ul>
 
@@ -59,6 +60,33 @@
               <dt>Artwork:</dt><dd>Takashi Miyano</dd>
               <dt>Character Design:</dt><dd>Toshimitsu Honobayashi</dd>
             </dl>
+          </div>
+
+          <div id="media" class="tab-pane fade in">
+<?php
+foreach($images as $row) {
+?>
+            <div class="row">
+<?php
+  foreach($row as $image) {
+?>
+              <div class="col-md-3">
+                <div class="thumbnails thumbnail-style">
+                  <a class="fancybox-button zoomer" href="<?php echo $image; ?>" title="" data-rel="fancybox-button">
+                    <span class="overlay-zoom">
+                      <img class="img-responsive" alt="" src="<?php echo $image; ?>">
+                      <div class="zoom-icon"></div>
+                    </span>
+                  </a>
+                </div>
+              </div>
+<?php
+  }
+?>
+            </div>
+<?php
+}
+?>
           </div>
 
           <div id="soundtracks" class="tab-pane fade in">

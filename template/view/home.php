@@ -23,6 +23,7 @@
 
         <div class="panel-heading overflow-h">
           <h2 class="panel-title heading-sm pull-left"><i class="fa fa-comments-o"></i>Recent Forum Posts</h2>
+          <span class="pull-right"><a href="/forums/index.php?action=.xml" title="Subscribe to Feed" target="_blank"><i class="fa fa-rss-square"></i></a></span>
         </div>
 
         <div id="scrollbar2" class="panel-body contentHolder">
@@ -64,6 +65,7 @@ if(!empty($forumRss)) {
 
         <div class="panel-heading overflow-h">
           <h2 class="panel-title heading-sm pull-left"><i class="fa fa-laptop"></i>Recent eBay Auctions</h2>
+          <span class="pull-right"><a href="/rss/ebay" title="Subscribe to Feed" target="_blank"><i class="fa fa-rss-square"></i></a></span>
         </div>
 
         <div id="scrollbar4" class="panel-body contentHolder">
