@@ -32,23 +32,21 @@
 
       <div>
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-2 sm-margin-bottom-30">
             <div class="thumbnails thumbnail-style">
-              <a class="fancybox-button zoomer" href="/dist/asset/img/pioneer-king-of-diamonds.jpg" title="" data-rel="pioneer-playing-card">
-                <span class="overlay-zoom">
+              <a class="fancybox img-hover-v1" rel="gallery" href="/dist/asset/img/pioneer-king-of-diamonds.jpg" title="" data-rel="pioneer-playing-card">
+                <span>
                   <img class="img-responsive" alt="" src="/dist/asset/img/pioneer-king-of-diamonds.jpg">
-                  <div class="zoom-icon"></div>
                 </span>
               </a>
             </div>
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-2 sm-margin-bottom-30">
             <div class="thumbnails thumbnail-style">
-              <a class="fancybox-button zoomer" href="/dist/asset/img/pioneer-joker.jpg" title="" data-rel="pioneer-playing-card">
-                <span class="overlay-zoom">
+              <a class="fancybox img-hover-v1" rel="gallery" href="/dist/asset/img/pioneer-joker.jpg" title="" data-rel="pioneer-playing-card">
+                <span>
                   <img class="img-responsive" alt="" src="/dist/asset/img/pioneer-joker.jpg">
-                  <div class="zoom-icon"></div>
                 </span>
               </a>
             </div>

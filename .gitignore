@@ -15,3 +15,4 @@ berks_cookbooks
 gallery2data
 public/avrc
 application/config.json
+public/dist/unify-1.8

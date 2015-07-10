@@ -12,10 +12,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
    */
   $app->get('/pilot-film/', function () use ($app, $pageUtil) {
     $includeCss = array ();
-    $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+    $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
     $includeJs = array ();
-    $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+    $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+    $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
     $inlineJs = array ();
     $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -122,10 +123,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/castle-of-cagliostro/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -151,10 +153,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/dead-or-alive/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -180,10 +183,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/farewell-to-nostradamus/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -209,10 +213,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/legend-of-the-gold-of-babylon/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -239,10 +244,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/lupin-the-third-2014/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -268,10 +274,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/lupin-vs-detective-conan/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -297,10 +304,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/secret-of-mamo/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -433,10 +441,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/return-of-the-magician/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -463,10 +472,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/plot-of-the-fuma-clan/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -493,10 +503,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/green-vs-red/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -684,10 +695,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/dragon-of-doom/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -870,10 +882,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/alcatraz-connection/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -900,10 +913,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/episode-0-first-contact/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1008,10 +1022,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/seven-days-rhapsody/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1038,10 +1053,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/elusiveness-of-the-fog/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1068,10 +1084,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/sweet-lost-night/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1098,10 +1115,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/lupin-iii-vs-detective-conan/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1128,10 +1146,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/the-last-job/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1158,10 +1177,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/blood-seal-eternal-mermaid/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1245,10 +1265,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
   $app->group('/tv-series', function () use ($app, $pageUtil) {
     $app->get('/fourth/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1274,11 +1295,12 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/third/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
@@ -1304,11 +1326,12 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/second/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
@@ -1334,10 +1357,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/lupin-viii/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1363,11 +1387,12 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/first/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
@@ -1394,11 +1419,12 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/woman-called-mine-fujiko/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
@@ -1481,10 +1507,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/alice/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1511,10 +1538,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/siamese-cat-first-mission/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1541,11 +1569,12 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/cinderella-boy/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
@@ -1573,10 +1602,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/mankatsu/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
       $inlineJs = array ();
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
@@ -1603,11 +1633,12 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/gundoh-musashi/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
@@ -1635,11 +1666,12 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
     $app->get('/bakumatsu-gijinden-roman/',function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+      $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+      $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();

@@ -109,15 +109,12 @@ foreach($images as $row) {
 <?php
   foreach($row as $image) {
 ?>
-              <div class="col-md-3">
-                <div class="thumbnails thumbnail-style">
-                  <a class="fancybox-button zoomer" href="<?php echo $image; ?>" title="" data-rel="fancybox-button">
-                    <span class="overlay-zoom">
-                      <img class="img-responsive" alt="" src="<?php echo $image; ?>">
-                      <div class="zoom-icon"></div>
-                    </span>
-                  </a>
-                </div>
+              <div class="col-sm-3 sm-margin-bottom-30">
+                <a class="fancybox img-hover-v1" rel="gallery" href="<?php echo $image; ?>" title="">
+                  <span>
+                    <img class="img-responsive" alt="" src="<?php echo $image; ?>">
+                  </span>
+                </a>
               </div>
 <?php
   }

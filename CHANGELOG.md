@@ -1,5 +1,10 @@
 #CHANGELOG
 
+##2.0.0 - 2015 July ??
+###Enhancements
+* Updated to version 1.8 of the Unify theme I use. This alters the CSS / JS file structure I use along with HTML updates.
+  Hence, bumping up the version to indicate breaking backwards compatibility.
+
 ##1.9.0 - 2015 July 04
 
 ###Enhancements
