@@ -340,13 +340,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
   $app->group('/original-video-animation', function () use ($app, $pageUtil) {
     $app->get('/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/timeline/assets/css/card.css';
+      $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
-      $inlineJs[] = 'jQuery(document).ready(function() { jQuery(".read_more").on("click", function() { window.location.href=$(this).attr("data-target"); }); jQuery("#episode-timeline").timeline({startItem : "05/04/1988", openTriggerClass : ".item-me"}); });';
 
       $pageData = array ();
       $pageData['pageTitle'] = 'Original Video Animation (OVA)';
@@ -1455,13 +1453,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
   $app->group('/non-lupin', function () use ($app, $pageUtil) {
     $app->get('/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/timeline/assets/css/card.css';
+      $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
-      $inlineJs[] = 'jQuery(document).ready(function() { jQuery(".read_more").on("click", function() { window.location.href=$(this).attr("data-target"); }); jQuery("#episode-timeline").timeline({startItem : "01/12/1987", openTriggerClass : ".item-me"}); });';
 
       $pageData = array ();
       $pageData['pageTitle'] = 'Non-Lupin Anime';

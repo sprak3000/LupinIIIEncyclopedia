@@ -11,10 +11,6 @@ I use the [Unify](https://wrapbootstrap.com/theme/unify-responsive-website-templ
 and CSS. Unify is based off of [Bootstrap](http://getbootstrap.com/); you should be able to plug any Bootstrap based
 theme into your fork, alter the paths to CSS, and have it look decent.
          
-I also use [Content Timeline](http://www.shindiristudio.com/plugins/html-plugins/content-timeline-jq/) jQuery
-plugin for rendering the timelines seen on the anime pages, etc. There is likely no equivalent plugin that you could
-drop in its place. If you do not wish to invest in the plugin, you will need to rework the sections that use it.
-
 ##What You DO Get
 
 You get... everything else! All the content, images, etc. I have curated over the years. This is an exact replica of

@@ -3,7 +3,8 @@
 ##2.0.0 - 2015 July ??
 ###Enhancements
 * Updated to version 1.8 of the Unify theme I use. This alters the CSS / JS file structure I use along with HTML updates.
-  Hence, bumping up the version to indicate breaking backwards compatibility.
+  Hence, bumping up the major version number to indicate breaking backwards compatibility.
+* Removed the Content Timeline JS plugin in favor of using the new non-JS based Unify based timeline display.
 
 ##1.9.0 - 2015 July 04
 
