@@ -11,30 +11,32 @@ $app->group('/anime', function () use ($app, $pageUtil) {
    * Route(s) for the Pilot Film
    */
   $app->get('/pilot-film/', function () use ($app, $pageUtil) {
-    $includeCss = array ();
-    $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
+    $pageData = [
+      'includeCss' => [
+        '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css'
+      ],
 
-    $includeJs = array ();
-    $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
-    $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
+      'includeJs' => [
+        '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js',
+        '/dist/unify-1.8/js/plugins/fancy-box.js'
+      ],
 
-    $inlineJs = array ();
-    $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
+      'inlineJs' => [
+        'jQuery(document).ready(function() { FancyBox.initFancybox(); });'
+      ],
 
-    $pageData = array ();
-    $pageData['pageTitle'] = 'Lupin III Pilot Film';
-    $pageData['pageDescription'] = '';
-    $pageData['includeCss'] = $includeCss;
-    $pageData['includeJs'] = $includeJs;
-    $pageData['inlineJs'] = $inlineJs;
+      'pageTitle' => 'Lupin III Pilot Film',
+      'pageDescription' => '',
 
-    $nav = array ();
-    $nav['Anime'] = '';
-    $pageData['nav'] = $nav;
-    $pageData['animeNav'] = true;
-    $pageData['pilotNav'] = true;
+      'nav' => [
+        'Anime' => ''
+      ],
 
-    $pageData['images'] = $pageUtil->GetImagesForGallery(__DIR__ . "/../public/dist/asset/img/anime/pilot-film/media");
+      'animeNav' => true,
+      'pilotNav' => true,
+
+      'images' => $pageUtil->GetImagesForGallery(__DIR__ . "/../public/dist/asset/img/anime/pilot-film/media")
+    ];
 
     $app->render('view/anime/pilot-film.php', $pageData);
   })->name('pilot-film');
@@ -45,13 +47,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
   $app->group('/theatrical-films', function () use ($app, $pageUtil) {
     $app->get('/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/timeline/assets/css/card.css';
+      $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
-      $inlineJs[] = 'jQuery(document).ready(function() { jQuery(".read_more").on("click", function() { window.location.href=$(this).attr("data-target"); }); jQuery("#episode-timeline").timeline({startItem : "20/04/1996", openTriggerClass : ".item-me"}); });';
 
       $pageData = array ();
       $pageData['pageTitle'] = 'Theatrical Films';
@@ -537,13 +537,11 @@ $app->group('/anime', function () use ($app, $pageUtil) {
   $app->group('/tv-specials', function () use ($app, $pageUtil) {
     $app->get('/', function () use ($app, $pageUtil) {
       $includeCss = array ();
-      $includeCss[] = '/dist/css/timeline/assets/css/card.css';
+      $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
 
       $includeJs = array ();
-      $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
-      $inlineJs[] = 'jQuery(document).ready(function() { jQuery(".read_more").on("click", function() { window.location.href=$(this).attr("data-target"); }); jQuery("#episode-timeline").timeline({startItem : "20/04/1996", openTriggerClass : ".item-me"}); });';
 
       $pageData = array ();
       $pageData['pageTitle'] = 'TV Specials';
