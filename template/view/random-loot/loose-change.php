@@ -34,7 +34,7 @@
         <div class="row">
           <div class="col-md-2 sm-margin-bottom-30">
             <div class="thumbnails thumbnail-style">
-              <a class="fancybox img-hover-v1" rel="gallery" href="/dist/asset/img/pioneer-king-of-diamonds.jpg" title="" data-rel="pioneer-playing-card">
+              <a class="fancybox img-hover-v1" rel="gallery" href="/dist/asset/img/pioneer-king-of-diamonds.jpg" title="">
                 <span>
                   <img class="img-responsive" alt="" src="/dist/asset/img/pioneer-king-of-diamonds.jpg">
                 </span>
@@ -44,7 +44,7 @@
 
           <div class="col-md-2 sm-margin-bottom-30">
             <div class="thumbnails thumbnail-style">
-              <a class="fancybox img-hover-v1" rel="gallery" href="/dist/asset/img/pioneer-joker.jpg" title="" data-rel="pioneer-playing-card">
+              <a class="fancybox img-hover-v1" rel="gallery" href="/dist/asset/img/pioneer-joker.jpg" title="">
                 <span>
                   <img class="img-responsive" alt="" src="/dist/asset/img/pioneer-joker.jpg">
                 </span>
