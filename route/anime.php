@@ -1416,15 +1416,14 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     $app->get('/woman-called-mine-fujiko/', function () use ($app, $pageUtil) {
       $includeCss = array ();
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
-      $includeCss[] = '/dist/css/timeline/assets/css/card.css';
+      $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
 
       $includeJs = array ();
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
-      $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
       $inlineJs = array ();
-      $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); jQuery("#episode-timeline").timeline({startItem : "04/04/2012", closeText : "x"}); });';
+      $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
       $pageData = array ();
       $pageData['pageTitle'] = 'Lupin the Third: The Woman Called Mine Fujiko';
