@@ -1,9 +1,34 @@
 {
   "ebay": {
-    "url": "http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsAdvanced&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=__APIKEY__&RESPONSE-DATA-FORMAT=JSON&REST-PAYLOAD=true&keywords=lupin+-lupine+-%22harry+potter%22+-%22lego+potter%22&sortOrder=StartTimeNewest&itemFilter(0).name=ExcludeCategory&itemFilter(0).value(0)=208&itemFilter(0).value(1)=3632&itemFilter(0).value(2)=4233&itemFilter(0).value(3)=177661&itemFilter(0).value(4)=2220&itemFilter(0).value(5)=53159&itemFilter(0).value(6)=15709&itemFilter(0).value(7)=57990&itemFilter(0).value(8)=63862&itemFilter(0).value(9)=156344",
-    "apiKey": "<developer key for accessing eBay API>",
-    "excludedCategories": [
+    "url": "http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsAdvanced&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=__APIKEY__&RESPONSE-DATA-FORMAT=JSON&REST-PAYLOAD=true&keywords=__KEYWORDS__&sortOrder=StartTimeNewest&itemFilter(0).name=ExcludeCategory&__EXCLUDECATEGORIES__",
 
-    ]
+    "apiKey": "<developer key for accessing eBay API>",
+
+    "keywords": [
+      "lupin",
+      "-lupine",
+      "-%22harry+potter%22",
+      "-%22lego+potter%22",
+      "-Thewlis",
+      "-%22professor+lupin%22"
+    ],
+
+    "categories": {
+      "exclude": [
+        "208",
+        "3632",
+        "4233",
+        "177661",
+        "2220",
+        "53159",
+        "15709",
+        "57990",
+        "63862",
+        "156344",
+        "21205",
+        "105440",
+        "52525"
+      ]
+    }
   }
 }

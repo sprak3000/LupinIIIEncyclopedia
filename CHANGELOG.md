@@ -3,6 +3,7 @@
 ##1.10.0 - 2015 August 02
 ###Enhancements
 * Refined eBay query to filter out various items that crept back in after last rewrite of query
+* Rework how eBay configuration is defined
 
 ##1.9.0 - 2015 July 04
 
