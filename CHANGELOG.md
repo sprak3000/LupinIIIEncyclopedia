@@ -1,16 +1,16 @@
 #CHANGELOG
 
-##1.10.0 - 2015 September 07
-###Enhancements
-* Refined eBay query to filter out various items that crept back in after last rewrite of query
-* Rework how eBay configuration is defined
-* Document how eBay RSS configuration works
-
 ##2.0.0 - 2015 July ??
 ###Enhancements
 * Updated to version 1.8 of the Unify theme I use. This alters the CSS / JS file structure I use along with HTML updates.
   Hence, bumping up the major version number to indicate breaking backwards compatibility.
 * Removed the Content Timeline JS plugin in favor of using the new non-JS based Unify based timeline display.
+
+##1.10.0 - 2015 September 07
+###Enhancements
+* Refined eBay query to filter out various items that crept back in after last rewrite of query
+* Rework how eBay configuration is defined
+* Document how eBay RSS configuration works
 
 ##1.9.0 - 2015 July 04
 
