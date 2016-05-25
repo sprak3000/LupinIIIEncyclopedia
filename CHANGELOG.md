@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.1.0 - 2016 May 24
+### Enhancements
+* Added cosplay gallery
+
 ## 2.0.1 - 2016 May 24
 ### Bug Fixes
 * Sort the gallery images based on file name to maintain the order defined by the file naming convention.

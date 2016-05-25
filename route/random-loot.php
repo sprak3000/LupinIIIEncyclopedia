@@ -26,14 +26,14 @@ $app->group('/random-loot', function () use ($app) {
   })->name('music');
 
   $app->get('/newsletter(/:year/:month)/', function ($pYear = '2002', $pMonth = '12') use ($app) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/css/pages/blog.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/bower_components/handlebars/handlebars.min.js';
       $includeJs[] = '/dist/js/Newsletter.js';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['year'] = $pYear;
       $pageData['month'] = $pMonth;
       $pageData['issue'] = date('F Y', strtotime($pMonth . '/01/' . $pYear));
@@ -42,7 +42,7 @@ $app->group('/random-loot', function () use ($app) {
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Random Loot'] = '';
       $pageData['nav'] = $nav;
       $pageData['lootNav'] = true;
@@ -52,23 +52,23 @@ $app->group('/random-loot', function () use ($app) {
     })->name('newsletter');
 
   $app->get('/kent-state-lupin-mailing-list', function () use ($app) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/css/pages/page_search.css';
       $includeCss[] = '/dist/css/MailingList.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/bower_components/lodash/dist/lodash.min.js';
       $includeJs[] = '/bower_components/backbone/backbone.js';
       $includeJs[] = '/bower_components/handlebars/handlebars.min.js';
       $includeJs[] = '/dist/js/MailingList.js';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Lupin Mailing List (lupin@mcs.kent.edu) Archive';
       $pageData['pageDescription'] = 'This is an incomplete archive of the Lupin III mailing list that ran from roughly from 1998 to 2002.';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Random Loot'] = '';
       $pageData['nav'] = $nav;
       $pageData['lootNav'] = true;
@@ -78,17 +78,17 @@ $app->group('/random-loot', function () use ($app) {
     })->name('mailing-list');
 
   $app->get('/tokyo-international-anime-fair', function () use ($app) {
-    $includeCss = array ();
+    $includeCss = [];
 
-    $includeJs = array ();
+    $includeJs = [];
 
-    $pageData = array ();
+    $pageData = [];
     $pageData['pageTitle'] = 'Tokyo International Anime Fair';
     $pageData['pageDescription'] = 'An overview of the various booths Lupin has had at the Tokyo International Anime Fair';
     $pageData['includeCss'] = $includeCss;
     $pageData['includeJs'] = $includeJs;
 
-    $nav = array ();
+    $nav = [];
     $nav['Random Loot'] = '';
     $pageData['nav'] = $nav;
     $pageData['lootNav'] = true;
@@ -98,24 +98,24 @@ $app->group('/random-loot', function () use ($app) {
   })->name('tokyo-international-anime-fair');
 
   $app->get('/loose-change', function () use ($app) {
-    $includeCss = array ();
+    $includeCss = [];
     $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-    $includeJs = array ();
+    $includeJs = [];
     $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
     $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-    $inlineJs = array ();
+    $inlineJs = [];
     $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-    $pageData = array ();
+    $pageData = [];
     $pageData['pageTitle'] = 'Loose Change';
     $pageData['pageDescription'] = 'E-mail interview with Robert Woodhead from AnimEigo, Pioneer Playing Cards';
     $pageData['includeCss'] = $includeCss;
     $pageData['includeJs'] = $includeJs;
     $pageData['inlineJs'] = $inlineJs;
 
-    $nav = array ();
+    $nav = [];
     $nav['Random Loot'] = '';
     $pageData['nav'] = $nav;
     $pageData['lootNav'] = true;
@@ -123,4 +123,35 @@ $app->group('/random-loot', function () use ($app) {
 
     $app->render('view/random-loot/loose-change.php', $pageData);
   })->name('loose-change');
+
+  $app->get('/cosplay', function () use ($app) {
+    $includeCss = [
+      '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css'
+    ];
+
+    $includeJs = [
+      '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js',
+      '/dist/unify-1.8/js/plugins/fancy-box.js'
+    ];
+
+    $inlineJs = [
+      'jQuery(document).ready(function() { FancyBox.initFancybox(); });'
+    ];
+
+
+    $pageData = [];
+    $pageData['pageTitle'] = 'Cosplay';
+    $pageData['pageDescription'] = 'Gallery of Lupin cosplayers';
+    $pageData['includeCss'] = $includeCss;
+    $pageData['includeJs'] = $includeJs;
+    $pageData['inlineJs'] = $inlineJs;
+
+    $nav = [];
+    $nav['Random Loot'] = '';
+    $pageData['nav'] = $nav;
+    $pageData['lootNav'] = true;
+    $pageData['cosplayNav'] = true;
+
+    $app->render('view/random-loot/cosplay.php', $pageData);
+  })->name('cosplay');
 });
