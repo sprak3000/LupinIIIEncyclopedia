@@ -19,8 +19,8 @@ class Util
    */
   public function GetImagesForGallery($pDirectory, $pImagesPerRow = 4)
   {
-    $images = array ();
-    $rows = array ();
+    $images = [];
+    $rows = [];
 
     $dirIterator = new RecursiveDirectoryIterator($pDirectory);
     $iterator = new RecursiveIteratorIterator($dirIterator, RecursiveIteratorIterator::SELF_FIRST);
@@ -30,6 +30,8 @@ class Util
         $images[] = preg_replace('/.*public(\/.*)/', '$1', $file->getPathname());
       }
     }
+
+    sort($images);
 
     $rowCount = ceil(count($images) / $pImagesPerRow);
     $currentRow = 0;
@@ -60,7 +62,7 @@ class Util
       // Rework the result for our needs
       $data = $result; //array ();
     } catch(Exception $e) {
-      $data = array();
+      $data = [];
     }
 
     return $data;

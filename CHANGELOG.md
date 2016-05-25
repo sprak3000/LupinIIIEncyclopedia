@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.1 - 2016 May 24
+### Bug Fixes
+* Sort the gallery images based on file name to maintain the order defined by the file naming convention.
+
 ## 2.0.0 - 2016 May 24
 ### Enhancements
 * Updated to version 1.8 of the Unify theme I use. This alters the CSS / JS file structure I use along with HTML updates.
