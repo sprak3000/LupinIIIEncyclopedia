@@ -69,10 +69,11 @@ $app->group('/games', function () use ($app, $pageUtil) {
       $app->get('/shijyou-saidai-no-sunou-ikusa/', function () use ($app, $pageUtil) {
         $includeCss = array ();
         $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets-1.4/css/app.css';
-        $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+        $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
         $includeJs = array ();
-        $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+        $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+        $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
         $inlineJs = array ();
         $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';

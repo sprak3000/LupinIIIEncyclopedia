@@ -1,65 +1,119 @@
 <div class="container">
-
   <div class="row">
-
-    <div class="col-md-12">
-
-      <div class="headline">
-        <h2>OVA</h2>
-      </div>
-
-      <div class="timelineLoader">
-        <img src="/dist/css/timeline/assets/img/loadingAnimation.gif" />
-      </div>
-
-      <div id="episode-timeline" class="timelineCard">
-
-        <div class="item" data-id="05/04/1988" data-description="Plot of the Fuma Clan">
-          <img src="/dist/asset/img/anime/ova/plot-of-the-fuma-clan/plot-of-the-fuma-clan.gif" alt="Plot of the Fuma Clan" />
-          <h4>Plot of the Fuma Clan</h4>
-          <span><strong>Release Date:</strong> 1988 April 05</span>
-          <div class="read_more" data-id="05/04/1988" data-target="/anime/original-video-animation/plot-of-the-fuma-clan">Read more</div>
-        </div>
-
-        <div class="item" data-id="01/01/1989" data-description="The Secret Files">
-          <img src="/dist/asset/img/anime/ova/secret-files-2/secret-files-2.jpg" alt="The Secret Files" />
-          <h4>The Secret Files</h4>
-          <span><strong>Release Date:</strong> 1989</span>
-          <div class="read_more" data-id="01/01/1989" data-target="/anime/original-video-animation/secret-files">Read more</div>
-        </div>
-
-        <div class="item" data-id="01/02/1989" data-description="The Secret Files 2 ~Sound Collection~">
-          <img src="/dist/asset/img/anime/ova/secret-files-2/secret-files-2.jpg" alt="The Secret Files 2 ~Sound Collection~" />
-          <h4>The Secret Files 2 ~Sound Collection~</h4>
-          <span><strong>Release Date:</strong> 1989</span>
-          <div class="read_more" data-id="01/02/1989" data-target="/anime/original-video-animation/secret-files-2">Read more</div>
-        </div>
-
-        <div class="item" data-id="01/03/1995" data-description="Trailers Collection '71 - '95">
-          <img src="/dist/asset/img/anime/ova/trailers-collection/trailers-collection.gif" alt="Trailers Collection '71 - '95" />
-          <h4>Trailers Collection '71 - '95</h4>
-          <span><strong>Release Date:</strong> 1995 March 01</span>
-          <div class="read_more" data-id="01/03/1995" data-target="/anime/original-video-animation/trailers-collection">Read more</div>
-        </div>
-
-        <div class="item" data-id="03/04/2002" data-description="Return of the Magician">
-          <img src="/dist/asset/img/anime/ova/return-of-the-magician/return-of-the-magician.jpg" alt="Return of the Magician" />
-          <h4>Return of the Magician</h4>
-          <span><strong>Release Date:</strong> 2002 April 03</span>
-          <div class="read_more" data-id="03/04/2002" data-target="/anime/original-video-animation/return-of-the-magician">Read more</div>
-        </div>
-
-        <div class="item" data-id="02/04/2008" data-description="Green VS Red">
-          <img src="/dist/asset/img/anime/ova/green-vs-red/green-vs-red.jpg" alt="Green VS Red" />
-          <h4>Green VS Red</h4>
-          <span><strong>Release Date:</strong> 2008 April 02</span>
-          <div class="read_more" data-id="02/04/2008" data-target="/anime/original-video-animation/green-vs-red">Read more</div>
-        </div>
-
-      </div>
-
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <ul class="timeline-v1">
+        <li>
+          <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <img class="img-responsive" src="/dist/asset/img/anime/ova/green-vs-red/green-vs-red.jpg" alt="Green VS Red">
+            </div>
+            <div class="timeline-body">
+              <h2><a href="/anime/original-video-animation/green-vs-red">Green VS Red</a></h2>
+              <p></p>
+              <a class="btn-u btn-u-sm" href="/anime/original-video-animation/green-vs-red">Read More</a>
+            </div>
+            <div class="timeline-footer">
+              <ul class="list-unstyled list-inline blog-info">
+                <li><strong>Release Date:</strong> 2008 April 02</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <img class="img-responsive" src="/dist/asset/img/anime/ova/return-of-the-magician/return-of-the-magician.jpg" alt="Return of the Magician">
+            </div>
+            <div class="timeline-body">
+              <h2><a href="/anime/original-video-animation/return-of-the-magician">Return of the Magician</a></h2>
+              <p></p>
+              <a class="btn-u btn-u-sm" href="/anime/original-video-animation/return-of-the-magician">Read More</a>
+            </div>
+            <div class="timeline-footer">
+              <ul class="list-unstyled list-inline blog-info">
+                <li><strong>Release Date:</strong> 2002 April 03</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <img class="img-responsive" src="/dist/asset/img/anime/ova/trailers-collection/trailers-collection.gif" alt="Trailers Collection '71 - '95">
+            </div>
+            <div class="timeline-body">
+              <h2><a href="/anime/original-video-animation/trailers-collection">Trailers Collection '71 - '95</a></h2>
+              <p></p>
+              <a class="btn-u btn-u-sm" href="/anime/original-video-animation/trailers-collection">Read More</a>
+            </div>
+            <div class="timeline-footer">
+              <ul class="list-unstyled list-inline blog-info">
+                <li><strong>Release Date:</strong> 1995 March 01</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <img class="img-responsive" src="/dist/asset/img/anime/ova/secret-files-2/secret-files-2.jpg" alt="The Secret Files 2 ~Sound Collection~">
+            </div>
+            <div class="timeline-body">
+              <h2><a href="/anime/original-video-animation/secret-files-2">The Secret Files 2 ~Sound Collection~</a></h2>
+              <p></p>
+              <a class="btn-u btn-u-sm" href="/anime/original-video-animation/secret-files-2">Read More</a>
+            </div>
+            <div class="timeline-footer">
+              <ul class="list-unstyled list-inline blog-info">
+                <li><strong>Release Date:</strong> 1989</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <img class="img-responsive" src="/dist/asset/img/anime/ova/secret-files-2/secret-files-2.jpg" alt="The Secret Files">
+            </div>
+            <div class="timeline-body">
+              <h2><a href="/anime/original-video-animation/secret-files">The Secret Files</a></h2>
+              <p></p>
+              <a class="btn-u btn-u-sm" href="/anime/original-video-animation/secret-files">Read More</a>
+            </div>
+            <div class="timeline-footer">
+              <ul class="list-unstyled list-inline blog-info">
+                <li><strong>Release Date:</strong> 1989</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <img class="img-responsive" src="/dist/asset/img/anime/ova/plot-of-the-fuma-clan/plot-of-the-fuma-clan.gif" alt="Plot of the Fuma Clan">
+            </div>
+            <div class="timeline-body">
+              <h2><a href="/anime/original-video-animation/plot-of-the-fuma-clan">Plot of the Fuma Clan</a></h2>
+              <p></p>
+              <a class="btn-u btn-u-sm" href="/anime/original-video-animation/plot-of-the-fuma-clan">Read More</a>
+            </div>
+            <div class="timeline-footer">
+              <ul class="list-unstyled list-inline blog-info">
+                <li><strong>Release Date:</strong> 1988 April 05</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="clearfix" style="float: none;"></li>
+      </ul>
     </div>
-
   </div>
-
+  <div class="col-md-3"></div>
 </div>

@@ -68,34 +68,31 @@
             <div>
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-3 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/s/lupin-iii-s-action-comics.jpg" title="<strong>Release Date:</strong> 1998 June<br /><strong>ISBN:</strong> 4-575-93568-9<br /><strong>Price:</strong> 1500&yen;" data-rel="s">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="s-ac-gallery" href="/dist/asset/img/manga/s/lupin-iii-s-action-comics.jpg" title="<strong>Release Date:</strong> 1998 June<br /><strong>ISBN:</strong> 4-575-93568-9<br /><strong>Price:</strong> 1500&yen;">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/s/lupin-iii-s-action-comics.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-3 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/s/lupin-iii-s-futabasha-a6-size.jpg" title="<strong>Release Date:</strong> 2001 May 8<br /><strong>ISBN:</strong> 4-575-72312-6<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="s">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="s-ac-gallery" href="/dist/asset/img/manga/s/lupin-iii-s-futabasha-a6-size.jpg" title="<strong>Release Date:</strong> 2001 May 8<br /><strong>ISBN:</strong> 4-575-72312-6<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/s/lupin-iii-s-futabasha-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-3 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/s/lupin-iii-s-futabasha-a5-size.jpg" title="<strong>Release Date:</strong> 2005 January 12<br /><strong>ISBN:</strong> 4-575-93928-5<br /><strong>Price:</strong> 1000&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="s">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="s-ac-gallery" href="/dist/asset/img/manga/s/lupin-iii-s-futabasha-a5-size.jpg" title="<strong>Release Date:</strong> 2005 January 12<br /><strong>ISBN:</strong> 4-575-93928-5<br /><strong>Price:</strong> 1000&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/s/lupin-iii-s-futabasha-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
@@ -119,67 +116,61 @@
             <div>
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-01-a5-size.jpg" title="<strong>Release Date:</strong> 1999 May 27<br /><strong>ISBN:</strong> 4-575-93618-9<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-01-a5-size.jpg" title="<strong>Release Date:</strong> 1999 May 27<br /><strong>ISBN:</strong> 4-575-93618-9<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-01-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-02-a5-size.jpg" title="<strong>Release Date:</strong> 1999 September 10<br /><strong>ISBN:</strong> 4-575-93643-X<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-02-a5-size.jpg" title="<strong>Release Date:</strong> 1999 September 10<br /><strong>ISBN:</strong> 4-575-93643-X<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-02-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-03-a5-size.jpg" title="<strong>Release Date:</strong> 1999 November 27<br /><strong>ISBN:</strong> 4-575-93660-X<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-03-a5-size.jpg" title="<strong>Release Date:</strong> 1999 November 27<br /><strong>ISBN:</strong> 4-575-93660-X<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-03-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-04-a5-size.jpg" title="<strong>Release Date:</strong> 2000 January 08<br /><strong>ISBN:</strong> 4-575-93668-5<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-04-a5-size.jpg" title="<strong>Release Date:</strong> 2000 January 08<br /><strong>ISBN:</strong> 4-575-93668-5<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-04-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-05-a5-size.jpg" title="<strong>Release Date:</strong> 2000 March 28<br /><strong>ISBN:</strong> 4-575-93677-4<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-05-a5-size.jpg" title="<strong>Release Date:</strong> 2000 March 28<br /><strong>ISBN:</strong> 4-575-93677-4<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-05-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-06-a5-size.jpg" title="<strong>Release Date:</strong> 2000 June 28<br /><strong>ISBN:</strong> 4-575-93696-0<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-06-a5-size.jpg" title="<strong>Release Date:</strong> 2000 June 28<br /><strong>ISBN:</strong> 4-575-93696-0<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-06-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
@@ -189,67 +180,61 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-07-a5-size.jpg" title="<strong>Release Date:</strong> 2000 September 28<br /><strong>ISBN:</strong> 4-575-93709-6<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-07-a5-size.jpg" title="<strong>Release Date:</strong> 2000 September 28<br /><strong>ISBN:</strong> 4-575-93709-6<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-07-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-08-a5-size.jpg" title="<strong>Release Date:</strong> 2000 November 28<br /><strong>ISBN:</strong> 4-575-93719-3<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-08-a5-size.jpg" title="<strong>Release Date:</strong> 2000 November 28<br /><strong>ISBN:</strong> 4-575-93719-3<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-08-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-09-a5-size.jpg" title="<strong>Release Date:</strong> 2001 February 20<br /><strong>ISBN:</strong> 4-575-93723-1<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-09-a5-size.jpg" title="<strong>Release Date:</strong> 2001 February 20<br /><strong>ISBN:</strong> 4-575-93723-1<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-09-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-10-a5-size.jpg" title="<strong>Release Date:</strong> 2001 May 28<br /><strong>ISBN:</strong> 4-575-93737-1<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-10-a5-size.jpg" title="<strong>Release Date:</strong> 2001 May 28<br /><strong>ISBN:</strong> 4-575-93737-1<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-10-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-11-a5-size.jpg" title="<strong>Release Date:</strong> 2001 September 28<br /><strong>ISBN:</strong>  4-575-93756-8<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-11-a5-size.jpg" title="<strong>Release Date:</strong> 2001 September 28<br /><strong>ISBN:</strong>  4-575-93756-8<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-11-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-12-a5-size.jpg" title="<strong>Release Date:</strong> 2002 January 18<br /><strong>ISBN:</strong> 4-575-93767-3<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-12-a5-size.jpg" title="<strong>Release Date:</strong> 2002 January 18<br /><strong>ISBN:</strong> 4-575-93767-3<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-12-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
@@ -259,67 +244,61 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-13-a5-size.jpg" title="<strong>Release Date:</strong> 2002 April 30<br /><strong>ISBN:</strong> 4-575-93775-4<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-13-a5-size.jpg" title="<strong>Release Date:</strong> 2002 April 30<br /><strong>ISBN:</strong> 4-575-93775-4<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-13-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-14-a5-size.jpg" title="<strong>Release Date:</strong> 2002 September 12<br /><strong>ISBN:</strong> 4-575-93797-5<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-14-a5-size.jpg" title="<strong>Release Date:</strong> 2002 September 12<br /><strong>ISBN:</strong> 4-575-93797-5<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-14-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-15-a5-size.jpg" title="<strong>Release Date:</strong> 2002 November 28<br /><strong>ISBN:</strong> 4-575-93807-6<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-15-a5-size.jpg" title="<strong>Release Date:</strong> 2002 November 28<br /><strong>ISBN:</strong> 4-575-93807-6<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-15-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-16-a5-size.jpg" title="<strong>Release Date:</strong> 2003 April 12<br /><strong>ISBN:</strong> 4-575-93821-1<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-16-a5-size.jpg" title="<strong>Release Date:</strong> 2003 April 12<br /><strong>ISBN:</strong> 4-575-93821-1<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-16-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-17-a5-size.jpg" title="<strong>Release Date:</strong> 2003 July 11<br /><strong>ISBN:</strong> 4-575-93839-4<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-17-a5-size.jpg" title="<strong>Release Date:</strong> 2003 July 11<br /><strong>ISBN:</strong> 4-575-93839-4<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-17-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-18-a5-size.jpg" title="<strong>Release Date:</strong> 2003 November 28<br /><strong>ISBN:</strong> 4-575-93864-5<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-18-a5-size.jpg" title="<strong>Release Date:</strong> 2003 November 28<br /><strong>ISBN:</strong> 4-575-93864-5<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-18-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
@@ -329,67 +308,61 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-19-a5-size.jpg" title="<strong>Release Date:</strong> 2004 March 12<br /><strong>ISBN:</strong> 4-575-93881-5<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-19-a5-size.jpg" title="<strong>Release Date:</strong> 2004 March 12<br /><strong>ISBN:</strong> 4-575-93881-5<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-19-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-20-a5-size.jpg" title="<strong>Release Date:</strong> 2004 August 28<br /><strong>ISBN:</strong>  4-575-93900-5<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-20-a5-size.jpg" title="<strong>Release Date:</strong> 2004 August 28<br /><strong>ISBN:</strong>  4-575-93900-5<br /><strong>Price:</strong> 840&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-20-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-01-a6-size.jpg" title="<strong>Release Date:</strong> 2001 November 06<br /><strong>ISBN:</strong> 4-575-72349-5<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-01-a6-size.jpg" title="<strong>Release Date:</strong> 2001 November 06<br /><strong>ISBN:</strong> 4-575-72349-5<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-01-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-02-a6-size.jpg" title="<strong>Release Date:</strong> 2001 November 06<br /><strong>ISBN:</strong> 4-575-72350-9<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-02-a6-size.jpg" title="<strong>Release Date:</strong> 2001 November 06<br /><strong>ISBN:</strong> 4-575-72350-9<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-02-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-03-a6-size.jpg" title="<strong>Release Date:</strong> 2002 February 05<br /><strong>ISBN:</strong> 4-575-72366-5<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-03-a6-size.jpg" title="<strong>Release Date:</strong> 2002 February 05<br /><strong>ISBN:</strong> 4-575-72366-5<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-03-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-04-a6-size.jpg" title="<strong>Release Date:</strong> 2002 February 05<br /><strong>ISBN:</strong> 4-575-72367-3<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-04-a6-size.jpg" title="<strong>Release Date:</strong> 2002 February 05<br /><strong>ISBN:</strong> 4-575-72367-3<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-04-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
@@ -399,67 +372,61 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-05-a6-size.jpg" title="<strong>Release Date:</strong> 2002 September 03<br /><strong>ISBN:</strong> 4-575-72419-X<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-05-a6-size.jpg" title="<strong>Release Date:</strong> 2002 September 03<br /><strong>ISBN:</strong> 4-575-72419-X<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-05-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-06-a6-size.jpg" title="<strong>Release Date:</strong> 2002 September 03<br /><strong>ISBN:</strong> 4-575-72420-3<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-06-a6-size.jpg" title="<strong>Release Date:</strong> 2002 September 03<br /><strong>ISBN:</strong> 4-575-72420-3<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-06-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-07-a6-size.jpg" title="<strong>Release Date:</strong> 2003 April 01<br /><strong>ISBN:</strong> 4-575-72453-X<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-07-a6-size.jpg" title="<strong>Release Date:</strong> 2003 April 01<br /><strong>ISBN:</strong> 4-575-72453-X<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-07-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-08-a6-size.jpg" title="<strong>Release Date:</strong> 2003 April 01<br /><strong>ISBN:</strong> 4-575-72454-8<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-08-a6-size.jpg" title="<strong>Release Date:</strong> 2003 April 01<br /><strong>ISBN:</strong> 4-575-72454-8<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-08-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-09-a6-size.jpg" title="<strong>Release Date:</strong> 2003 August 05<br /><strong>ISBN:</strong> 4-575-72472-6<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-09-a6-size.jpg" title="<strong>Release Date:</strong> 2003 August 05<br /><strong>ISBN:</strong> 4-575-72472-6<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-09-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-10-a6-size.jpg" title="<strong>Release Date:</strong> 2003 October 07<br /><strong>ISBN:</strong> 4-575-72480-7<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-10-a6-size.jpg" title="<strong>Release Date:</strong> 2003 October 07<br /><strong>ISBN:</strong> 4-575-72480-7<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-10-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
@@ -469,67 +436,61 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-11-a6-size.jpg" title="<strong>Release Date:</strong> 2004 January 20<br /><strong>ISBN:</strong> 4-575-72494-7<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-11-a6-size.jpg" title="<strong>Release Date:</strong> 2004 January 20<br /><strong>ISBN:</strong> 4-575-72494-7<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-11-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-12-a6-size.jpg" title="<strong>Release Date:</strong> 2004 March 02<br /><strong>ISBN:</strong> 4-575-72503-X<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-12-a6-size.jpg" title="<strong>Release Date:</strong> 2004 March 02<br /><strong>ISBN:</strong> 4-575-72503-X<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-12-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-13-a6-size.jpg" title="<strong>Release Date:</strong> 2004 July 06<br /><strong>ISBN:</strong> 4-575-72520-X<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-13-a6-size.jpg" title="<strong>Release Date:</strong> 2004 July 06<br /><strong>ISBN:</strong> 4-575-72520-X<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-13-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-14-a6-size.jpg" title="<strong>Release Date:</strong> 2004 September 07<br /><strong>ISBN:</strong> 4-575-72528-5<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-14-a6-size.jpg" title="<strong>Release Date:</strong> 2004 September 07<br /><strong>ISBN:</strong> 4-575-72528-5<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-14-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-15-a6-size.jpg" title="<strong>Release Date:</strong> 2005 January 11<br /><strong>ISBN:</strong> 4-575-72540-4<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-15-a6-size.jpg" title="<strong>Release Date:</strong> 2005 January 11<br /><strong>ISBN:</strong> 4-575-72540-4<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-15-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-16-a6-size.jpg" title="<strong>Release Date:</strong> 2005 February 15<br /><strong>ISBN:</strong> 4-575-72544-7<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-16-a6-size.jpg" title="<strong>Release Date:</strong> 2005 February 15<br /><strong>ISBN:</strong> 4-575-72544-7<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-16-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
@@ -539,56 +500,51 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-17-a6-size.jpg" title="<strong>Release Date:</strong> 2005 April 19<br /><strong>ISBN:</strong> 4-575-72550-1<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-17-a6-size.jpg" title="<strong>Release Date:</strong> 2005 April 19<br /><strong>ISBN:</strong> 4-575-72550-1<br /><strong>Price:</strong> 580&yen;<br /><strong>Size:</strong> 4.5 x 6 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-volume-17-a6-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-01-a5-size.jpg" title="<strong>Release Date:</strong> 2005 January 12<br /><strong>ISBN:</strong> 4-575-93929-3<br /><strong>Price:</strong> 1000&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-01-a5-size.jpg" title="<strong>Release Date:</strong> 2005 January 12<br /><strong>ISBN:</strong> 4-575-93929-3<br /><strong>Price:</strong> 1000&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-01-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-02-a5-size.jpg" title="<strong>Release Date:</strong> 2005 January 12<br /><strong>ISBN:</strong> 4-575-93930-7<br /><strong>Price:</strong> 1000&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-02-a5-size.jpg" title="<strong>Release Date:</strong> 2005 January 12<br /><strong>ISBN:</strong> 4-575-93930-7<br /><strong>Price:</strong> 1000&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-02-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-03-a5-size.jpg" title="<strong>Release Date:</strong> 2005 January 27<br /><strong>ISBN:</strong> 4-575-93931-5<br /><strong>Price:</strong> 1000&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-03-a5-size.jpg" title="<strong>Release Date:</strong> 2005 January 27<br /><strong>ISBN:</strong> 4-575-93931-5<br /><strong>Price:</strong> 1000&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-03-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-04-a5-size.jpg" title="<strong>Release Date:</strong> 2005 January 27<br /><strong>ISBN:</strong> 4-575-93932-3<br /><strong>Price:</strong> 1000&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches" data-rel="y">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="y-f-gallery" href="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-04-a5-size.jpg" title="<strong>Release Date:</strong> 2005 January 27<br /><strong>ISBN:</strong> 4-575-93932-3<br /><strong>Price:</strong> 1000&yen;<br /><strong>Size:</strong> 5.875 x 8.25 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/y/lupin-iii-y-futabasha-comp-volume-04-a5-size.jpg">
-                        <div class="zoom-icon"></div>
                       </span>
                     </a>
                   </div>
@@ -636,67 +592,67 @@
             <div>
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume01.jpg" title="<strong>Release Date:</strong> 2002 December 02<br /><strong>ISBN:</strong> 1-59182-252-1<br /><strong>Pages:</strong> 190" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume01.jpg" title="<strong>Release Date:</strong> 2002 December 02<br /><strong>ISBN:</strong> 1-59182-252-1<br /><strong>Pages:</strong> 190">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume01.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume02.jpg" title="<strong>Release Date:</strong> 2003 February 04<br /><strong>ISBN:</strong> 1-59182-1045<br /><strong>Pages:</strong> 174" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume02.jpg" title="<strong>Release Date:</strong> 2003 February 04<br /><strong>ISBN:</strong> 1-59182-1045<br /><strong>Pages:</strong> 174">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume02.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume03.jpg" title="<strong>Release Date:</strong> 2003 April 08<br /><strong>ISBN:</strong> 1-59182-1215<br /><strong>Pages:</strong> 191" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume03.jpg" title="<strong>Release Date:</strong> 2003 April 08<br /><strong>ISBN:</strong> 1-59182-1215<br /><strong>Pages:</strong> 191">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume03.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume04.jpg" title="<strong>Release Date:</strong> 2003 June 10<br /><strong>ISBN:</strong> 1591821223<br /><strong>Pages:</strong> 195" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume04.jpg" title="<strong>Release Date:</strong> 2003 June 10<br /><strong>ISBN:</strong> 1591821223<br /><strong>Pages:</strong> 195">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume04.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume05.jpg" title="<strong>Release Date:</strong> 2003 July 08<br /><strong>ISBN:</strong> 1591821231<br /><strong>Pages:</strong> 182" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume05.jpg" title="<strong>Release Date:</strong> 2003 July 08<br /><strong>ISBN:</strong> 1591821231<br /><strong>Pages:</strong> 182">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume05.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume06.jpg" title="<strong>Release Date:</strong> 2003 August 05<br /><strong>ISBN:</strong> 159182124X<br /><strong>Pages:</strong> 182" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume06.jpg" title="<strong>Release Date:</strong> 2003 August 05<br /><strong>ISBN:</strong> 159182124X<br /><strong>Pages:</strong> 182">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume06.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
@@ -706,67 +662,67 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume07.jpg" title="<strong>Release Date:</strong> 2003 September 09<br /><strong>ISBN:</strong> 1591821258<br /><strong>Pages:</strong> 173" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume07.jpg" title="<strong>Release Date:</strong> 2003 September 09<br /><strong>ISBN:</strong> 1591821258<br /><strong>Pages:</strong> 173">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume07.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume08.jpg" title="<strong>Release Date:</strong> 2003 October 07<br /><strong>ISBN:</strong> 1591821266<br /><strong>Pages:</strong> 184" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume08.jpg" title="<strong>Release Date:</strong> 2003 October 07<br /><strong>ISBN:</strong> 1591821266<br /><strong>Pages:</strong> 184">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume08.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume09.jpg" title="<strong>Release Date:</strong> 2003 November 04<br /><strong>ISBN:</strong> 1591821274<br /><strong>Pages:</strong> 164" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume09.jpg" title="<strong>Release Date:</strong> 2003 November 04<br /><strong>ISBN:</strong> 1591821274<br /><strong>Pages:</strong> 164">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume09.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume10.jpg" title="<strong>Release Date:</strong> 2003 December 09<br /><strong>ISBN:</strong> 1591821282<br /><strong>Pages:</strong> 171" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume10.jpg" title="<strong>Release Date:</strong> 2003 December 09<br /><strong>ISBN:</strong> 1591821282<br /><strong>Pages:</strong> 171">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume10.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume11.jpg" title="<strong>Release Date:</strong> 2004 January 06<br /><strong>ISBN:</strong> 1591824893<br /><strong>Pages:</strong> 166" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume11.jpg" title="<strong>Release Date:</strong> 2004 January 06<br /><strong>ISBN:</strong> 1591824893<br /><strong>Pages:</strong> 166">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume11.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume12.jpg" title="<strong>Release Date:</strong> 2004 March 02<br /><strong>ISBN:</strong> 1591824907<br /><strong>Pages:</strong> 167" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume12.jpg" title="<strong>Release Date:</strong> 2004 March 02<br /><strong>ISBN:</strong> 1591824907<br /><strong>Pages:</strong> 167">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume12.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
@@ -776,67 +732,67 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume13.jpg" title="<strong>Release Date:</strong> 2004 May 04<br /><strong>ISBN:</strong> 1591824915<br /><strong>Pages:</strong> 172" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume13.jpg" title="<strong>Release Date:</strong> 2004 May 04<br /><strong>ISBN:</strong> 1591824915<br /><strong>Pages:</strong> 172">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume13.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series01-volume14.jpg" title="<strong>Release Date:</strong> 2004 July 06<br /><strong>ISBN:</strong> 1591824923<br /><strong>Pages:</strong> 210" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series01-volume14.jpg" title="<strong>Release Date:</strong> 2004 July 06<br /><strong>ISBN:</strong> 1591824923<br /><strong>Pages:</strong> 210">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series01-volume14.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series02-volume01.jpg" title="<strong>Release Date:</strong> 2004 September 07<br /><strong>ISBN:</strong> 1-59532-070-9<br /><strong>Pages:</strong> 228" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series02-volume01.jpg" title="<strong>Release Date:</strong> 2004 September 07<br /><strong>ISBN:</strong> 1-59532-070-9<br /><strong>Pages:</strong> 228">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series02-volume01.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series02-volume02.jpg" title="<strong>Release Date:</strong> 2004 November 09<br /><strong>ISBN:</strong> 1-59532-071-7<br /><strong>Pages:</strong> 228" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series02-volume02.jpg" title="<strong>Release Date:</strong> 2004 November 09<br /><strong>ISBN:</strong> 1-59532-071-7<br /><strong>Pages:</strong> 228">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series02-volume02.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series02-volume03.jpg" title="<strong>Release Date:</strong> 2005 January 11<br /><strong>ISBN:</strong> 1-59532-072-5<br /><strong>Pages:</strong> 228" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series02-volume03.jpg" title="<strong>Release Date:</strong> 2005 January 11<br /><strong>ISBN:</strong> 1-59532-072-5<br /><strong>Pages:</strong> 228">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series02-volume03.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series02-volume04.jpg" title="<strong>Release Date:</strong> 2005 March 08<br /><strong>ISBN:</strong> 1-59532-073-3<br /><strong>Pages:</strong> 234" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series02-volume04.jpg" title="<strong>Release Date:</strong> 2005 March 08<br /><strong>ISBN:</strong> 1-59532-073-3<br /><strong>Pages:</strong> 234">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series02-volume04.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
@@ -846,56 +802,56 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series02-volume05.jpg" title="<strong>Release Date:</strong> 2005 May 10<br /><strong>ISBN:</strong> 1-59532-074-1<br /><strong>Pages:</strong> 223" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series02-volume05.jpg" title="<strong>Release Date:</strong> 2005 May 10<br /><strong>ISBN:</strong> 1-59532-074-1<br /><strong>Pages:</strong> 223">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series02-volume05.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series02-volume06.jpg" title="<strong>Release Date:</strong> 2006 February 07<br /><strong>ISBN:</strong> 1-59532-075-X<br /><strong>Pages:</strong> 240" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series02-volume06.jpg" title="<strong>Release Date:</strong> 2006 February 07<br /><strong>ISBN:</strong> 1-59532-075-X<br /><strong>Pages:</strong> 240">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series02-volume06.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series02-volume07.jpg" title="<strong>Release Date:</strong> 2006 July 11<br /><strong>ISBN:</strong> 1-59532-076-8<br /><strong>Pages:</strong> 232" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series02-volume07.jpg" title="<strong>Release Date:</strong> 2006 July 11<br /><strong>ISBN:</strong> 1-59532-076-8<br /><strong>Pages:</strong> 232">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series02-volume07.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series02-volume08.jpg" title="<strong>Release Date:</strong> 2007 January 09<br /><strong>ISBN:</strong> 1-59532-077-6<br /><strong>Pages:</strong> 240" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series02-volume08.jpg" title="<strong>Release Date:</strong> 2007 January 09<br /><strong>ISBN:</strong> 1-59532-077-6<br /><strong>Pages:</strong> 240">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series02-volume08.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/tokyopop/series02-volume09.jpg" title="<strong>Release Date:</strong> 2007 July 10<br /><strong>ISBN:</strong> 1-59532-078-4<br /><strong>Pages:</strong> 240" data-rel="tokyopop">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="tp-gallery" href="/dist/asset/img/manga/tokyopop/series02-volume09.jpg" title="<strong>Release Date:</strong> 2007 July 10<br /><strong>ISBN:</strong> 1-59532-078-4<br /><strong>Pages:</strong> 240">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/tokyopop/series02-volume09.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
@@ -923,67 +879,67 @@
             <div>
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/action-comics-first-tv-volume-02.jpg" title="<strong>Story:</strong> Episode 21<br /><strong>Catalog #:</strong> 50113-94<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/action-comics-first-tv-volume-02.jpg" title="<strong>Story:</strong> Episode 21<br /><strong>Catalog #:</strong> 50113-94<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/action-comics-first-tv-volume-02.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-01.jpg" title="<strong>Catalog #:</strong> 50114-67<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 156<br /><strong>Size:</strong> 5 x 7.5 inches" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-01.jpg" title="<strong>Catalog #:</strong> 50114-67<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 156<br /><strong>Size:</strong> 5 x 7.5 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-01.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-02.jpg" title="<strong>Catalog #:</strong> 50114-73<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-02.jpg" title="<strong>Catalog #:</strong> 50114-73<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-02.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-03.jpg" title="<strong>Catalog #:</strong> 50114-83<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-03.jpg" title="<strong>Catalog #:</strong> 50114-83<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-03.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-04.jpg" title="<strong>Catalog #:</strong> 50114-93<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-04.jpg" title="<strong>Catalog #:</strong> 50114-93<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-04.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/comic-souris-cagliostro-volume-01.jpg" title="<strong>ISBN:</strong> 4-12-410390-5<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/comic-souris-cagliostro-volume-01.jpg" title="<strong>ISBN:</strong> 4-12-410390-5<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-01.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
@@ -993,67 +949,67 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/comic-souris-cagliostro-volume-02.jpg" title="<strong>ISBN:</strong> 4-12-410391-3<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/comic-souris-cagliostro-volume-02.jpg" title="<strong>ISBN:</strong> 4-12-410391-3<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-02.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/comic-souris-cagliostro-volume-03.jpg" title="<strong>ISBN:</strong> 4-12-410392-5<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/comic-souris-cagliostro-volume-03.jpg" title="<strong>ISBN:</strong> 4-12-410392-5<br /><strong>Price:</strong> 680&yen;<br /><strong>Pages:</strong> 158<br /><strong>Size:</strong> 5 x 7.5 inches">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/action-comics-cagliostro-volume-03.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/cagliostro-in-wonderland.jpg" title="<strong>Publisher:</strong> Futubasha<br /><strong>ISBN:</strong> 4-575-47169-0<br /><strong>Price:</strong> 1200&yen;<br /><strong>Pages:</strong> 145" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/cagliostro-in-wonderland.jpg" title="<strong>Publisher:</strong> Futubasha<br /><strong>ISBN:</strong> 4-575-47169-0<br /><strong>Price:</strong> 1200&yen;<br /><strong>Pages:</strong> 145">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/cagliostro-in-wonderland.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/kutabare-nostrodamus-cd-rom-book.jpg" title="<strong>Publisher:</strong> ASCII<br /><strong>Catalog #:</strong> 63598-35<br /><strong>Price:</strong> 1800&yen;<br /><strong>Pages:</strong> 68" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/kutabare-nostrodamus-cd-rom-book.jpg" title="<strong>Publisher:</strong> ASCII<br /><strong>Catalog #:</strong> 63598-35<br /><strong>Price:</strong> 1800&yen;<br /><strong>Pages:</strong> 68">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/kutabare-nostrodamus-cd-rom-book.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/dead-or-alive-memorial-collection.jpg" title="<strong>ISBN:</strong> 4-8203-9613-7<br /><strong>Price:</strong> 1500&yen;<br /><strong>Pages:</strong> 100" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/dead-or-alive-memorial-collection.jpg" title="<strong>ISBN:</strong> 4-8203-9613-7<br /><strong>Price:</strong> 1500&yen;<br /><strong>Pages:</strong> 100">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/dead-or-alive-memorial-collection.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/yamada-yasuo-memorial.jpg" title="<strong>Catalog #:</strong> 61578-25<br /><strong>Price:</strong> 1900&yen;<br /><strong>Pages:</strong> 92" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/yamada-yasuo-memorial.jpg" title="<strong>Catalog #:</strong> 61578-25<br /><strong>Price:</strong> 1900&yen;<br /><strong>Pages:</strong> 92">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/yamada-yasuo-memorial.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>
@@ -1063,12 +1019,12 @@
 
               <div class="row">
 
-                <div class="col-md-2">
+                <div class="col-sm-2 sm-margin-bottom-30">
                   <div class="thumbnails thumbnail-style">
-                    <a class="fancybox-button zoomer" href="/dist/asset/img/manga/misc/lupin-iii-part-1.jpg" title="<strong>Catalog #:</strong> 67633-33<br /><strong>Price:</strong> 1200&yen;<br /><strong>Pages:</strong> 170" data-rel="misc">
-                      <span class="overlay-zoom">
+                    <a class="fancybox img-hover-v1" rel="misc-gallery" href="/dist/asset/img/manga/misc/lupin-iii-part-1.jpg" title="<strong>Catalog #:</strong> 67633-33<br /><strong>Price:</strong> 1200&yen;<br /><strong>Pages:</strong> 170">
+                      <span>
                         <img class="img-responsive" alt="" src="/dist/asset/img/manga/misc/lupin-iii-part-1.jpg">
-                        <div class="zoom-icon"></div>
+
                       </span>
                     </a>
                   </div>

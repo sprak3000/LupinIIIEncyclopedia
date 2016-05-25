@@ -38,11 +38,32 @@
           </div>
 
           <div id="episodes" class="tab-pane fade in">
-          <div class="timelineLoader">
-            <img src="/dist/css/timeline/assets/img/loadingAnimation.gif" />
-          </div>
-
-          <div id="episode-timeline" class="timelineCard">
+            <ul class="timeline-v1">
+<?php
+foreach($episodes as $index => $episode) {
+?>
+              <li>
+                <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <img class="img-responsive" src="<?php echo $episode['image']; ?>" alt="<?php echo $episode['title']; ?>">
+                  </div>
+                  <div class="timeline-body">
+                    <h2><a href="<?php echo $episode['link']; ?>"><?php echo $episode['title']; ?></a></h2>
+                    <p><?php echo $episode['description']; ?></p>
+                    <a class="btn-u btn-u-sm" href="<?php echo $episode['link']; ?>">Read More</a>
+                  </div>
+                  <div class="timeline-footer">
+                    <ul class="list-unstyled list-inline blog-info">
+                      <li><strong>Release Date:</strong> <?php echo $episode['releaseDate']; ?></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+<?php
+}
+?>
+            </ul>
 
           <div class="item" data-id="04/04/2012" data-description="Episode 1: Master Thief vs. Lady Looter">
             <img src="/dist/asset/img/anime/woman-called-mine-fujiko/01.jpg" alt="Episode 1: Master Thief vs. Lady Looter" />
@@ -237,8 +258,6 @@
               </p>
               <div><a href="http://www.hulu.com/watch/377195" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a> | <a target="_blank" class="linked color-green" href="http://www.fandompost.com/2012/07/06/lupin-the-third-the-woman-called-fujiko-mine-episode-13-anime-review/">Review</a></div>
             </div>
-          </div>
-
           </div>
 
           </div>

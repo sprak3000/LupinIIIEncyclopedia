@@ -35,7 +35,7 @@
         <i class="icon-custom rounded-x icon-sm icon-bg-u fa fa-book"></i>
         <span>Further Reading</span>
       </h2>
-      <p><i class="fa fa-file-pdf-o"></i> <a href="/dist/asset/file/Monkey-Punch-Interview-Mangazine-1995-Jan.pdf" class="linked color-green">Interview, <em>Mangazine</em> January 1995</em></a></p>
+      <p><i class="fa fa-file-pdf-o"></i> <a href="/dist/asset/file/Monkey-Punch-Interview-Mangazine-1995-Jan.pdf" class="linked color-green">Interview, <em>Mangazine</em> January 1995</a></p>
     </div>
   </div>
 

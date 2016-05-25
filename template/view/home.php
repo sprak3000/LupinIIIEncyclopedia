@@ -78,7 +78,7 @@ if(!empty($eBayRss)) {
               <div class="profile-event">
                 <div class="overflow-h">
                   <h3 class="heading-xs"><a href="<?php echo $item->link; ?>" target="_blank"><?php echo $item->title; ?></a></h3>
-                  <?php echo $item->description; ?>
+                  <?php echo str_replace("http:", "", $item->description); ?>
                 </div>
               </div>
 <?php

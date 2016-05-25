@@ -99,10 +99,11 @@ $app->group('/random-loot', function () use ($app) {
 
   $app->get('/loose-change', function () use ($app) {
     $includeCss = array ();
-    $includeCss[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.css';
+    $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
     $includeJs = array ();
-    $includeJs[] = '/dist/css/wrapbootstrap/unify/HTML/assets/plugins/fancybox/source/jquery.fancybox.pack.js';
+    $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+    $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
     $inlineJs = array ();
     $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
