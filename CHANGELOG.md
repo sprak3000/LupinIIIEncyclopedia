@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.2.0 - 2016 May 26
+### Enhancements
+* Added cameos gallery
+
 ## 2.1.0 - 2016 May 24
 ### Enhancements
 * Added cosplay gallery

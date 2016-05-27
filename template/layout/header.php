@@ -150,12 +150,13 @@ if(!isset($is404)) {
                           <i class="icon-angle-down"></i>
                       </a>
                       <ul class="dropdown-menu">
-                          <li class="<?php if(isset($musicNav)) { echo ' active'; } ?>"><a href="/random-loot/music">Music</a></li>
-                          <li class="<?php if(isset($mlNav)) { echo ' active'; } ?>"><a href="/random-loot/kent-state-lupin-mailing-list">Kent State Mail List Archive</a></li>
-                          <li class="<?php if(isset($newsletterNav)) { echo ' active'; } ?>"><a href="/random-loot/newsletter">Yahoo! Group Newsletter Archive</a></li>
-                          <li class="<?php if(isset($tafNav)) { echo ' active'; } ?>"><a href="/random-loot/tokyo-international-anime-fair">Tokyo International Anime Fair</a></li>
-                          <li class="<?php if(isset($cosplayNav)) { echo ' active'; } ?>"><a href="/random-loot/cosplay">Cosplay</a></li>
-                          <li class="<?php if(isset($looseChangeNav)) { echo ' active'; } ?>"><a href="/random-loot/loose-change">Loose Change</a></li>
+                        <li class="<?php if(isset($musicNav)) { echo ' active'; } ?>"><a href="/random-loot/music">Music</a></li>
+                        <li class="<?php if(isset($cosplayNav)) { echo ' active'; } ?>"><a href="/random-loot/cosplay">Cosplay</a></li>
+                        <li class="<?php if(isset($cameosNav)) { echo ' active'; } ?>"><a href="/random-loot/cameos">Cameos</a></li>
+                        <li class="<?php if(isset($mlNav)) { echo ' active'; } ?>"><a href="/random-loot/kent-state-lupin-mailing-list">Kent State Mail List Archive</a></li>
+                        <li class="<?php if(isset($newsletterNav)) { echo ' active'; } ?>"><a href="/random-loot/newsletter">Yahoo! Group Newsletter Archive</a></li>
+                        <li class="<?php if(isset($tafNav)) { echo ' active'; } ?>"><a href="/random-loot/tokyo-international-anime-fair">Tokyo International Anime Fair</a></li>
+                        <li class="<?php if(isset($looseChangeNav)) { echo ' active'; } ?>"><a href="/random-loot/loose-change">Loose Change</a></li>
                       </ul>
                   </li>
                 </ul>

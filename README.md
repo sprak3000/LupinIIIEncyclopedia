@@ -29,7 +29,7 @@ the site content as it appears on [www.lupinencyclopedia.com](http://www.lupinen
 
 ## Documentation
 
-All additional documentation can be found in the [doc](https://github.com/sprak3000/git@github.com:sprak3000/LupinIIIEncyclopedia.git/blob/master/doc)
+All additional documentation can be found in the [doc](https://github.com/sprak3000/LupinIIIEncyclopedia/tree/master/doc)
 folder.
 
 ## Contributing
