@@ -184,5 +184,5 @@ $app->group('/random-loot', function () use ($app) {
     $pageData['cameosNav'] = true;
 
     $app->render('view/random-loot/cameos.php', $pageData);
-  })->name('cosplay');
+  })->name('cameos');
 });
