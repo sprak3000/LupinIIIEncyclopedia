@@ -78,15 +78,25 @@ $app->group('/random-loot', function () use ($app) {
     })->name('mailing-list');
 
   $app->get('/tokyo-international-anime-fair', function () use ($app) {
-    $includeCss = [];
+    $includeCss = [
+      '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css'
+    ];
 
-    $includeJs = [];
+    $includeJs = [
+      '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js',
+      '/dist/unify-1.8/js/plugins/fancy-box.js'
+    ];
+
+    $inlineJs = [
+      'jQuery(document).ready(function() { FancyBox.initFancybox(); });'
+    ];
 
     $pageData = [];
     $pageData['pageTitle'] = 'Tokyo International Anime Fair';
     $pageData['pageDescription'] = 'An overview of the various booths Lupin has had at the Tokyo International Anime Fair';
     $pageData['includeCss'] = $includeCss;
     $pageData['includeJs'] = $includeJs;
+    $pageData['inlineJs'] = $inlineJs;
 
     $nav = [];
     $nav['Random Loot'] = '';

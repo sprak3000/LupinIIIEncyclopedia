@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 2.3.0 - 2016 May 26
+### Enhancements
+* Added images to the Tokyo International Anime Fair page
+* Updated site logo and header style
+
 ## 2.2.0 - 2016 May 26
 ### Enhancements
 * Added cameos gallery
