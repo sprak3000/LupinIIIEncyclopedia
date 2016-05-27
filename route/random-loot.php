@@ -154,4 +154,35 @@ $app->group('/random-loot', function () use ($app) {
 
     $app->render('view/random-loot/cosplay.php', $pageData);
   })->name('cosplay');
+
+  $app->get('/cameos', function () use ($app) {
+    $includeCss = [
+      '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css'
+    ];
+
+    $includeJs = [
+      '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js',
+      '/dist/unify-1.8/js/plugins/fancy-box.js'
+    ];
+
+    $inlineJs = [
+      'jQuery(document).ready(function() { FancyBox.initFancybox(); });'
+    ];
+
+
+    $pageData = [];
+    $pageData['pageTitle'] = 'Cameos';
+    $pageData['pageDescription'] = 'Gallery of cameos Lupin and the gang have had in other media';
+    $pageData['includeCss'] = $includeCss;
+    $pageData['includeJs'] = $includeJs;
+    $pageData['inlineJs'] = $inlineJs;
+
+    $nav = [];
+    $nav['Random Loot'] = '';
+    $pageData['nav'] = $nav;
+    $pageData['lootNav'] = true;
+    $pageData['cameosNav'] = true;
+
+    $app->render('view/random-loot/cameos.php', $pageData);
+  })->name('cosplay');
 });
