@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.4.0 - 2016 June 02
+### Enhancements
+* Updated fourth series page to include episodes
+
 ## 2.3.0 - 2016 May 26
 ### Enhancements
 * Added images to the Tokyo International Anime Fair page

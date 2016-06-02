@@ -1261,6 +1261,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
   $app->group('/tv-series', function () use ($app, $pageUtil) {
     $app->get('/fourth/', function () use ($app, $pageUtil) {
       $includeCss = array ();
+      $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
       $includeJs = array ();
