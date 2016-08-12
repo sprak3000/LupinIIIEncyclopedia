@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.4.1 - 2016 August 12
+### Bug Fixes
+* Issue #38: Fixed "Woman Called Mine Fujiko TV Series" page
+
 ## 2.4.0 - 2016 June 02
 ### Enhancements
 * Updated fourth series page to include episodes
