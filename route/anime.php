@@ -1441,6 +1441,8 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
       $pageData['annData'] = $pageUtil->GetAnimeData(14135);
 
+      $pageData['episodes'] = json_decode(file_get_contents(__DIR__ . "/../public/dist/asset/data/woman-called-mine-fujiko-episodes.json"), true);
+
       $app->render('view/anime/tv-series/woman-called-mine-fujiko.php', $pageData);
     })->name('woman-called-mine-fujiko');
   });
