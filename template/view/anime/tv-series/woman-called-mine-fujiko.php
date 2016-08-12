@@ -38,13 +38,13 @@
           </div>
 
           <div id="episodes" class="tab-pane fade in">
-            <ul class="timeline-v1">
+            <ul class="timeline-v1 tabs">
 <?php
 foreach($episodes as $index => $episode) {
-  $listClass = (0 === $index % 2) ? '' : ' class="timeline-inverted"';
+  $isInverted = (0 !== $index % 2);
 ?>
-              <li<?php echo $listClass; ?>>
-                <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+              <li<?php if($isInverted) { ?> class="timeline-inverted"<?php } ?>>
+                <div class="timeline-badge primary"><i class="glyphicon glyphicon-record<?php if(!$isInverted) { ?> invert<?php } ?>"></i></div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
                     <img class="img-responsive" src="<?php echo $episode['image']; ?>" alt="<?php echo $episode['title']['English']; ?>">
