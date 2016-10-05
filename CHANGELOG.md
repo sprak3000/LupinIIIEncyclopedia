@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.4.2 - 2016 October 05
+### Bug Fixes
+* Addressing "email leak" on Kent State ML page found by security scan
+
 ## 2.4.1 - 2016 August 12
 ### Bug Fixes
 * Issue #38: Fixed "Woman Called Mine Fujiko TV Series" page
