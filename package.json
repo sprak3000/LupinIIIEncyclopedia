@@ -7,7 +7,7 @@
 
   "homepage": "http://www.lupinencyclopedia.com/",
 
-  "version": "0.5.0",
+  "version": "2.4.2",
 
   "devDependencies": {
     "grunt": "~0.4.1",

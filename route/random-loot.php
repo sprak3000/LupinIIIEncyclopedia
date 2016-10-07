@@ -63,7 +63,7 @@ $app->group('/random-loot', function () use ($app) {
       $includeJs[] = '/dist/js/MailingList.js';
 
       $pageData = [];
-      $pageData['pageTitle'] = 'Lupin Mailing List (lupin@mcs.kent.edu) Archive';
+      $pageData['pageTitle'] = 'Lupin Mailing List (lupin AT mcs DOT kent DOT edu) Archive';
       $pageData['pageDescription'] = 'This is an incomplete archive of the Lupin III mailing list that ran from roughly from 1998 to 2002.';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
