@@ -46,21 +46,21 @@ $app->group('/anime', function () use ($app, $pageUtil) {
    */
   $app->group('/theatrical-films', function () use ($app, $pageUtil) {
     $app->get('/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Theatrical Films';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -69,21 +69,47 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $app->render('view/anime/theatrical-films.php', $pageData);
     })->name('theatrical-films');
 
+    $app->get('/goemon-spray-blood/', function () use ($app, $pageUtil) {
+      $includeCss = [];
+
+      $includeJs = [];
+
+      $inlineJs = [];
+
+      $pageData = [];
+      $pageData['pageTitle'] = 'Goemon Ishikawa\'s Spray of Blood';
+      $pageData['pageDescription'] = '';
+      $pageData['includeCss'] = $includeCss;
+      $pageData['includeJs'] = $includeJs;
+      $pageData['inlineJs'] = $inlineJs;
+
+      $nav = [];
+      $nav['Anime'] = '';
+      $nav['Theatrical Films'] = '/anime/theatrical-films';
+      $pageData['nav'] = $nav;
+      $pageData['animeNav'] = true;
+      $pageData['filmNav'] = true;
+
+      $pageData['annData'] = $pageUtil->GetAnimeData(18730);
+
+      $app->render('view/anime/theatrical-films/goemon-spray-blood.php', $pageData);
+    })->name('goemon-spray-blood');
+
     $app->get('/jigen-daisuke-gravestone/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Jigen Daisuke\'s Gravestone';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
@@ -96,20 +122,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('jigen-daisuke-gravestone');
 
     $app->get('/strange-psychokinetic-strategy/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Strange Psychokinetic Strategy';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
@@ -122,24 +148,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('strange-psychokinetic-strategy');
 
     $app->get('/castle-of-cagliostro/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Castle of Cagliostro';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
@@ -152,24 +178,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('castle-of-cagliostro');
 
     $app->get('/dead-or-alive/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Dead or Alive';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
@@ -182,24 +208,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('dead-or-alive');
 
     $app->get('/farewell-to-nostradamus/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Farewell to Nostradamus';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
@@ -212,24 +238,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('farewell-to-nostradamus');
 
     $app->get('/legend-of-the-gold-of-babylon/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Legend of the Gold of Babylon';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
@@ -243,24 +269,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('legend-of-the-gold-of-babylon');
 
     $app->get('/lupin-the-third-2014/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Lupin the Third (2014)';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
@@ -273,24 +299,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('lupin-the-third-2014');
 
     $app->get('/lupin-vs-detective-conan/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Lupin the Third vs. Detective Conan: The Movie';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
@@ -303,24 +329,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('lupin-vs-detective-conan');
 
     $app->get('/secret-of-mamo/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Secret of Mamo';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Theatrical Films'] = '/anime/theatrical-films';
       $pageData['nav'] = $nav;
@@ -339,14 +365,14 @@ $app->group('/anime', function () use ($app, $pageUtil) {
    */
   $app->group('/original-video-animation', function () use ($app, $pageUtil) {
     $app->get('/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Original Video Animation (OVA)';
 
       $pageData['pageDescription'] = '';
@@ -354,7 +380,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -364,20 +390,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('original-video-animation');
 
     $app->get('/trailers-collection/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Trailers Collection \'71 - \'95';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
@@ -388,20 +414,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('trailers-collection');
 
     $app->get('/secret-files-2/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'The Secret Files 2 ~Sound Collection~';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
@@ -412,20 +438,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('secret-files-2');
 
     $app->get('/secret-files/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'The Secret Files';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
@@ -438,24 +464,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('secret-files');
 
     $app->get('/return-of-the-magician/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Return of the Magician';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
@@ -469,24 +495,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('return-of-the-magician');
 
     $app->get('/plot-of-the-fuma-clan/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Plot of the Fuma Clan';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
@@ -500,24 +526,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('plot-of-the-fuma-clan');
 
     $app->get('/green-vs-red/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Green VS Red';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['OVA'] = '/anime/ova';
       $pageData['nav'] = $nav;
@@ -536,21 +562,21 @@ $app->group('/anime', function () use ($app, $pageUtil) {
    */
   $app->group('/tv-specials', function () use ($app, $pageUtil) {
     $app->get('/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'TV Specials';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -560,20 +586,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('tv-specials');
 
     $app->get('/bye-bye-liberty-crisis/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Bye Bye Liberty Crisis';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -586,20 +612,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('bye-bye-liberty-crisis');
 
     $app->get('/hemingway-papers/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Hemingway Papers';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -612,20 +638,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('hemingway-papers');
 
     $app->get('/napoleons-dictionary/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Napoleon\'s Dictionary';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -638,20 +664,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('napoleons-dictionary');
 
     $app->get('/from-russia-with-love/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'From Russia with Love';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -664,20 +690,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('from-russia-with-love');
 
     $app->get('/voyage-to-danger/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Voyage to Danger';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -690,24 +716,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('voyage-to-danger');
 
     $app->get('/dragon-of-doom/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Dragon of Doom';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -721,20 +747,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('dragon-of-doom');
 
     $app->get('/the-pursuit-of-harimaos-treasure/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'The Pursuit of Harimao\'s Treasure';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -747,20 +773,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('the-pursuit-of-harimaos-treasure');
 
     $app->get('/the-secret-of-twilight-gemini/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'The Secret of Twilight Gemini';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -773,20 +799,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('the-secret-of-twilight-gemini');
 
     $app->get('/island-of-assassins/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Island of Assassins';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -799,20 +825,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('island-of-assassins');
 
     $app->get('/crisis-in-tokyo/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Crisis in Tokyo';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -825,20 +851,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('crisis-in-tokyo');
 
     $app->get('/the-columbus-files/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'The Columbus Files';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -851,20 +877,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('the-columbus-files');
 
     $app->get('/missed-by-a-dollar/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Missed by a Dollar';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -877,24 +903,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('missed-by-a-dollar');
 
     $app->get('/alcatraz-connection/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Alcatraz Connection';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -908,24 +934,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('alcatraz-connection');
 
     $app->get('/episode-0-first-contact/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Episode:0 First Contact';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -939,20 +965,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('episode-0-first-contact');
 
     $app->get('/operation-return-the-treasure/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Operation: Return the Treasure!!';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -965,20 +991,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('operation-return-the-treasure');
 
     $app->get('/stolen-lupin/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Stolen Lupin';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -991,20 +1017,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('stolen-lupin');
 
     $app->get('/angels-tactics/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Angel\'s Tactics';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -1017,24 +1043,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('angels-tactics');
 
     $app->get('/seven-days-rhapsody/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Seven Days Rhapsody';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -1048,24 +1074,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('seven-days-rhapsody');
 
     $app->get('/elusiveness-of-the-fog/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Elusiveness of the Fog';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -1079,24 +1105,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('elusiveness-of-the-fog');
 
     $app->get('/sweet-lost-night/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Sweet Lost Night ~Magic Lamp\'s Nightmare Premonition';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -1110,24 +1136,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('sweet-lost-night');
 
     $app->get('/lupin-iii-vs-detective-conan/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Lupin III vs. Detective Conan';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -1141,24 +1167,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('lupin-iii-vs-detective-conan');
 
     $app->get('/the-last-job/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'The Last Job';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -1172,24 +1198,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('the-last-job');
 
     $app->get('/blood-seal-eternal-mermaid/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Blood Seal ~Eternal Mermaid~';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -1203,20 +1229,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('blood-seal-eternal-mermaid');
 
     $app->get('/record-of-observations-of-the-east/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Record of Observations of the East - Another Page';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -1229,20 +1255,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('record-of-observations-of-the-east');
 
     $app->get('/princess-of-the-breeze/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Princess of the Breeze - Hidden City in the Sky';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['TV Specials'] = '/anime/tv-specials';
       $pageData['nav'] = $nav;
@@ -1260,25 +1286,25 @@ $app->group('/anime', function () use ($app, $pageUtil) {
    */
   $app->group('/tv-series', function () use ($app, $pageUtil) {
     $app->get('/fourth/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Lupin III Fourth TV Series';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1291,26 +1317,26 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('fourth-tv-series');
 
     $app->get('/third/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); jQuery("#episode-timeline").timeline({startItem : "03/03/1984", closeText : "x"}); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Lupin III Third TV Series';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1322,26 +1348,26 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('third-tv-series');
 
     $app->get('/second/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); jQuery("#episode-timeline").timeline({startItem : "03/10/1977", closeText : "x"}); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Lupin III Second TV Series';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1353,24 +1379,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('second-tv-series');
 
     $app->get('/lupin-viii/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Lupin VIII TV Series';
       $pageData['pageDescription'] = 'Lupin VIII TV Series - an abandoned co-production between France and Japan';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1383,26 +1409,26 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('lupin-viii-tv-series');
 
     $app->get('/first/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); jQuery("#episode-timeline").timeline({startItem : "24/10/1971", closeText : "x"}); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Lupin III First TV Series';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1415,25 +1441,25 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('first-tv-series');
 
     $app->get('/woman-called-mine-fujiko/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Lupin the Third: The Woman Called Mine Fujiko';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1452,21 +1478,21 @@ $app->group('/anime', function () use ($app, $pageUtil) {
    */
   $app->group('/non-lupin', function () use ($app, $pageUtil) {
     $app->get('/', function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Non-Lupin Anime';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $pageData['nav'] = $nav;
       $pageData['animeNav'] = true;
@@ -1476,20 +1502,20 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('non-lupin');
 
     $app->get('/scoopers/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
 
-      $includeJs = array ();
+      $includeJs = [];
 
-      $inlineJs = array ();
+      $inlineJs = [];
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Scoopers';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
@@ -1502,24 +1528,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('scoopers');
 
     $app->get('/alice/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Alice';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
@@ -1533,24 +1559,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('alice');
 
     $app->get('/siamese-cat-first-mission/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Siamese Cat - First Mission';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
@@ -1564,26 +1590,26 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('siamese-cat-first-mission');
 
     $app->get('/cinderella-boy/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); jQuery("#episode-timeline").timeline({startItem : "24/06/2003", closeText : "x"}); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Cinderella Boy';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
@@ -1597,24 +1623,24 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('cinderella-boy');
 
     $app->get('/mankatsu/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Mankatsu';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
@@ -1628,26 +1654,26 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('mankatsu');
 
     $app->get('/gundoh-musashi/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); jQuery("#episode-timeline").timeline({startItem : "09/04/2006", closeText : "x"}); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Gundoh Musashi';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;
@@ -1661,26 +1687,26 @@ $app->group('/anime', function () use ($app, $pageUtil) {
     })->name('gundoh-musashi');
 
     $app->get('/bakumatsu-gijinden-roman/',function () use ($app, $pageUtil) {
-      $includeCss = array ();
+      $includeCss = [];
       $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
       $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
-      $includeJs = array ();
+      $includeJs = [];
       $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
       $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
       $includeJs[] = '/dist/js/timeline/assets/js/jquery.timeline.min.js';
 
-      $inlineJs = array ();
+      $inlineJs = [];
       $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); jQuery("#episode-timeline").timeline({startItem : "07/01/2013", closeText : "x"}); });';
 
-      $pageData = array ();
+      $pageData = [];
       $pageData['pageTitle'] = 'Bakumatsu Gijinden Roman';
       $pageData['pageDescription'] = '';
       $pageData['includeCss'] = $includeCss;
       $pageData['includeJs'] = $includeJs;
       $pageData['inlineJs'] = $inlineJs;
 
-      $nav = array ();
+      $nav = [];
       $nav['Anime'] = '';
       $nav['Non-Lupin'] = '/anime/non-lupin';
       $pageData['nav'] = $nav;

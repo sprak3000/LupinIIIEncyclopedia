@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.5.0 - 2016 October 24
+### Enhancements
+* Added details about upcoming Goemon film
+
 ## 2.4.2 - 2016 October 05
 ### Bug Fixes
 * Addressing "email leak" on Kent State ML page found by security scan
