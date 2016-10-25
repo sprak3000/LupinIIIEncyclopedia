@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.6.0 - 2016 October 24
+### Enhancements
+* Added details about upcoming Zenigata live-action TV series
+
 ## 2.5.0 - 2016 October 24
 ### Enhancements
 * Added details about upcoming Goemon film
