@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.6.1 - 2017 January 04
+### Bug Fixes
+* Fixing PHP warning on 404 page seen after upgrading to PHP7
 
 ## 2.6.0 - 2016 October 24
 ### Enhancements
