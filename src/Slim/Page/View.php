@@ -10,9 +10,10 @@ class View extends Slim\View
 {
   /**
    * @param string $pTemplate The template pathname, relative to the template base directory
+   * @param array $pData Any additional data to be passed to the template.
    * @return string
    */
-  public function render($pTemplate)
+  public function render($pTemplate, $pData = null)
   {
     $header = (false === stripos($pTemplate, 'view/rss')) ? $this->renderPageFragment('layout/header.php') : '';
 
