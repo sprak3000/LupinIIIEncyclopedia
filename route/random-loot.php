@@ -1,8 +1,12 @@
 <?php
+use sprak3000\lupinencyclopedia\Slim\Page;
+
+$pageUtil = new Page\Util();
+
 /**
  * Routes for /random-loot and below
  */
-$app->group('/random-loot', function () use ($app) {
+$app->group('/random-loot', function () use ($app, $pageUtil) {
   $app->get('/music', function() use ($app) {
     $includeCss = [];
 
@@ -107,7 +111,7 @@ $app->group('/random-loot', function () use ($app) {
     $app->render('view/random-loot/tokyo-international-anime-fair.php', $pageData);
   })->name('tokyo-international-anime-fair');
 
-  $app->get('/loose-change', function () use ($app) {
+  $app->get('/loose-change', function () use ($app, $pageUtil) {
     $includeCss = [];
     $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
 
@@ -130,6 +134,8 @@ $app->group('/random-loot', function () use ($app) {
     $pageData['nav'] = $nav;
     $pageData['lootNav'] = true;
     $pageData['looseChangeNav'] = true;
+
+    $pageData['images']['lupin-the-box-tv-movie'] = $pageUtil->GetImagesForGallery(__DIR__ . "/../public/dist/asset/img/lupin-the-box-tv-movie");
 
     $app->render('view/random-loot/loose-change.php', $pageData);
   })->name('loose-change');

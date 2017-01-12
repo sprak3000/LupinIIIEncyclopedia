@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.7.0 - 2017 January 11
+### Enhancements
+* Added "Lupin the Box" images to site.
+
 ## 2.6.1 - 2017 January 04
 ### Bug Fixes
 * Fixing PHP warning on 404 page seen after upgrading to PHP7
