@@ -53,6 +53,37 @@
           </div>
         </div>
       </div>
+
+      <div class="headline">
+          <h2>Lupin the Box: TV &amp; Movie</h2>
+      </div>
+      <p>
+          Enjoy these pictures of the gigantic 40th anniversary DVD box set from Japan that contained all the episodes
+          from the first three TV series, <em>Mamo</em>, <em>Cagliostro</em>, and <em>Babylon</em>.
+      </p>
+      <div class="tab-v1">
+<?php
+foreach($images['lupin-the-box-tv-movie'] as $row) {
+?>
+        <div class="row tab-content">
+<?php
+    foreach($row as $image) {
+?>
+          <div class="col-sm-3 sm-margin-bottom-30">
+            <a class="fancybox img-hover-v1" rel="lupin-the-box" href="<?php echo $image; ?>" title="">
+              <span>
+                <img class="img-responsive" alt="" src="<?php echo $image; ?>">
+              </span>
+            </a>
+          </div>
+<?php
+    }
+?>
+        </div>
+<?php
+}
+?>
+      </div>
     </div>
 
   </div>
