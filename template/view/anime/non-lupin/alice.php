@@ -44,22 +44,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Alice:</dt><dd>Katsuki Masako</dd>
-              <dt>Don Jirocho:</dt><dd>Yasuhara Yoshito</dd>
-              <dt>Sennin:</dt><dd>Sawaki Ikuya</dd>
-              <dt>Taisei:</dt><dd>Futamata Issei</dd>
-              <dt>Doctor:</dt><dd>Yanami Jouji</dd>
-              <dt>Siegel:</dt><dd>Ogata Kenichi</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-                <dt>Director:</dt><dd>Aoki Yuzo</dd>
-                <dt>Original creator:</dt><dd>Monkey Punch</dd>
-                <dt>Animation director:</dt><dd>Yanagino Tatsuo</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="media" class="tab-pane fade in">

@@ -1,4 +1,13 @@
 # CHANGELOG
+## 3.0.0 - 2017 October 06
+### Enhancements
+* Upgraded to the latest version of the AnimeNewsNetworkAPI library. This requires the site be installed on PHP7.
+* Updated anime pages to pull cast and staff data from the Anime News Network API.
+* Updating view system to allow for sub-templates.
+
+### Bug Fixes
+* Fixing menu issue where OVA page would also have the "Inspector Zenigata" menu item highlighted.
+
 ## 2.7.0 - 2017 January 11
 ### Enhancements
 * Added "Lupin the Box" images to site.

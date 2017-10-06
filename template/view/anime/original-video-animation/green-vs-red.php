@@ -10,6 +10,7 @@
           <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
           <li><a data-toggle="tab" href="#review">Review</a></li>
           <li><a data-toggle="tab" href="#cast">Cast</a></li>
+          <li><a data-toggle="tab" href="#staff">Staff</a></li>
           <li><a data-toggle="tab" href="#media">Media</a></li>
         </ul>
 
@@ -105,13 +106,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Kurita Kanichi</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Masuyama Eiko</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Inoue Makio</dd>
-              <dt>Inspector Zenigata:</dt><dd>Naya Goro</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
+          </div>
+
+          <div id="staff" class="tab-pane fade in">
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="media" class="tab-pane fade in">

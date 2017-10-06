@@ -9,6 +9,7 @@
         <ul class="nav nav-tabs">
           <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
           <li><a data-toggle="tab" href="#review">Review</a></li>
+          <li><a data-toggle="tab" href="#cast">Cast</a></li>
           <li><a data-toggle="tab" href="#staff">Staff</a></li>
           <li><a data-toggle="tab" href="#media">Media</a></li>
         </ul>
@@ -50,18 +51,13 @@
             </p>
           </div>
 
+          <div id="cast" class="tab-pane fade in">
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
+          </div>
+
+
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Director:</dt><dd>Watanabe Hideo, Hirabayashi Jun</dd>
-              <dt>Music:</dt><dd>Kosugi Yasuo</dd>
-              <dt>Character Design:</dt><dd>Monkey Punch</dd>
-              <dt>Art director:</dt><dd>Matsudaira Satoshi</dd>
-              <dt>Director of Photography:</dt><dd>Sugaya Nobuyuki</dd>
-              <dt>Original story:</dt><dd>Monkey Punch</dd>
-              <dt>Planning Producer:</dt><dd>Sugaya Nobuyuki</dd>
-              <dt>Sound director:</dt><dd>Ota Katsumi</dd>
-              <dt>Unit Director:</dt><dd>Asada Yuji</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="media" class="tab-pane fade in">

@@ -47,32 +47,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Yamada Yasuo</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Masuyama Eiko</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Inoue Makio</dd>
-              <dt>Inspector Zenigata:</dt><dd>Naya Goro</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Director:</dt><dd>Masaaki Ohsumi</dd>
-              <dt>Director:</dt><dd>Masaharu Okuwaki</dd>
-              <dt>Screenplay:</dt><dd>Hiroshi Kashiwabara</dd>
-              <dt>Animation:</dt><dd>H. Eguchi</dd>
-              <dt>Artistic Direction:</dt><dd>T. Ishigaki</dd>
-              <dt>Photography:</dt><dd>H. Katoh</dd>
-              <dt>Editing:</dt><dd>M. Tsurubuchi</dd>
-              <dt>Music:</dt><dd>Oono Yuuji</dd>
-              <dt>Music:</dt><dd>Seiji Suzuki</dd>
-              <dt>Producer:</dt><dd>T. Matsumoto</dd>
-              <dt>Producer:</dt><dd>M. Iwata</dd>
-              <dt>Producer:</dt><dd>K. Ito</dd>
-              <dt>Executive Producer:</dt><dd>Hidehiko Takei</dd>
-              <dt>Production:</dt><dd>Tokyo Movie Shinsha (TMS)</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="soundtracks" class="tab-pane fade in">

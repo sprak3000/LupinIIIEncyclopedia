@@ -57,48 +57,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Kurita Kanichi</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Masuyama Eiko</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Inoue Makio</dd>
-              <dt>Inspector Zenigata:</dt><dd>Naya Goro</dd>
-              <dt>Edogawa Conan:</dt><dd>Takayama Minami</dd>
-              <dt>Kudoh Shinichi:</dt><dd>Yamaguchi Kappei</dd>
-              <dt>Suzuki Sonoko:</dt><dd>Matsui Naoko</dd>
-              <dt>Mouri Ran:</dt><dd>Yamazaki Wakana</dd>
-              <dt>Mouri Kogoro:</dt><dd>Kamiya Akira</dd>
-              <dt>Inspector Megure:</dt><dd>Chafurin</dd>
-              <dt>Officer Takagi:</dt><dd>Takagi Wataru</dd>
-              <dt>Keith Dan Stinger:</dt><dd>Midorikawa Hikaru</dd>
-              <dt>Sakura Aldia Vesparand:</dt><dd>Suzuki Hiroko</dd>
-              <dt>Gill Cowl Vesparand:</dt><dd>Fukuyama Jun</dd>
-              <dt>Kyle:</dt><dd>Kusunoki Taiten</dd>
-              <dt>Mira Julietta Vesparand:</dt><dd>Horie Yui</dd>
-              <dt>Gerald Muska Vesparand:</dt><dd>Yara Yuusaku</dd>
-              <dt>Clerk:</dt><dd>Honda Chieko</dd>
-              <dt>SP:</dt><dd>Yanagisawa Eiji</dd>
-              <dt>SP:</dt><dd>Ebihara Hideto</dd>
-              <dt>News Announcer:</dt><dd>Kishi Mari</dd>
-              <dt>Announcer:</dt><dd>Ohta Shinichirou</dd>
-              <dt>Somurie:</dt><dd>Tsuji Shinpachi</dd>
-              <dt>Maid:</dt><dd>Arai Shizuka</dd>
-              <dt>SP:</dt><dd>Kawamura Takuo</dd>
-              <dt>Fake Somurie:</dt><dd>Furusawa Tohru</dd>
-              <dt>SP:</dt><dd>Kawazu Yuhiko</dd>
-              <dt>Maid:</dt><dd>Honma Yukari</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Director:</dt><dd>Kamegaki Hajime</dd>
-              <dt>Producer:</dt><dd>Suwa Michihiko, Kojima Tetsu, Nakatani Toshio</dd>
-              <dt>Screenplay:</dt><dd>Maekawa Jun</dd>
-              <dt>Art Director:</dt><dd>Takasuka Shinji</dd>
-              <dt>Director of Photography:</dt><dd>Noguchi Tatsuo</dd>
-              <dt>Editor:</dt><dd>Okada Terumitsu</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="media" class="tab-pane fade in">

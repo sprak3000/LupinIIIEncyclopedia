@@ -41,35 +41,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Kurita Kanichi</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Masuyama Eiko</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Inoue Makio</dd>
-              <dt>Inspector Zenigata:</dt><dd>Naya Goro</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Director:</dt><dd>Masato Sato</dd>
-              <dt>Chief Director:</dt><dd>Osamu Dezaki</dd>
-              <dt>Music:</dt><dd>Oono Yuuji</dd>
-              <dt>Script Supervisor:</dt><dd>Junichi Jioka</dd>
-              <dt>Script:</dt><dd>Hiroshi Kashiwabara</dd>
-              <dt>Script:</dt><dd>Shinzo Fujita</dd>
-              <dt>Script:</dt><dd>Shoji Yonemura</dd>
-              <dt>Sound Effects:</dt><dd>Yukiyoshi Itokawa</dd>
-              <dt>Director of Photography:</dt><dd>Hajime Hasegawa</dd>
-              <dt>Animation Director:</dt><dd>Masatomo Sudo</dd>
-              <dt>Art Director:</dt><dd>Yukihiro Shibuya</dd>
-              <dt>Editor:</dt><dd>Masatoshi Tsurubuchi</dd>
-              <dt>Executive Producer:</dt><dd>Yoshihiro Yamane</dd>
-              <dt>Executive Producer:</dt><dd>Hidehiko Takei</dd>
-              <dt>Producer:</dt><dd>Toshio Nakani</dd>
-              <dt>Producer:</dt><dd>Yasumichi Osaki</dd>
-              <dt>Production:</dt><dd>Kyokuichi Tokyo Movie Shinsha</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="soundtracks" class="tab-pane fade in">

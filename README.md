@@ -4,6 +4,10 @@ This is the source code for the Lupin III Encyclopedia web site [www.lupinencycl
 You can fork it, install it on your own server, and have a nearly complete (see notes below) version of the site to alter
 as you see fit. Do be kind and at least acknowledge this original source, if you do host your own version.
 
+## What is Required
+
+You must install the site on server using PHP 7.
+
 ## What You Do NOT Get
 
 While most of the site is built on open source software, there are two main components that are paid pieces of software.

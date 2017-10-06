@@ -64,54 +64,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <div class="row">
-              <div class="col-md-6">
-                <dl class="dl-horizontal">
-                  <dt>Ars&egrave;ne Lupin III:</dt><dd>Furukawa Toshio</dd>
-                  <dt>Jigen Daisuke:</dt><dd>Ginga Banjo</dd>
-                  <dt>Mine Fujiko:</dt><dd>Koyama Mami</dd>
-                  <dt>Ishikawa Goemon:</dt><dd>Shiozawa Kaneto</dd>
-                  <dt>Inspector Zenigata:</dt><dd>Katoo Shoozoo</dd>
-                  <dt>Murasaki:</dt><dd>Sho Mayumi</dd>
-                  <dt>Old Man Suminawa:</dt><dd>Miyauchi Kohei</dd>
-                  <dt>Boss:</dt><dd>Hirose Masashi</dd>
-                  <dt>Kazami:</dt><dd>Chiba Shigeru</dd>
-                  <dt>Gakusha:</dt><dd>Nakahara Shigeru</dd>
-                  <dt>Squad Leader:</dt><dd>Shimaka Yutaka</dd>
-                </dl>
-              </div>
-              <div class="col-md-6">
-                <dl class="dl-horizontal">
-                  <dt>Police Officer A:</dt><dd>Koide Kazuaki</dd>
-                  <dt>Police Officer B:</dt><dd>Yamadera Koichi</dd>
-                  <dt>Police Officer C:</dt><dd>Nishimura Tomohiro</dd>
-                  <dt>Fuma A:</dt><dd>Meguro Yuichi</dd>
-                  <dt>Fuma B:</dt><dd>Hashimoto Koichi</dd>
-                  <dt>Fuma C:</dt><dd>Sakurai Toshiharu</dd>
-                  <dt>Fuma D:</dt><dd>Bando Koichiro</dd>
-                  <dt>Madame:</dt><dd>Emori Hiroko</dd>
-                  <dt>Boy:</dt><dd>Kogai Yoko</dd>
-                  <dt>Girl:</dt><dd>Kamiyo Chie</dd>
-                  <dt>Woman:</dt><dd>Yazaki Eri</dd>
-                </dl>
-              </div>
-            </div>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Director:</dt><dd>Oozeki Masayuki</dd>
-              <dt>Assistant</dt><dd>Director: Namba Keiko</dd>
-              <dt>Producer:</dt><dd>Takeuchi Kooji</dd>
-              <dt>Screenplay:</dt><dd>Naitoo Makoto</dd>
-              <dt>Supervisor:</dt><dd>Ootsuka Yasuo</dd>
-              <dt>Animation Director:</dt><dd>Tomonaga Kazuhide</dd>
-              <dt>Art Director:</dt><dd>Kobayashi Shinchiroo</dd>
-              <dt>Director of Photography:</dt><dd>Saitoo Akio</dd>
-              <dt>Recording Director:</dt><dd>Uragami Shizuo</dd>
-              <dt>Editor:</dt><dd>Seyama Takeshi</dd>
-              <dt>Music:</dt><dd>Miyaura Kiyoshi</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="media" class="tab-pane fade in">

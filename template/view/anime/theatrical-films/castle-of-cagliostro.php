@@ -57,28 +57,13 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Yamada Yasuo</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Masuyama Eiko</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Inoue Makio</dd>
-              <dt>Inspector Zenigata:</dt><dd>Naya Goro</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Director:</dt><dd>Miyazaki Hayao
-              <dt>General Supervisor<br />for Designs:</dt><dd><br />Yasuo Otsuka</dd>
-              <dt>Design Chief:</dt><dd>Yasuo Otsuka</dd>
-              <dt>Character Design:</dt><dd>Miyazaki Hayao</dd>
-              <dt>Character Design:</dt><dd>Yasuo Otsuka</dd>
-              <dt>Screenplay:</dt><dd>Miyazaki Hayao</dd>
-              <dt>Screenplay:</dt><dd>Yasuo Otsuka</dd>
-              <dt>Music:</dt><dd>Oono Yuuji</dd>
-              <dt>Production:</dt><dd>Studio Telecom</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
+
         </div>
 
       </div>

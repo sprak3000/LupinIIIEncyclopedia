@@ -26,6 +26,7 @@ $app->get('/live-action/zenigata-keibu', function () use ($app, $pageUtil) {
 
   $pageData['homeNav'] = true;
   $pageData['animeNav'] = true;
+  $pageData['zenigataNav'] = true;
 
   $pageData['images'] = $pageUtil->GetImagesForGallery(__DIR__ . "/../public/dist/asset/img/live-action/zenigata-keibu/media");
 

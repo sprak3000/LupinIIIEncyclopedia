@@ -680,24 +680,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Yamada Yasuo</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Nikaido Yuukiko</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Otsuka Chikao</dd>
-              <dt>Inspector Zenigata:</dt><dd>Naya Goro</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Animation Director:</dt><dd>Ootsuka Yasuo</dd>
-              <dt>Art Director:</dt><dd>Chiba Hideo (Eps. 1 - 6), Itoo Norio (Eps. 7 - 23)</dd>
-              <dt>Music:</dt><dd>Yamashita Takeo</dd>
-              <dt>Songs Performed by:</dt><dd>Charlie Koosei</dd>
-              <dt>Animation Production<br />Assistance:</dt><dd><br />A Productions</dd>
-              <dt>Producer:</dt><dd>Fujioka Yutaka</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="media" class="tab-pane fade in">

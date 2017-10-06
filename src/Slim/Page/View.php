@@ -1,4 +1,5 @@
 <?php
+
 namespace sprak3000\lupinencyclopedia\Slim\Page;
 
 /**
@@ -8,44 +9,44 @@ use Slim;
 
 class View extends Slim\View
 {
-  /**
-   * @param string $pTemplate The template pathname, relative to the template base directory
-   * @param array $pData Any additional data to be passed to the template.
-   * @return string
-   */
-  public function render($pTemplate, $pData = null)
-  {
-    $header = (false === stripos($pTemplate, 'view/rss')) ? $this->renderPageFragment('layout/header.php') : '';
+    /**
+     * @param string $pTemplate The template pathname, relative to the template base directory
+     * @return string
+     */
+    public function render($pTemplate)
+    {
+        // Capture the initial status in case the template being rendered calls render for a sub-template
+        $isPartial = isset($this->data['partial']);
 
-    $content = $this->renderPageFragment($pTemplate);
+        $header = (false === stripos($pTemplate, 'view/rss') && !$isPartial) ? $this->renderPageFragment('layout/header.php') : '';
 
-    $footer = (false === stripos($pTemplate, 'view/rss')) ? $this->renderPageFragment('layout/footer.php') : '';
+        $content = $this->renderPageFragment($pTemplate);
 
-    return $header . $content . $footer;
-  }
+        $footer = (false === stripos($pTemplate, 'view/rss') && !$isPartial) ? $this->renderPageFragment('layout/footer.php') : '';
 
-  /**
-   * Render the page fragment given by template file
-   *
-   * NOTE: This method should be overridden by custom view subclasses
-   *
-   * @param  string $pTemplate     The template pathname, relative to the template base directory
-   * @param  array  $pData         Any additional data to be passed to the template.
-   * @return string               The rendered template
-   * @throws \RuntimeException    If resolved template pathname is not a valid file
-   */
-  protected function renderPageFragment($pTemplate, $pData = null)
-  {
-    $templatePathname = $this->getTemplatePathname($pTemplate);
-    if (!is_file($templatePathname)) {
-      throw new \RuntimeException("View cannot render `$pTemplate` (`$templatePathname`) because the template does not exist");
+        return $header . $content . $footer;
     }
 
-    $data = array_merge($this->data->all(), (array) $pData);
-    extract($data);
-    ob_start();
-    require $templatePathname;
+    /**
+     * Render the page fragment given by template file
+     *
+     * NOTE: This method should be overridden by custom view subclasses
+     *
+     * @param  string $pTemplate The template pathname, relative to the template base directory
+     * @return string               The rendered template
+     * @throws \RuntimeException    If resolved template pathname is not a valid file
+     */
+    protected function renderPageFragment($pTemplate)
+    {
+        $templatePathname = $this->getTemplatePathname($pTemplate);
+        if (!is_file($templatePathname)) {
+            throw new \RuntimeException("View cannot render `$pTemplate` (`$templatePathname`) because the template does not exist");
+        }
 
-    return ob_get_clean();
-  }
+        extract($this->data->all());
+        ob_start();
+        require $templatePathname;
+
+        return ob_get_clean();
+    }
 }

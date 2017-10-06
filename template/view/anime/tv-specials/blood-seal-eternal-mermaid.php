@@ -57,21 +57,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Kurita Kanichi</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Sawashiro Miyuki</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Namikawa Daisuke</dd>
-              <dt>Inspector Zenigata:</dt><dd>Yamadera Koichi</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Screenplay:</dt><dd>Lee Kei Tsuchiya</dd>
-              <dt>Storyboard:</dt><dd>Yoshiharu Sato</dd>
-              <dt>Character Design:</dt><dd>Hirayama Satoshi</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="media" class="tab-pane fade in">
