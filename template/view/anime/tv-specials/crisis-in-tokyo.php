@@ -45,37 +45,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Kurita Kanichi</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Masuyama Eiko</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Inoue Makio</dd>
-              <dt>Inspector Zenigata:</dt><dd>Naya Goro</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Director:</dt><dd>Toshiya Shinohara</dd>
-              <dt>Scenario:</dt><dd>Fujita</dd>
-              <dt>Music:</dt><dd>Oono Yuuji</dd>
-              <dt>Music Director:</dt><dd>Seiji Suzuki</dd>
-              <dt>Recording Director:</dt><dd>Hitoshi Kato</dd>
-              <dt>Sketch Director:</dt><dd>Satoshi Hirayama</dd>
-              <dt>Sketch Director:</dt><dd>Yoshihauri Shimizu</dd>
-              <dt>Sketch Director:</dt><dd>Takashi Sano</dd>
-              <dt>Art Director:</dt><dd>Takashi Miyano</dd>
-              <dt>Film Director:</dt><dd>Hajime Hasegawa</dd>
-              <dt>Editing:</dt><dd>Hitsuhisa Tsufuchi</dd>
-              <dt>Assistant Producer:</dt><dd>Hiromichi Oishi</dd>
-              <dt>Character Design:</dt><dd>Satoshi Hirayama</dd>
-              <dt>Mechanical Design:</dt><dd>Yoshihauri Shimizu</dd>
-              <dt>Executive Producer:</dt><dd>Toshio Nakatani</dd>
-              <dt>Executive Producer:</dt><dd>Hiroshi Yamashia</dd>
-              <dt>Executive Producer:</dt><dd>Ozaki</dd>
-              <dt>Plan:</dt><dd>NTV, Lupin 3 Producing Comittee</dd>
-              <dt>Production:</dt><dd>Kyokuichi Tokyo Movie Shinsha</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="soundtracks" class="tab-pane fade in">

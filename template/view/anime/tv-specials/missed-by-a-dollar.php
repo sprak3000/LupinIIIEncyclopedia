@@ -88,27 +88,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Kurita Kanichi</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Masuyama Eiko</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Inoue Makio</dd>
-              <dt>Inspector Zenigata:</dt><dd>Naya Goro</dd>
-              <dt>Cynthia:</dt><dd>Koyama Matsumi</dd>
-              <dt>Sandie:</dt><dd>Matsumoto Rika</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Director:</dt><dd>Hideki Tonokatsu</dd>
-              <dt>Screenplay:</dt><dd>Hiroshi Sakakibara</dd>
-              <dt>Main Theme Music:</dt><dd>Oono Yuuji</dd>
-              <dt>Music:</dt><dd>Takayuki Negishi</dd>
-              <dt>Plan:</dt><dd>NTV, Lupin 3 Producing Comittee</dd>
-              <dt>Distribution:</dt><dd>Toho Video</dd>
-              <dt>Production:</dt><dd>Tokyo Movie Shinsha (TMS)</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="soundtracks" class="tab-pane fade in">

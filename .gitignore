@@ -13,5 +13,6 @@ public/blog
 public/cgi-bin
 gallery2data
 public/avrc
+public/shaarli
 application/config.json
 public/dist/unify*

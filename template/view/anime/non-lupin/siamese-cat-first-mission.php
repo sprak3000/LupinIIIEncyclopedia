@@ -8,6 +8,8 @@
 
         <ul class="nav nav-tabs">
           <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+          <li><a data-toggle="tab" href="#cast">Cast</a></li>
+          <li><a data-toggle="tab" href="#staff">Staff</a></li>
           <li><a data-toggle="tab" href="#media">Media</a></li>
         </ul>
 
@@ -33,6 +35,15 @@
               </div>
             </div>
           </div>
+
+          <div id="cast" class="tab-pane fade in">
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
+          </div>
+
+          <div id="staff" class="tab-pane fade in">
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
+          </div>
+
 
           <div id="media" class="tab-pane fade in">
 <?php

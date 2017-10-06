@@ -54,27 +54,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Kurita Kanichi</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Masuyama Eiko</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Inoue Makio</dd>
-              <dt>Inspector Zenigata:</dt><dd>Naya Goro</dd>
-              <dt>Kagurazaka Asuka:</dt><dd>Hirano Aya</dd>
-              <dt>Morgana:</dt><dd>Tsukayama Masane</dd>
-              <dt>Maya:</dt><dd>Park Romi</dd>
-              <dt>Andre:</dt><dd>Genda Tessh&ocirc;</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Director:</dt><dd>Amino Tetsuro</dd>
-              <dt>Screenplay:</dt><dd>Okawa Toshimichi</dd>
-              <dt>Storyboard:</dt><dd>Amino Tetsuro</dd>
-              <dt>Character Design:</dt><dd>Hirayama Satoshi</dd>
-              <dt>Chief Animation Director:</dt><dd>Hirayama Satoshi</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="media" class="tab-pane fade in">

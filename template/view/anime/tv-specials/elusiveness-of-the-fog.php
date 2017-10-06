@@ -103,37 +103,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Ars&egrave;ne Lupin III:</dt><dd>Kurita Kanichi</dd>
-              <dt>Jigen Daisuke:</dt><dd>Kobayashi Kiyoshi</dd>
-              <dt>Mine Fujiko:</dt><dd>Masuyama Eiko</dd>
-              <dt>Ishikawa Goemon:</dt><dd>Inoue Makio</dd>
-              <dt>Inspector Zenigata:</dt><dd>Naya Goro</dd>
-              <dt>Iseka:</dt><dd>Kuwashima Hoko</dd>
-              <dt>Hasama:</dt><dd>Seka Takamaru</dd>
-              <dt>Obitaki:</dt><dd>Watabe Takeshi</dd>
-              <dt>Eshika:</dt><dd>Ishida Akira</dd>
-              <dt>Takaya:</dt><dd>Okubo Shotaro</dd>
-              <dt>Takaya's Father:</dt><dd>Kusunoki Taiten</dd>
-              <dt>Woman Resembling<br />Fujiko:</dt><dd><br />Nishio Yukari (television announcer)</dd>
-              <dt>Ofumi:</dt><dd>Sekine Mari</dd>
-              <dt>Mamo Kyosuke:</dt><dd>Nakamura Shido</dd>
-            </dl>
+              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-            <dl class="dl-horizontal">
-              <dt>Director:</dt><dd>Masuda Toshihiko</dd>
-              <dt>Executive Producer:</dt><dd>Taniguchi Makoto</dd>
-              <dt>Producer:</dt><dd>Ikezoe Takahiro</dd>
-              <dt>Script:</dt><dd>Fukushima Yukinori, Yamada Yuka</dd>
-              <dt>Planning:</dt><dd>Fujimoto Suzuko</dd>
-              <dt>Storyboards/Animation Director:</dt><dd>Hirayama Satoshi</dd>
-              <dt>Animation:</dt><dd>Ogawa Ichiro, Hatsusaki Kenji, Furuse Noboru, Imaki Hiroaki</dd>
-              <dt>Art Director:</dt><dd>Sugawara Seiji</dd>
-              <dt>Director of Photography:</dt><dd>Miyagawa Junko</dd>
-              <dt>Editor:</dt><dd>Kasahara Yoshihiro</dd>
-            </dl>
+              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="media" class="tab-pane fade in">

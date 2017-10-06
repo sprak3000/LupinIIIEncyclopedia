@@ -123,7 +123,7 @@ if(!isset($is404)) {
                       <li class="<?php if(isset($filmNav)) { echo ' active'; } ?>"><a href="/anime/theatrical-films">Theatrical Films</a></li>
                       <li class="<?php if(isset($specialsNav)) { echo ' active'; } ?>"><a href="/anime/tv-specials">TV Specials</a></li>
                       <li class="<?php if(isset($ovaNav)) { echo ' active'; } ?>"><a href="/anime/original-video-animation">OVA</a></li>
-                      <li class="<?php if(isset($ovaNav)) { echo ' active'; } ?>"><a href="/live-action/zenigata-keibu">Zenigata Keibu</a></li>
+                      <li class="<?php if(isset($zenigataNav)) { echo ' active'; } ?>"><a href="/live-action/zenigata-keibu">Zenigata Keibu</a></li>
                       <li class="<?php if(isset($nonNav)) { echo ' active'; } ?>"><a href="/anime/non-lupin">Non-Lupin</a></li>
                     </ul>
                   </li>
