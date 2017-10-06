@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.1.0 - 2017 October 06
+## Enhancements
+* Use a sub-template for displaying the media on anime pages.
+
 ## 3.0.0 - 2017 October 06
 ### Enhancements
 * Upgraded to the latest version of the AnimeNewsNetworkAPI library. This requires the site be installed on PHP7.
