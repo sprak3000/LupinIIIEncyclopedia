@@ -18,4 +18,3 @@ foreach($images as $row) {
     </div>
 <?php
 }
-?>
