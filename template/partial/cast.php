@@ -4,9 +4,6 @@ if (isset($annData) && !empty($annData['anime']['cast'])) {
 <dl class="dl-horizontal">
 <?php
     foreach ($annData['anime']['cast'] as $index => $cast) {
-        if (!is_numeric($index)) {
-            continue;
-        }
         if ('JA' === $cast['@attributes']['lang']) {
 ?>
     <dt><?php echo $cast['role'];?>:</dt>

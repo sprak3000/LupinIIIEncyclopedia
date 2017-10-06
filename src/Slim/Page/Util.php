@@ -57,7 +57,7 @@ class Util
     {
         $client = new AnimeNewsNetworkDataApi\Client();
         try {
-            $data = $client->getAnime(['anime' => $pAnimeNewsNetworkId]);
+            $data = $client->getAnime(['anime' => $pAnimeNewsNetworkId])->toArray();
         } catch (Exception $e) {
             $data = [];
         }
