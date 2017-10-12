@@ -1,16 +1,20 @@
 <?php
-if (isset($annData) && !empty($annData['anime']['staff'])) {
+if (isset($annData) && !empty($annData['calculated']['staff'])) {
 ?>
-<dl class="dl-horizontal">
+<div class="staff-grid margin-bottom-20">
 <?php
-    foreach ($annData['anime']['staff'] as $index => $staff) {
+    foreach ($annData['calculated']['staff'] as $index => $staff) {
 ?>
-    <dt><?php echo $staff['task'];?>:</dt>
-            <dd><a target="_blank" rel="noreferrer noopener" href="http://www.animenewsnetwork.com/encyclopedia/people.php?id=<?php echo $staff['person']['@attributes']['id']; ?>"><?php echo $staff['person']['value'];?></a></dd>
+    <div class="title"><?php echo $index;?>:</div>
 <?php
+        foreach ($staff as $person) {
+?>
+    <div class="person"><a target="_blank" rel="noreferrer noopener" href="http://www.animenewsnetwork.com/encyclopedia/people.php?id=<?php echo $person['@attributes']['id']; ?>"><?php echo $person['value'];?></a></div>
+<?php
+        }
     }
 ?>
-</dl>
+</div>
 <?php
 }
 ?>

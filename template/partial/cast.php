@@ -1,18 +1,21 @@
 <?php
 if (isset($annData) && !empty($annData['anime']['cast'])) {
 ?>
-<dl class="dl-horizontal">
+<div class="cast-grid margin-bottom-20">
 <?php
     foreach ($annData['anime']['cast'] as $index => $cast) {
+        if (!is_numeric($index)) {
+            continue;
+        }
         if ('JA' === $cast['@attributes']['lang']) {
 ?>
-    <dt><?php echo $cast['role'];?>:</dt>
-            <dd><a target="_blank" rel="noreferrer noopener" href="http://www.animenewsnetwork.com/encyclopedia/people.php?id=<?php echo $cast['person']['@attributes']['id']; ?>"><?php echo $cast['person']['value'];?></a></dd>
+    <div class="title"><?php echo $cast['role'];?>:</div>
+    <div class="person"><a target="_blank" rel="noreferrer noopener" href="http://www.animenewsnetwork.com/encyclopedia/people.php?id=<?php echo $cast['person']['@attributes']['id']; ?>"><?php echo $cast['person']['value'];?></a></div>
 <?php
         }
     }
 ?>
-</dl>
+</div>
 <?php
 }
 ?>
