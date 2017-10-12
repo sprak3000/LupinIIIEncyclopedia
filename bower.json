@@ -1,7 +1,7 @@
 {
   "name": "lupin-encyclopedia",
 
-  "version": "2.7.0",
+  "version": "3.2.0",
 
   "dependencies": {
     "jquery": "~1.9.*",

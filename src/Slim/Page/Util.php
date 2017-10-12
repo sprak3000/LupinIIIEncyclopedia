@@ -58,6 +58,20 @@ class Util
         $client = new AnimeNewsNetworkDataApi\Client();
         try {
             $data = $client->getAnime(['anime' => $pAnimeNewsNetworkId])->toArray();
+
+            // Transform the staff data into "task" buckets
+            $staff = [];
+            if (!empty($data['anime']['staff'])) {
+                foreach ($data['anime']['staff'] as $index => $item) {
+                    if (!is_numeric($index)) {
+                        continue;
+                    }
+
+                    $staff[$item['task']][] = $item['person'];
+                }
+
+                $data['calculated']['staff'] = $staff;
+            }
         } catch (Exception $e) {
             $data = [];
         }

@@ -1,12 +1,17 @@
 # CHANGELOG
+## 3.2.0 - 2017 October 12
+## Enhancements
+* Issue #47: Updating how the cast and staff data is rendered. Now uses CSS grid for layout. Updates `Util::GetAnimeData()`
+to convert the staff data to a structure suited for displaying one "role" (e.g., artist) with multiple people listed for it.
+
 ## 3.1.0 - 2017 October 06
 ## Enhancements
-* Use a sub-template for displaying the media on anime pages.
+* Issue #48: Use a sub-template for displaying the media on anime pages.
 
 ## 3.0.0 - 2017 October 06
 ### Enhancements
 * Upgraded to the latest version of the AnimeNewsNetworkAPI library. This requires the site be installed on PHP7.
-* Updated anime pages to pull cast and staff data from the Anime News Network API.
+* Issue #4: Updated anime pages to pull cast and staff data from the Anime News Network API.
 * Updating view system to allow for sub-templates.
 
 ### Bug Fixes
