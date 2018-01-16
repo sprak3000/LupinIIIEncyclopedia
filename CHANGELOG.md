@@ -1,11 +1,15 @@
 # CHANGELOG
+## 3.3.0 - 2018 January 16
+### Enhancements
+* Issue #51: Add skeleton page for the fifth TV series data. Will be filled in as more information becomes available.
+ 
 ## 3.2.0 - 2017 October 12
-## Enhancements
+### Enhancements
 * Issue #47: Updating how the cast and staff data is rendered. Now uses CSS grid for layout. Updates `Util::GetAnimeData()`
 to convert the staff data to a structure suited for displaying one "role" (e.g., artist) with multiple people listed for it.
 
 ## 3.1.0 - 2017 October 06
-## Enhancements
+### Enhancements
 * Issue #48: Use a sub-template for displaying the media on anime pages.
 
 ## 3.0.0 - 2017 October 06

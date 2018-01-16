@@ -1319,6 +1319,39 @@ $app->group('/anime', function () use ($app, $pageUtil) {
      * Routes for TV Series
      */
     $app->group('/tv-series', function () use ($app, $pageUtil) {
+        $app->get('/fifth/', function () use ($app, $pageUtil) {
+            $includeCss = [];
+            $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
+            $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
+
+            $includeJs = [];
+            $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
+            $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
+
+            $inlineJs = [];
+            $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
+
+            $pageData = [];
+            $pageData['pageTitle'] = 'Lupin III Fifth TV Series';
+            $pageData['pageDescription'] = '';
+            $pageData['includeCss'] = $includeCss;
+            $pageData['includeJs'] = $includeJs;
+            $pageData['inlineJs'] = $inlineJs;
+
+            $nav = [];
+            $nav['Anime'] = '';
+            $pageData['nav'] = $nav;
+            $pageData['animeNav'] = true;
+            $pageData['fifthTvNav'] = true;
+
+            $pageData['images'] = $pageUtil->GetImagesForGallery(__DIR__ . "/../public/dist/asset/img/anime/fifth-tv-series/media");
+            $pageData['app'] = $app->getInstance();
+            // TODO: Uncomment when ANN has an enecyclopedia entry
+            // $pageData['annData'] = $pageUtil->GetAnimeData(16347);
+
+            $app->render('view/anime/tv-series/fifth.php', $pageData);
+        })->name('fifth-tv-series');
+
         $app->get('/fourth/', function () use ($app, $pageUtil) {
             $includeCss = [];
             $includeCss[] = '/dist/unify-1.8/css/pages/shortcode_timeline1.css';
