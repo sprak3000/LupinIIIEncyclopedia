@@ -1346,8 +1346,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
 
             $pageData['images'] = $pageUtil->GetImagesForGallery(__DIR__ . "/../public/dist/asset/img/anime/fifth-tv-series/media");
             $pageData['app'] = $app->getInstance();
-            // TODO: Uncomment when ANN has an enecyclopedia entry
-            // $pageData['annData'] = $pageUtil->GetAnimeData(16347);
+            $pageData['annData'] = $pageUtil->GetAnimeData(20555);
 
             $app->render('view/anime/tv-series/fifth.php', $pageData);
         })->name('fifth-tv-series');
