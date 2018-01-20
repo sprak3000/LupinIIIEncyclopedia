@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.4.0 - 2018 January 19
+### Enhancements
+* Adding Anime News Network data and teaser video to fifth TV series.
+
 ## 3.3.0 - 2018 January 16
 ### Enhancements
 * Issue #51: Add skeleton page for the fifth TV series data. Will be filled in as more information becomes available.
