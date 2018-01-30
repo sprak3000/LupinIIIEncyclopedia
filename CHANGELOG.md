@@ -1,7 +1,7 @@
 # CHANGELOG
 ## 3.4.1 - 2018 January 30
 ### Bug Fixes
-* Fixing pages that were throwing HTTP 500 errors.
+* Issue #54: Fixing pages that were throwing HTTP 500 errors.
 
 ## 3.4.0 - 2018 January 19
 ### Enhancements
