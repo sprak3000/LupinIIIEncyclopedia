@@ -13,6 +13,8 @@ $app->group('/anime', function () use ($app, $pageUtil) {
      */
     $app->get('/pilot-film/', function () use ($app, $pageUtil) {
         $pageData = [
+            'app' => $app->getInstance(),
+
             'includeCss' => [
                 '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css'
             ],
@@ -1459,6 +1461,7 @@ $app->group('/anime', function () use ($app, $pageUtil) {
             $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
             $pageData = [];
+            $pageData['app'] = $app->getInstance();
             $pageData['pageTitle'] = 'Lupin VIII TV Series';
             $pageData['pageDescription'] = 'Lupin VIII TV Series - an abandoned co-production between France and Japan';
             $pageData['includeCss'] = $includeCss;
