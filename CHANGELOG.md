@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.4.1 - 2018 January 30
+### Bug Fixes
+* Issue #54: Fixing pages that were throwing HTTP 500 errors.
+
 ## 3.4.0 - 2018 January 19
 ### Enhancements
 * Adding Anime News Network data and teaser video to fifth TV series.
