@@ -18,6 +18,7 @@ $app->get('/live-action/zenigata-keibu', function () use ($app, $pageUtil) {
   $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
 
   $pageData = [];
+  $pageData['app'] = $app->getInstance();
   $pageData['pageTitle'] = 'Inspector Zenigata';
   $pageData['pageDescription'] = '';
   $pageData['includeCss'] = $includeCss;
