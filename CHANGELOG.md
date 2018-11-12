@@ -1,4 +1,8 @@
 # CHANGELOG
+## 3.4.3 - 2018 November 11
+### Bug Fixes
+* Issue #58: Fixing issue with Twitter timeline on homepage
+
 ## 3.4.2 - 2018 January 30
 ### Bug Fixes
 * Issue #56: Fixing another page throwing HTTP 500 error
