@@ -3,7 +3,7 @@
   <div class="profile-body row margin-bottom-20">
     <div class="col-sm-6 md-margin-bottom-20">
       <div class="panel panel-profile no-bg">
-        <a class="twitter-timeline" data-dnt="true" href="/sprak/timelines/573644495792766977" data-widget-id="585602612654911490">Lupin the Third</a>
+        <a class="twitter-timeline" data-dnt="true" href="https://www.twitter.com/sprak/timelines/573644495792766977" data-widget-id="585602612654911490">Lupin the Third</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
     </div>
