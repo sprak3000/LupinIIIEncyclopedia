@@ -1,4 +1,9 @@
 # CHANGELOG
+
+## 3.4.4 - 2019 January 07
+### Bug Fixes
+* Issue #61: Fixing PHP Warning in logs after upgrading to PHP 7.2
+
 ## 3.4.3 - 2018 November 11
 ### Bug Fixes
 * Issue #58: Fixing issue with Twitter timeline on homepage

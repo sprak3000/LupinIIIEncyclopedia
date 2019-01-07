@@ -11,9 +11,10 @@ class View extends Slim\View
 {
     /**
      * @param string $pTemplate The template pathname, relative to the template base directory
+     * @param mixed $pData
      * @return string
      */
-    public function render($pTemplate)
+    public function render($pTemplate, $pData = NULL)
     {
         // Capture the initial status in case the template being rendered calls render for a sub-template
         $isPartial = isset($this->data['partial']);
