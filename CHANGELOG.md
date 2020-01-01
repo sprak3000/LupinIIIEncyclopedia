@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.4.5 - 2020 January 01
+### Bug Fixes
+* Issue #63:  eBay results down and need to get onto https URL
+
 ## 3.4.4 - 2019 January 07
 ### Bug Fixes
 * Issue #61: Fixing PHP Warning in logs after upgrading to PHP 7.2
