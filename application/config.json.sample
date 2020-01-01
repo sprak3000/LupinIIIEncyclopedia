@@ -1,6 +1,6 @@
 {
   "ebay": {
-    "url": "http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsAdvanced&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=__APIKEY__&RESPONSE-DATA-FORMAT=JSON&REST-PAYLOAD=true&keywords=__KEYWORDS__&sortOrder=StartTimeNewest&itemFilter(0).name=ExcludeCategory&__EXCLUDECATEGORIES__",
+    "url": "https://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsAdvanced&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=__APIKEY__&RESPONSE-DATA-FORMAT=JSON&REST-PAYLOAD=true&keywords=__KEYWORDS__&sortOrder=StartTimeNewest&itemFilter(0).name=ExcludeCategory&__EXCLUDECATEGORIES__",
 
     "apiKey": "<developer key for accessing eBay API>",
 
@@ -15,7 +15,6 @@
 
     "categories": {
       "exclude": [
-        "208",
         "3632",
         "4233",
         "177661",
