@@ -52,7 +52,7 @@
             </div>
             <div class="timeline-footer">
               <ul class="list-unstyled list-inline blog-info">
-                <li><strong>Release Date:</strong> 202011 December 02</li>
+                <li><strong>Release Date:</strong> 2011 December 02</li>
               </ul>
             </div>
           </div>
