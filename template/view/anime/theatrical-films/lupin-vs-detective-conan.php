@@ -28,6 +28,18 @@
                   <dt>Release Date:</dt><dd>2013 December 07</dd>
                   <dt>Run Time:</dt><dd>108 minutes</dd>
                 </dl>
+                  <div class="headline">
+                      <h4>Synopsis</h4>
+                  </div>
+                  <p>
+                      Conan's attempt to stop Kid from stealing another jewel brought him face-to-face with Lupin and
+                      his gang. Meanwhile, Emilio Baretti, a famous Italian singer arrived in Japan with his entourage
+                      for a concert that is in danger of being cancelled because of an anonymous threat. As the cases
+                      come together, Conan has to solve the underlying cause of unwanted developments unfolding after their arrival.
+                  </p>
+                  <p>
+                      Synopsis by <a target="_blank" rel="noreferrer noopener" href="http://www.animenewsnetwork.com/">Anime News Network.</a>
+                  </p>
               </div>
               <div class="col-md-2">
                 <img class="img-responsive" src="/dist/asset/img/anime/theatrical-films/lupin-vs-detective-conan/lupin-vs-detective-conan.png" alt="Lupin the Third vs. Detective Conan: The Movie Theatrical Poster" />
