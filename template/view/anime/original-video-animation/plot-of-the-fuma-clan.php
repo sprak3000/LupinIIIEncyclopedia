@@ -32,11 +32,6 @@
                   on VHS, laserdisc, and DVD under the name <em>Rupan III</em> with Discotek re-releasing it on DVD years later
                   restoring the proper <em>Lupin the Third</em> name.
                 </p>
-                <div>
-                  <strong>Buy It: </strong>
-                  <a href="http://www.rightstuf.com/catalog/browse/link/t=item,c=right-stuf,v=right-stuf,i=dt016,a=lupin-iii-encycloped" class="linked color-green" target="_blank">RightStuf</a>,
-                  <a href="http://www.amazon.com/gp/product/B000V6LT7G/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000V6LT7G&linkCode=as2&tag=lupiniiiencyc-20&linkId=2HFXXFPWPYMFXKRM" target="_blank" class="linked color-green">Amazon</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=lupiniiiencyc-20&l=as2&o=1&a=B000V6LT7G" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-                </div>
                 <dl class="dl-horizontal">
                   <dt>Japanese Title:</dt><dd><em>Rupan Sansei: fuma ichizoku no imboo</em></dd>
                   <dt>Jacket Color:</dt><dd>Green</dd>

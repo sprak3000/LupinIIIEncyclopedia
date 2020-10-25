@@ -81,7 +81,6 @@
                 <dt>Episode Director:</dt><dd>Oosumi Masaaki</dd>
                 <dt>Storyboards:</dt><dd>Takahashi Kazumi</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/413735" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -106,7 +105,6 @@
                 <dt>Episode Director:</dt><dd>Oosumi Masaaki</dd>
                 <dt>Storyboards:</dt><dd>Okuda Seiji</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423823" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -132,7 +130,6 @@
                 <dt>Episode Director:</dt><dd>Oosumi Masaaki</dd>
                 <dt>Storyboards:</dt><dd>Sai Kazuhiro</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423813" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -158,7 +155,6 @@
                 <dt>Episode Director:</dt><dd>Oosumi Masaaki</dd>
                 <dt>Storyboards:</dt><dd>Sasaki Masahiro</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423824" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -184,7 +180,6 @@
                 <dt>Episode Director:</dt><dd>Oosumi Masaaki</dd>
                 <dt>Storyboards:</dt><dd>Kohanawa Tameo</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423828" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -213,7 +208,6 @@
                 <dt>Episode Director:</dt><dd>Oosumi Masaaki</dd>
                 <dt>Storyboards:</dt><dd>Koizumi Kenzoo</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423825" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -240,7 +234,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Sai Kazuhiro</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423829" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -266,7 +259,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Okuda Seiji</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423830" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -295,7 +287,6 @@
                 <dt>Episode Director:</dt><dd>Oosumi Masaaki</dd>
                 <dt>Storyboards:</dt><dd>Okuda Seiji</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423814" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -323,7 +314,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Yazawa Norio</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/424629" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -351,7 +341,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Kohanawa Tameo</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423815" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -380,7 +369,6 @@
                 <dt>Episode Director:</dt><dd>Oosumi Masaaki</dd>
                 <dt>Storyboards:</dt><dd>Kohanawa Tameo</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423816" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -410,7 +398,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Sai Kazuhiro</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423817" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -440,7 +427,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Okazaki Minoru</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423818" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -466,7 +452,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Kohanawa Tameo</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423819" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -494,7 +479,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Dezaki Tetsu</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423820" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -519,7 +503,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Sai Kazuhiro</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423826" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -540,7 +523,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Kohanawa Tameo</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423821" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -566,7 +548,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Tanahashi Motonori</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423822" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -588,7 +569,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Kohanawa Tameo</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423827" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -615,7 +595,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Takahashi Haruo</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423831" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -642,7 +621,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Kohanawa Tameo</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423832" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 
@@ -671,7 +649,6 @@
                 <dt>Episode Director:</dt><dd>Miyazaki Hayao, Takahata Isao</dd>
                 <dt>Storyboards:</dt><dd>Yoshikawa Sooji</dd>
               </dl>
-              <div><a href="http://www.hulu.com/watch/423833" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
 

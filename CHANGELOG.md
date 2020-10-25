@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 3.5.0 - 2020 October 25
+### Enhancements
+* Issue #66: Expand fifth TV series details
+* Issue #75: Go through and validate Hulu, other streaming links  
+
 ## 3.4.5 - 2020 January 01
 ### Bug Fixes
 * Issue #63:  eBay results down and need to get onto https URL
@@ -15,6 +20,7 @@
 ## 3.4.2 - 2018 January 30
 ### Bug Fixes
 * Issue #56: Fixing another page throwing HTTP 500 error
+
 ## 3.4.1 - 2018 January 30
 ### Bug Fixes
 * Issue #54: Fixing pages that were throwing HTTP 500 errors.

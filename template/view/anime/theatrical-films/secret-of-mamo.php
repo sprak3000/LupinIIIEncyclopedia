@@ -49,12 +49,6 @@
                   <dt>Release Date:</dt><dd>1978 December 16</dd>
                   <dt>Run Time:</dt><dd>102 minutes</dd>
                 </dl>
-                <div>
-                  <a href="http://www.hulu.com/watch/314927" class="linked" target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a>
-                  &nbsp;&nbsp;<strong>Buy It:</strong>
-                  <a href="http://www.rightstuf.com/catalog/browse/link/t=item,c=right-stuf,v=right-stuf,i=es045,a=lupin-iii-encycloped" class="linked color-green" target="_blank">RightStuf</a>,
-                  <a href="http://www.amazon.com/gp/product/B00AIZ2I6Q/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00AIZ2I6Q&linkCode=as2&tag=lupiniiiencyc-20&linkId=42FGAARZ3YWFJ6Y6" class="linked color-green" target="_blank">Amazon</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=lupiniiiencyc-20&l=as2&o=1&a=B00AIZ2I6Q" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-                </div>
                 <div class="headline">
                   <h4>Synopsis</h4>
                 </div>
