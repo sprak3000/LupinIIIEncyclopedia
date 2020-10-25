@@ -28,8 +28,8 @@
                 <p>
                   While no US distributor has released it on home video, the series was broadcasted by the digital television
                   station UTBHollywood in Southern California in 2010.  In September 2013, TMS stunned US fans by
-                  <a href="http://www.hulu.com/lupin-the-third-part-iii" class="linked color-green" target="_blank">streaming the
-                  third series on Hulu</a> complete with subtitles. However, only thirty of the fifty episodes are currently available.
+                  streaming the third series on Hulu complete with subtitles. However, only thirty of the fifty episodes
+                  were available at the time.
                 </p>
                 <dl class="dl-horizontal">
                   <dt>Japanese Title:</dt><dd><em>Rupan Sansei</em> (<em>Lupin the Third</em>)</dd>
@@ -66,7 +66,6 @@
               <p>Should Lupin escape his tormentor will he be able to rescue Fujiko from hers? It all comes down to a race through Alcatraz in search of the last few tiles which hold the secret of Al Capone's treasure.</p>
 
               <p><strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535775" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
             </div>
           </div>
           <div class="item" data-id="10/03/1984" data-description="Episode 2: Expose the Great Trap">
@@ -83,8 +82,6 @@
               <p>What happened to the six tons of gold? If Zenigata wants his job back, he will have to figure that out.</p>
 
               <p><strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535777" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="17/03/1984" data-description="Episode 3: Good Afternoon, Hell's Angel">
@@ -102,8 +99,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535776" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="24/03/1984" data-description="Episode 4: Telepathy Is Love's Signal">
@@ -121,8 +116,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535771" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="07/04/1984" data-description="Episode 5: Goemon Daydream">
@@ -140,8 +133,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535770" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="19/05/1984" data-description="Episode 6: Lupin Has Come with a Tank">
@@ -159,8 +150,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535772" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="26/05/1984" data-description="Episode 7: The Man Is Called the Death Garb">
@@ -178,8 +167,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535767" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="09/06/1984" data-description="Episode 8: Virgin Mary's Getaway Strategy">
@@ -197,8 +184,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535765" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="16/06/1984" data-description="Episode 9: The Copy-Man Comes Expensive">
@@ -216,8 +201,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535768" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="23/06/1984" data-description="Episode 10: Lay a Plot with the Treasure">
@@ -235,8 +218,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535779" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="07/07/1984" data-description="Episode 11: The Ruby Sheds Bloody Tears">
@@ -254,8 +235,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535769" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="28/07/1984" data-description="Episode 12: The Prisoner of a Valtan Palace">
@@ -273,8 +252,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535780" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="20/10/1984" data-description="Episode 13: Play a Joke on the Variation">
@@ -292,8 +269,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535766" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="27/10/1984" data-description="Episode 14: Let's Play the Abduction">
@@ -311,8 +286,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535781" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="03/11/1984" data-description="Episode 15: The Killer Comes Along Quietly">
@@ -330,8 +303,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;DrSpengler&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535778" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="10/11/1984" data-description="Episode 16: The Golden Apple has Poison">
@@ -349,8 +320,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;Crackerjack&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535782" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="17/11/1984" data-description="Episode 17: Are You Really Getting Married?">
@@ -368,8 +337,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;Crackerjack&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535783" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="24/11/1984" data-description="Episode 18: Show Time Is Death Feeling">
@@ -387,8 +354,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by &quot;Crackerjack&quot;</p>
-              <div><a href="http://www.hulu.com/watch/535773" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="01/12/1984" data-description="Episode 19: An Act of Betrayal">
@@ -406,8 +371,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by Andrew</p>
-              <div><a href="http://www.hulu.com/watch/535784" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="08/12/1984" data-description="Episode 20: Cross His Name Off the List">
@@ -425,8 +388,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by Andrew</p>
-              <div><a href="http://www.hulu.com/watch/535774" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="15/12/1984" data-description="Episode 21: Farewell, Golden Legend">
@@ -444,8 +405,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by Andrew</p>
-              <div><a href="http://www.hulu.com/watch/541085" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="22/12/1984" data-description="Episode 22: The Fire Is Not Suitable for a Diamond">
@@ -463,8 +422,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by Andrew</p>
-              <div><a href="http://www.hulu.com/watch/541090" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="29/12/1984" data-description="Episode 23: The Strategy of Beirut Mobile Bank Robbery">
@@ -480,8 +437,6 @@
 
               <p>
                 <strong>Note:</strong> Summary written by Andrew</p>
-              <div><a href="http://www.hulu.com/watch/541087" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="12/01/1985" data-description="Episode 24: Pray for the Repose of Your Soul">
@@ -496,8 +451,6 @@
               <p>Lupin has his sights on a valuable antique owned by Hong Kong businessman Gozen. However, Gozen has plans to amuse himself by using the antique to bait Lupin and the gang into a trap. To counter Goemon's swordsmanship, Gozen enlists the kung-fu expert and Goemon's former rival Seiryu. Silver threads gleam in the moonlight, and the martial arts battle rages in the sky between the skyscrapers. Can Goemon best his rival and help Lupin secure Gozen's prize?</p>
 
               <p><strong>Note:</strong> This is one of the darker episodes seen since the first TV series featuring a rather serious and menacing character design for Goemon.</p>
-              <div><a href="http://www.hulu.com/watch/541086" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="19/01/1985" data-description="Episode 25: We Are Not Angels">
@@ -510,8 +463,6 @@
             <div class="timeline_open_content">
 
               <p>Lupin has set his eyes on the &quot;Heart's Eggs&quot;, but the woman who possesses them has them locked behind an impregnable safe. Can Lupin penetrate the safe and steal the eggs? Are his motives selfish, or does he have a benevolent streak?</p>
-              <div><a href="http://www.hulu.com/watch/541079" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="26/01/1985" data-description="Episode 26: The Ghost of New York">
@@ -524,8 +475,6 @@
             <div class="timeline_open_content">
 
               <p>The gang is in New York to steal a solid gold pinball machine, but Goemon finds himself haunted by an attractive specter. Will the gang be pinball wizards, or will Goemon's friendly ghost spook the treasure away?</p>
-              <div><a href="http://www.hulu.com/watch/541080" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="02/02/1985" data-description="Episode 27: Code Name Is Alaska Star">
@@ -540,8 +489,6 @@
               <p>The Star of Alaska is a mysterious gem sought by the CIA, the KGB, and now Lupin. The Star is also tied to Barbara, a woman from Jigen's past. As the parties maneuver for the gem, a shot rings out... Barbara!</p>
 
               <p><strong>Note:</strong> Features a new opening animation sequence.</p>
-              <div><a href="http://www.hulu.com/watch/541081" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="09/02/1985" data-description="Episode 28: The Alaska Star Is a Ticket to Hell">
@@ -554,8 +501,6 @@
             <div class="timeline_open_content">
 
               <p>A showdown for the Alaska Star is brewing, but Jigen has a personal score to settle with Georgy. As the Star sparkles in the twilight, is Jigen doomed to repeat the past?</p>
-              <div><a href="http://www.hulu.com/watch/541078" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="16/02/1985" data-description="Episode 29: Let's Go to the Honey-Moon">
@@ -568,8 +513,6 @@
             <div class="timeline_open_content">
 
               <p>Lupin has won Fujiko's hand in marriage by stealing Marie Antoinette's bridal ensemble; as a honeymoon surprise, Lupin plans their trip to... the moon?! Does Lupin's plan have the right stuff, or will his wedding flame out?</p>
-              <div><a href="http://www.hulu.com/watch/541083" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="23/02/1985" data-description="Episode 30: The Name of the Cocktail Is Revenge">
@@ -582,8 +525,6 @@
             <div class="timeline_open_content">
 
               <p>One rainy night, a valuable gold shipment makes its way across the country, but Lupin is busy playing bartender to an attractive woman. He pours her a special cocktail laced with the promise of revenge for her father's murder. Does revenge and thievery mix well?</p>
-              <div><a href="http://www.hulu.com/watch/541082" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a></div>
-
             </div>
           </div>
           <div class="item" data-id="02/03/1985" data-description="Episode 31: Reversal. Reversal and Again Reversal">

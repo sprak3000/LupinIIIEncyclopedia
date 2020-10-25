@@ -40,9 +40,6 @@
                   for the film. It is an audio track you have to manually sync with your playback of the film, but it contains
                   a wealth of information about the film and the franchise.
                 </p>
-                <div>
-                  <a href="http://www.hulu.com/watch/219524" class="linked" target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a>
-                </div>
                 <dl class="dl-horizontal">
                   <dt>Japanese Title:</dt><dd><em>Rupan Sansei: Kariosutoro no Shiro</em></dd>
                   <dt>Jacket Color:</dt><dd>Green</dd>
