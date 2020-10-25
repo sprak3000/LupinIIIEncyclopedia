@@ -26,8 +26,20 @@
                   <dt>Japanese Title:</dt><dd><em>Lupin the IIIrd: Chikemuri no Ishikawa Goemon</em></dd>
                   <dt>Jacket Color:</dt><dd>Green</dd>
                   <dt>Release Date:</dt><dd>2017 February 04</dd>
-                  <dt>Run Time:</dt><dd>?? minutes</dd>
+                  <dt>Run Time:</dt><dd>54 minutes</dd>
                 </dl>
+                  <div class="headline">
+                      <h4>Synopsis</h4>
+                  </div>
+                  <p>
+                      The &quot;Ghost of Bermuda&quot;, also known as Hawk, was once an accomplished mercenary thought
+                      to have died in a mission gone wrong. Ishikawa Goemon is a samurai bodyguard for the yakuza sworn
+                      to protect the boss. An accident caused by Hawk kills the boss, and Goemon seeks vengeance and a
+                      proper duel.
+                  </p>
+                  <p>
+                      Synopsis from Amazon.com listing
+                  </p>
               </div>
               <div class="col-md-2">
                 <img class="img-responsive" src="/dist/asset/img/anime/theatrical-films/goemon-spray-blood/goemon-spray-blood.jpg" alt="Goemon Ishikawa's Spray of Blood Theatrical Poster" />

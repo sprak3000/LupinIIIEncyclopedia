@@ -6,6 +6,7 @@
 * Issue #75: Go through and validate Hulu, other streaming links  
 * Issue #74: Update Detective Conan film
 * Issue #69: Expand 2014 live action film
+* Issue #68: Expand Goemon Spray of Blood film
  
 ## 3.4.5 - 2020 January 01
 ### Bug Fixes
