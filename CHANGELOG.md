@@ -5,6 +5,7 @@
 * Issue #66: Expand fifth TV series details
 * Issue #75: Go through and validate Hulu, other streaming links  
 * Issue #74: Update Detective Conan film
+* Issue #69: Expand 2014 live action film
  
 ## 3.4.5 - 2020 January 01
 ### Bug Fixes
