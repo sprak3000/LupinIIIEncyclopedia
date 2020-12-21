@@ -1,5 +1,5 @@
 <?php
-if(!isset($is404)) {
+if(!$is404) {
   /**
  * Common Page Footer
  * Based on the wrapbootstrap Unify theme

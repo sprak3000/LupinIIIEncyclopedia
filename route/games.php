@@ -15,8 +15,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
     $app->get('/', function () use ($app, $pageUtil, $pageData) {
         $data = $pageData
             ->withTitle('Games')
-            ->withGamesNavigation()
-            ->data();
+            ->data(['gamesNav' => true]);
 
         $app->render('view/games/index.php', $data);
     })->name('games');
@@ -31,8 +30,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                 'Games' => '/games',
                 'Super Cassette Vision' => '',
             ])
-            ->withGamesNavigation()
-            ->data();
+            ->data(['gamesNav' => true]);
 
         $app->render('view/games/super-cassette-vision/lupin-iii.php', $data);
     })->name('super-cassette-vision-lupin-iii');
@@ -52,9 +50,8 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Nintendo DS' => '',
                     ])
-                    ->withGamesNavigation()
                     ->withGallery(__DIR__ . "/../public/dist/asset/img/games/nintendo/ds/shijyou-saidai-no-sunou-ikusa/media")
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/nintendo/ds/shijyou-saidai-no-sunou-ikusa.php', $data);
             })->name('nintendo-ds-shijyou-saidai-no-sunou-ikusa');
@@ -71,8 +68,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Nintendo GameCube' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/nintendo/gamecube/umi-ni-kieta-hihou.php', $data);
             })->name('nintendo-gamecube-umi-ni-kieta-hihou');
@@ -89,8 +85,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Nintendo Super Famicom' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/nintendo/super-famicom/lupin-iii-densetsu-no-hihou-o-oe.php', $data);
             })->name('nintendo-super-famicom-lupin-iii-densetsu-no-hihou-o-oe');
@@ -107,8 +102,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Nintendo Gameboy' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/nintendo/gameboy/sd-lupin-iii-kinko-yaburi-daisakusen.php', $data);
             })->name('nintendo-gameboy-sd-lupin-iii-kinko-yaburi-daisakusen');
@@ -125,8 +119,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Nintendo Famicom' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/nintendo/famicom/lupin-iii-pandora-no-isan.php', $data);
             })->name('nintendo-famicom-lupin-iii-pandora-no-isan');
@@ -148,8 +141,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps1/lupin-iii-chateau-de-cagliostro-saikai.php', $data);
             })->name('sony-ps1-lupin-iii-chateau-de-cagliostro-saikai');
@@ -161,8 +153,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps1/lupin-the-3rd.php', $data);
             })->name('sony-ps1-lupin-the-3rd');
@@ -174,8 +165,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps1/heiwa-parlor-pro-lupin-the-iii-special.php', $data);
             })->name('sony-ps1-heiwa-parlor-pro-lupin-the-iii-special');
@@ -187,8 +177,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps1/punch-the-monkey-game-edition.php', $data);
             })->name('sony-ps1-punch-the-monkey-game-edition');
@@ -200,8 +189,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps1/pachi-slot-simulator-7-maker-suishou-manual.php', $data);
             })->name('sony-ps1-pachi-slot-simulator-7-maker-suishou-manual');
@@ -213,8 +201,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps1/heiwa-parlor-pro-fujiko-ni-o-ma-ka-se-special.php', $data);
             })->name('sony-ps1-heiwa-parlor-pro-fujiko-ni-o-ma-ka-se-special');
@@ -226,8 +213,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps1/parlor-pro-jr-vol-2.php', $data);
             })->name('sony-ps1-parlor-pro-jr-vol-2');
@@ -240,8 +226,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                             'Games' => '/games',
                             'Sony Playstation' => '',
                         ])
-                        ->withGamesNavigation()
-                        ->data();
+                        ->data(['gamesNav' => true]);
 
                     $app->render('view/games/sony/ps1/pachinko-pachislot-parlor-pro-ex-cr-inakappe-daishou-a.php',
                         $data);
@@ -259,8 +244,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation 2' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps2/lupin-iii-majutsu-ou-no-isan.php', $data);
             })->name('sony-ps2-lupin-iii-majutsu-ou-no-isan');
@@ -272,8 +256,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation 2' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps2/slot-pro-dx-fujiko-2.php', $data);
             })->name('sony-ps2-slot-pro-dx-fujiko-2');
@@ -285,8 +268,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation 2' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps2/lupin-iii-columbus-no-isan-wa-akenisomaru.php', $data);
             })->name('sony-ps2-lupin-iii-columbus-no-isan-wa-akenisomaru');
@@ -299,8 +281,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                             'Games' => '/games',
                             'Sony Playstation 2' => '',
                         ])
-                        ->withGamesNavigation()
-                        ->data();
+                        ->data(['gamesNav' => true]);
 
                     $app->render('view/games/sony/ps2/slotter-up-core-5-lupin-daisuki-shuyaku-wa-zenigata.php',
                         $data);
@@ -313,8 +294,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation 2' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/ps2/lupin-iii-lupin-niwa-shi-o-zenigata-niwa-koi-o.php', $data);
             })->name('sony-ps2-lupin-iii-lupin-niwa-shi-o-zenigata-niwa-koi-o');
@@ -331,8 +311,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sony Playstation Portable' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sony/psp/shuyaku-wa-zenigata.php', $data);
             })->name('sony-psp-shuyaku-wa-zenigata');
@@ -350,8 +329,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     'Games' => '/games',
                     'Arcade' => '',
                 ])
-                ->withGamesNavigation()
-                ->data();
+                ->data(['gamesNav' => true]);
 
             $app->render('view/games/arcade/lupin-iii.php', $data);
         })->name('arcade-lupin-iii');
@@ -363,8 +341,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     'Games' => '/games',
                     'Arcade' => '',
                 ])
-                ->withGamesNavigation()
-                ->data();
+                ->data(['gamesNav' => true]);
 
             $app->render('view/games/arcade/cliff-hanger.php', $data);
         })->name('arcade-cliff-hanger');
@@ -376,8 +353,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     'Games' => '/games',
                     'Arcade' => '',
                 ])
-                ->withGamesNavigation()
-                ->data();
+                ->data(['gamesNav' => true]);
 
             $app->render('view/games/arcade/lupin-the-3rd-the-shooting.php', $data);
         })->name('arcade-lupin-the-3rd-the-shooting');
@@ -389,8 +365,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     'Games' => '/games',
                     'Arcade' => '',
                 ])
-                ->withGamesNavigation()
-                ->data();
+                ->data(['gamesNav' => true]);
 
             $app->render('view/games/arcade/lupin-the-3rd-the-typing.php', $data);
         })->name('arcade-lupin-the-3rd-the-typing');
@@ -411,8 +386,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sega Saturn' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sega/saturn/lupin-the-3rd-the-master-file.php', $data);
             })->name('sega-saturn-lupin-the-3rd-the-master-file');
@@ -424,8 +398,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sega Saturn' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sega/saturn/lupin-the-3rd-chronicles.php', $data);
             })->name('sega-saturn-lupin-the-3rd-chronicles');
@@ -437,8 +410,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         'Games' => '/games',
                         'Sega Saturn' => '',
                     ])
-                    ->withGamesNavigation()
-                    ->data();
+                    ->data(['gamesNav' => true]);
 
                 $app->render('view/games/sega/saturn/lupin-iii-sage-of-the-pyramid.php', $data);
             })->name('sega-saturn-lupin-iii-sage-of-the-pyramid');
@@ -456,8 +428,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     'Games' => '/games',
                     'MSX' => '',
                 ])
-                ->withGamesNavigation()
-                ->data();
+                ->data(['gamesNav' => true]);
 
             $app->render('view/games/msx/castle-of-cagliostro.php', $data);
         })->name('msx-castle-of-cagliostro');
@@ -469,8 +440,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     'Games' => '/games',
                     'MSX' => '',
                 ])
-                ->withGamesNavigation()
-                ->data();
+                ->data(['gamesNav' => true]);
 
             $app->render('view/games/msx/legend-of-the-gold-of-babylon.php', $data);
         })->name('msx-legend-of-the-gold-of-babylon');
@@ -487,8 +457,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     'Games' => '/games',
                     'NEC PC-8801' => '',
                 ])
-                ->withGamesNavigation()
-                ->data();
+                ->data(['gamesNav' => true]);
 
             $app->render('view/games/nec-pc-8801/castle-of-cagliostro.php', $data);
         })->name('nec-pc-8801-castle-of-cagliostro');
@@ -500,8 +469,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     'Games' => '/games',
                     'NEC PC-8801' => '',
                 ])
-                ->withGamesNavigation()
-                ->data();
+                ->data(['gamesNav' => true]);
 
             $app->render('view/games/nec-pc-8801/legend-of-the-gold-of-babylon.php', $data);
         })->name('nec-pc-8801-legend-of-the-gold-of-babylon');
