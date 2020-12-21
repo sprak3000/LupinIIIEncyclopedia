@@ -76,7 +76,7 @@ if( isset( $inlineCss ) && is_array( $inlineCss ) && !empty( $inlineCss ) )
       })(window,document,'script','dataLayer','GTM-TBBR');</script>
 
 <?php
-if(!isset($is404)) {
+if(!$is404) {
 ?>
     <div class="wrapper">
       <?php /** Header */ ?>

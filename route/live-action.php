@@ -1,35 +1,21 @@
 <?php
+
 use sprak3000\lupinencyclopedia\Slim\Page;
 
 $pageUtil = new Page\Util();
+$pageData = new Page\Data();
 
 /**
  * Route for the live-action pages
  */
-$app->get('/live-action/zenigata-keibu', function () use ($app, $pageUtil) {
-  $includeCss = [];
-  $includeCss[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.css';
+$app->get('/live-action/zenigata-keibu', function () use ($app, $pageUtil, $pageData) {
+    $data = $pageData
+        ->withTitle('Inspector Zenigata')
+        ->withNavigation([
+            'Profiles' => '',
+        ])
+        ->withGallery(__DIR__ . "/../public/dist/asset/img/live-action/zenigata-keibu/media")
+        ->data(['homeNav' => true, 'animeNav' => true, 'zenigataNav' => true, 'app' => $app->getInstance()]);
 
-  $includeJs = [];
-  $includeJs[] = '/dist/unify-1.8/plugins/fancybox/source/jquery.fancybox.pack.js';
-  $includeJs[] = '/dist/unify-1.8/js/plugins/fancy-box.js';
-
-  $inlineJs = [];
-  $inlineJs[] = 'jQuery(document).ready(function() { FancyBox.initFancybox(); });';
-
-  $pageData = [];
-  $pageData['app'] = $app->getInstance();
-  $pageData['pageTitle'] = 'Inspector Zenigata';
-  $pageData['pageDescription'] = '';
-  $pageData['includeCss'] = $includeCss;
-  $pageData['includeJs'] = $includeJs;
-  $pageData['inlineJs'] = $inlineJs;
-
-  $pageData['homeNav'] = true;
-  $pageData['animeNav'] = true;
-  $pageData['zenigataNav'] = true;
-
-  $pageData['images'] = $pageUtil->GetImagesForGallery(__DIR__ . "/../public/dist/asset/img/live-action/zenigata-keibu/media");
-
-  $app->render('view/live-action/zenigata-keibu.php', $pageData);
+    $app->render('view/live-action/zenigata-keibu.php', $data);
 })->name('live-action-zenigata-keibu');
