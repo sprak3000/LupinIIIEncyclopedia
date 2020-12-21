@@ -62,7 +62,6 @@ if(!isset($is404)) {
 
   <?php /** JS Page Level */ ?>
   <script type="text/javascript" src="/dist/unify-1.8/js/app.js"></script>
-  <script type="text/javascript" src="/dist/unify-1.8/js/plugins/fancy-box.js"></script>
   <script type="text/javascript">
       jQuery(document).ready(function() {
           App.init();
