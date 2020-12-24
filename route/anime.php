@@ -44,6 +44,23 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
             $app->render('view/anime/theatrical-films.php', $data);
         })->name('theatrical-films');
 
+        $app->get('/fujiko-mines-lie/', function () use ($app, $pageUtil, $pageData) {
+            $data = $pageData
+                ->withTitle('Fujiko Mine\'s Lie')
+                ->withNavigation([
+                    'Anime' => '',
+                    'Theatrical Films' => '/anime/theatrical-films',
+                ])
+                ->withAnimeNewsNetworkData(22089)
+                ->data([
+                    'animeNav' => true,
+                    'filmNav' => true,
+                    'app' => $app->getInstance(),
+                ]);
+
+            $app->render('view/anime/theatrical-films/fujiko-mines-lie.php', $data);
+        })->name('fujiko-mines-lie');
+
         $app->get('/goemon-spray-blood/', function () use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Goemon Ishikawa\'s Spray of Blood')
