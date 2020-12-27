@@ -3,6 +3,24 @@
     <div class="col-md-3"></div>
     <div class="col-md-6">
       <ul class="timeline-v1">
+        <li class="timeline-inverted">
+          <div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <img class="img-responsive" src="/dist/asset/img/anime/theatrical-films/the-first/the-first-poster.jpg" alt="Lupin III THE FIRST">
+            </div>
+            <div class="timeline-body">
+              <h2><a href="/anime/theatrical-films/the-first">Lupin III THE FIRST</a></h2>
+              <p></p>
+              <a class="btn-u btn-u-sm" href="/anime/theatrical-films/the-first">Read More</a>
+            </div>
+            <div class="timeline-footer">
+              <ul class="list-unstyled list-inline blog-info">
+                <li><strong>Release Date:</strong> 2019 May 31</li>
+              </ul>
+            </div>
+          </div>
+        </li>
         <li>
           <div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
           <div class="timeline-panel">

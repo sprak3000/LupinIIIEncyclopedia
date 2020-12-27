@@ -44,6 +44,23 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
             $app->render('view/anime/theatrical-films.php', $data);
         })->name('theatrical-films');
 
+        $app->get('/the-first/', function () use ($app, $pageUtil, $pageData) {
+            $data = $pageData
+                ->withTitle('Lupin III THE FIRST')
+                ->withNavigation([
+                    'Anime' => '',
+                    'Theatrical Films' => '/anime/theatrical-films',
+                ])
+                ->withAnimeNewsNetworkData(22309)
+                ->data([
+                    'animeNav' => true,
+                    'filmNav' => true,
+                    'app' => $app->getInstance(),
+                ]);
+
+            $app->render('view/anime/theatrical-films/the-first.php', $data);
+        })->name('the-first');
+
         $app->get('/fujiko-mines-lie/', function () use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Fujiko Mine\'s Lie')
