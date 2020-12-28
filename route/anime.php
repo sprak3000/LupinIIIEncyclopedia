@@ -849,6 +849,23 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
 
             $app->render('view/anime/tv-specials/goodbye-partner.php', $data);
         })->name('goodbye-partner');
+
+        $app->get('/prison-of-the-past/', function () use ($app, $pageUtil, $pageData) {
+            $data = $pageData
+                ->withTitle('Prison of the Past')
+                ->withNavigation([
+                    'Anime' => '',
+                    'TV Specials' => '/anime/tv-specials',
+                ])
+                ->withAnimeNewsNetworkData(23004)
+                ->data([
+                    'animeNav' => true,
+                    'specialsNav' => true,
+                    'app' => $app->getInstance(),
+                ]);
+
+            $app->render('view/anime/tv-specials/prison-of-the-past.php', $data);
+        })->name('prison-of-the-past');
     });
 
     /**
