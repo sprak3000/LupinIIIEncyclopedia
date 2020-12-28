@@ -3,6 +3,24 @@
     <div class="col-md-3"></div>
     <div class="col-md-6">
       <ul class="timeline-v1">
+        <li class="timeline-inverted">
+              <div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <img class="img-responsive" src="/dist/asset/img/anime/tv-specials/goodbye-partner/goodbye-partner-poster.jpg" alt="Goodbye Partner poster">
+                  </div>
+                  <div class="timeline-body">
+                      <h2><a href="/anime/tv-specials/goodbye-partner">Goodbye Partner</a></h2>
+                      <p></p>
+                      <a class="btn-u btn-u-sm" href="/anime/tv-specials/goodbye-partner">Read More</a>
+                  </div>
+                  <div class="timeline-footer">
+                      <ul class="list-unstyled list-inline blog-info">
+                          <li><strong>Release Date:</strong> 2019 January 25</li>
+                      </ul>
+                  </div>
+              </div>
+          </li>
         <li>
           <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
           <div class="timeline-panel">

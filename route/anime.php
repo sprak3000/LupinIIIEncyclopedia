@@ -832,6 +832,23 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
 
             $app->render('view/anime/tv-specials/princess-of-the-breeze.php', $data);
         })->name('princess-of-the-breeze');
+
+        $app->get('/goodbye-partner/', function () use ($app, $pageUtil, $pageData) {
+            $data = $pageData
+                ->withTitle('Goodbye Partner')
+                ->withNavigation([
+                    'Anime' => '',
+                    'TV Specials' => '/anime/tv-specials',
+                ])
+                ->withAnimeNewsNetworkData(22121)
+                ->data([
+                    'animeNav' => true,
+                    'specialsNav' => true,
+                    'app' => $app->getInstance(),
+                ]);
+
+            $app->render('view/anime/tv-specials/goodbye-partner.php', $data);
+        })->name('goodbye-partner');
     });
 
     /**
