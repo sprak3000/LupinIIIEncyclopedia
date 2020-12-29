@@ -3,7 +3,7 @@
         <div class="col-md-3"></div>
         <div class="col-md-6">
             <ul class="timeline-v1">
-                <li>
+                <li class="timeline-inverted">
                     <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -23,7 +23,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="timeline-inverted">
+                <li>
                     <div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -39,6 +39,26 @@
                         <div class="timeline-footer">
                             <ul class="list-unstyled list-inline blog-info">
                                 <li><strong>Release Date:</strong> 2019 January 25</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive"
+                                 src="/dist/asset/img/anime/tv-specials/italian-game/italian-game.jpg"
+                                 alt="Italian Game">
+                        </div>
+                        <div class="timeline-body">
+                            <h2><a href="/anime/tv-specials/italian-game">Italian Game</a></h2>
+                            <p></p>
+                            <a class="btn-u btn-u-sm" href="/anime/tv-specials/italian-game">Read More</a>
+                        </div>
+                        <div class="timeline-footer">
+                            <ul class="list-unstyled list-inline blog-info">
+                                <li><strong>Release Date:</strong> 2016 January 08</li>
                             </ul>
                         </div>
                     </div>
