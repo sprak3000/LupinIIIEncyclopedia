@@ -866,6 +866,23 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
 
             $app->render('view/anime/tv-specials/prison-of-the-past.php', $data);
         })->name('prison-of-the-past');
+
+        $app->get('/italian-game/', function () use ($app, $pageUtil, $pageData) {
+            $data = $pageData
+                ->withTitle('Italian Game')
+                ->withNavigation([
+                    'Anime' => '',
+                    'TV Specials' => '/anime/tv-specials',
+                ])
+                ->withAnimeNewsNetworkData(18469)
+                ->data([
+                    'animeNav' => true,
+                    'specialsNav' => true,
+                    'app' => $app->getInstance(),
+                ]);
+
+            $app->render('view/anime/tv-specials/italian-game.php', $data);
+        })->name('italian-game');
     });
 
     /**
