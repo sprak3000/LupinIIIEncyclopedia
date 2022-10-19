@@ -99,7 +99,7 @@ class Data
         $this->addScrollbar();
 
         try {
-            $this->forumRSS = simplexml_load_file("http://www.lupinencyclopedia.com/forums/index.php?action=.xml");
+            $this->forumRSS = simplexml_load_file("https://www.lupinencyclopedia.com/forums/index.php?action=.xml;type=rss2");
         } catch (Exception $e) {
             // TODO: Log this appropriately
         }
