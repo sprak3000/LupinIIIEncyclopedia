@@ -23,16 +23,16 @@
 
         <div class="panel-heading overflow-h">
           <h2 class="panel-title heading-sm pull-left"><i class="fa fa-comments-o"></i>Recent Forum Posts</h2>
-          <span class="pull-right"><a href="/forums/index.php?action=.xml" title="Subscribe to Feed" target="_blank"><i class="fa fa-rss-square"></i></a></span>
+          <span class="pull-right"><a href="/forums/index.php?action=.xml;type=rss2" title="Subscribe to Feed" target="_blank"><i class="fa fa-rss-square"></i></a></span>
         </div>
 
         <div id="scrollbar2" class="panel-body contentHolder">
 <?php
 if(!empty($forumRss)) {
-  foreach($forumRss->{'recent-post'} as $item) {
+  foreach($forumRss->channel->item as $item) {
     $pubTimestamp = time();
-    if(false === stripos($item->time, "Today")) {
-      $pubTimestamp = strtotime($item->time);
+    if(false === stripos($item->pubDate, "Today")) {
+        $pubTimestamp = strtotime($item->pubDate);
     }
 ?>
 
@@ -42,10 +42,10 @@ if(!empty($forumRss)) {
               <small><?php echo date("M Y", $pubTimestamp); ?></small>
             </div>
             <div class="overflow-h">
-              <h3 class="heading-xs"><a href="<?php echo $item->link; ?>"><?php echo $item->subject; ?></a></h3>
+              <h3 class="heading-xs"><a href="<?php echo $item->link; ?>"><?php echo $item->title; ?></a></h3>
               <p>
-                <i class="fa fa-pencil"></i> <?php echo $item->poster->name; ?><br />
-                <i class="fa fa-folder"></i> <a href="<?php echo $item->board->link; ?>"><?php echo $item->board->name; ?></a>
+                <i class="fa fa-pencil"></i> <?php echo $item->author; ?><br />
+                <i class="fa fa-folder"></i> <a href="<?php echo $item->categoryLink; ?>"><?php echo $item->category; ?></a>
               </p>
             </div>
           </div>
