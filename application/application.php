@@ -14,6 +14,23 @@ $container['view'] = function ($container) {
     return new Page\View('../template');
 };
 
+/** Register custom 404 handler */
+$container['notFoundHandler'] = function ($c) {
+    return function ($req, $res) use ($c) {
+        $pageData = new Page\Data();
+
+        $data = $pageData
+            ->withTitle('Not Found!')
+            ->withDescription('404 Not Found!')
+            ->with404()
+            ->data();
+
+        $res = $c->view->render($res, 'not-found.php', $data);
+        return $res->withStatus(404)
+            ->withHeader('Content-Type', 'text/html');
+    };
+};
+
 /** Redirect middleware */
 $app->add(new KnownRedirects($container));
 
