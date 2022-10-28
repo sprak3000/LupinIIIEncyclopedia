@@ -26,5 +26,5 @@ $app->get('/history', function (Request $req,  Response $res, $args = []) use ($
   $pageData['homeNav'] = true;
   $pageData['historyNav'] = true;
 
-  return $this->view->render('view/history.php', $pageData);
+  return $this->view->render($res, 'view/history.php', $pageData);
 })->setName('history');

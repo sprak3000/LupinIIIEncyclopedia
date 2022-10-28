@@ -18,5 +18,5 @@ $app->get('/manga', function (Request $req,  Response $res, $args = []) use ($ap
         ->withGallery()
         ->data(['mangaNav' => true]);
 
-    return $this->view->render('view/manga.php', $data);
+    return $this->view->render($res, 'view/manga.php', $data);
 })->setName('manga');

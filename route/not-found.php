@@ -19,5 +19,5 @@ $pageData = new Page\Data();
 //        ->with404()
 //        ->data();
 //
-//    return $this->view->render('not-found.php', $data);
+//    return $this->view->render($res, 'not-found.php', $data);
 //});

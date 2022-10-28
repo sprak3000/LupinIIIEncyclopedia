@@ -59,10 +59,10 @@ $app->group('/rss', function (App $app) use ($pageUtil) {
         }
       }
 
-      $app->response->headers->set('Content-Type', 'text/xml; charset=utf-8');
-      return $this->view->render('view/rss/ebay.php', $pageData);
+      $res = $res->withHeader('Content-Type', 'text/xml; charset=utf-8');
     } catch (Exception $e) {
       // TODO: Log this appropriately
     }
+    return $this->view->render($res, 'view/rss/ebay.php', $pageData);
   })->setName('ebay-rss');
 });

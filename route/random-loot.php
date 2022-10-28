@@ -21,11 +21,13 @@ $app->group('/random-loot', function (App $app) use ($pageUtil, $pageData) {
             ])
             ->data(['lootNav' => true, 'musicNav' => true]);
 
-        return $this->view->render('view/random-loot/music.php', $data);
+        return $this->view->render($res, 'view/random-loot/music.php', $data);
     })->setName('music');
 
     // TODO: Request $req,  Response $res, $args = [] for function sig?
-    $app->get('/newsletter(/:year/:month)/', function ($pYear = '2002', $pMonth = '12') use ($app, $pageData) {
+//    $app->get('/newsletter(/:year/:month)', function ($pYear = '2002', $pMonth = '12') use ($app, $pageData) {
+    // TODO: Fix this path
+    $app->get('/newsletter/{year}/{month})', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('The LupinTheThird Newsletter')
             ->withDescription('Archive of newsletters for the Yahoo! Lupin the Third group')
@@ -38,10 +40,10 @@ $app->group('/random-loot', function (App $app) use ($pageUtil, $pageData) {
                 'newsletterNav' => true,
                 'year' => $pYear,
                 'month' => $pMonth,
-                'issue' => date('F Y', strtotime($pMonth . '/01/' . $pYear)),
+                'issue' => date('F Y', strtotime($pMonth . '/01' . $pYear)),
             ]);
 
-        return $this->view->render('view/random-loot/newsletter.php', $data);
+        return $this->view->render($res, 'view/random-loot/newsletter.php', $data);
     })->setName('newsletter');
 
     $app->get('/kent-state-lupin-mailing-list', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
@@ -54,7 +56,7 @@ $app->group('/random-loot', function (App $app) use ($pageUtil, $pageData) {
             ->withMailingList()
             ->data(['lootNav' => true, 'mlNav' => true]);
 
-        return $this->view->render('view/random-loot/kent-state-lupin-mailing-list.php', $data);
+        return $this->view->render($res, 'view/random-loot/kent-state-lupin-mailing-list.php', $data);
     })->setName('mailing-list');
 
     $app->get('/tokyo-international-anime-fair', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
@@ -67,7 +69,7 @@ $app->group('/random-loot', function (App $app) use ($pageUtil, $pageData) {
             ->withGallery()
             ->data(['lootNav' => true, 'tafNav' => true]);
 
-        return $this->view->render('view/random-loot/tokyo-international-anime-fair.php', $data);
+        return $this->view->render($res, 'view/random-loot/tokyo-international-anime-fair.php', $data);
     })->setName('tokyo-international-anime-fair');
 
     $app->get('/loose-change', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
@@ -82,7 +84,7 @@ $app->group('/random-loot', function (App $app) use ($pageUtil, $pageData) {
 
         $data['images']['lupin-the-box-tv-movie'] = $pageUtil->GetImagesForGallery(__DIR__ . "/../public/dist/asset/img/lupin-the-box-tv-movie");
 
-        return $this->view->render('view/random-loot/loose-change.php', $data);
+        return $this->view->render($res, 'view/random-loot/loose-change.php', $data);
     })->setName('loose-change');
 
     $app->get('/cosplay', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
@@ -95,7 +97,7 @@ $app->group('/random-loot', function (App $app) use ($pageUtil, $pageData) {
             ->withGallery()
             ->data(['lootNav' => true, 'cosplayNav' => true]);
 
-        return $this->view->render('view/random-loot/cosplay.php', $data);
+        return $this->view->render($res, 'view/random-loot/cosplay.php', $data);
     })->setName('cosplay');
 
     $app->get('/cameos', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
@@ -108,6 +110,6 @@ $app->group('/random-loot', function (App $app) use ($pageUtil, $pageData) {
             ->withGallery()
             ->data(['lootNav' => true, 'cameosNav' => true]);
 
-        return $this->view->render('view/random-loot/cameos.php', $data);
+        return $this->view->render($res, 'view/random-loot/cameos.php', $data);
     })->setName('cameos');
 });
