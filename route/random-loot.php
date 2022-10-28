@@ -24,10 +24,10 @@ $app->group('/random-loot', function (App $app) use ($pageUtil, $pageData) {
         return $this->view->render($res, 'view/random-loot/music.php', $data);
     })->setName('music');
 
-    // TODO: Request $req,  Response $res, $args = [] for function sig?
-//    $app->get('/newsletter(/:year/:month)', function ($pYear = '2002', $pMonth = '12') use ($app, $pageData) {
-    // TODO: Fix this path
-    $app->get('/newsletter/{year}/{month})', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
+    $app->get('/newsletter[/{year}[/{month}]]', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
+        $year = array_key_exists('year', $args) ? $args['year'] : '2002';
+        $month = array_key_exists('month', $args) ? $args['month'] : '12';
+
         $data = $pageData
             ->withTitle('The LupinTheThird Newsletter')
             ->withDescription('Archive of newsletters for the Yahoo! Lupin the Third group')
@@ -38,9 +38,9 @@ $app->group('/random-loot', function (App $app) use ($pageUtil, $pageData) {
             ->data([
                 'lootNav' => true,
                 'newsletterNav' => true,
-                'year' => $pYear,
-                'month' => $pMonth,
-                'issue' => date('F Y', strtotime($pMonth . '/01' . $pYear)),
+                'year' => $year,
+                'month' => $month,
+                'issue' => date('F Y', strtotime($month . '/01/' . $year)),
             ]);
 
         return $this->view->render($res, 'view/random-loot/newsletter.php', $data);
