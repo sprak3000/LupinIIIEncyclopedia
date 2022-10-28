@@ -732,16 +732,16 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
+              <?php echo $view->renderPageFragment('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
+              <?php echo $view->renderPageFragment('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
 
           <div id="media" class="tab-pane fade in">
-            <?php echo $app->render('partial/media.php', ['partial' => true, 'images' => $images]); ?>
+            <?php echo $view->renderPageFragment('partial/media.php', ['partial' => true, 'images' => $images]); ?>
             <div class="responsive-video">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/hTTbKLjjf3o?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>

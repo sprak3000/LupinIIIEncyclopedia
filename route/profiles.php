@@ -1,14 +1,17 @@
 <?php
 
 use sprak3000\lupinencyclopedia\Slim\Page;
+use \Psr\Http\Message\ServerRequestInterface as Request;
+use \Psr\Http\Message\ResponseInterface as Response;
+use \Slim\app;
 
 $pageData = new Page\Data();
 
 /**
  * Routes for /profile and below
  */
-$app->group('/profile', function () use ($app, $pageData) {
-    $app->get('/monkey-punch/', function () use ($app, $pageData) {
+$app->group('/profile', function (App $app) use ($pageData) {
+    $app->get('/monkey-punch', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Monkey Punch')
             ->withNavigation([
@@ -16,10 +19,10 @@ $app->group('/profile', function () use ($app, $pageData) {
             ])
             ->data(['profilesNav' => true, 'monkeyPunchNav' => true]);
 
-        $app->render('view/profile/monkey-punch.php', $data);
-    })->name('profile-monkey-punch');
+        return $this->view->render($res, 'view/profile/monkey-punch.php', $data);
+    })->setName('profile-monkey-punch');
 
-    $app->get('/maurice-leblanc/', function () use ($app, $pageData) {
+    $app->get('/maurice-leblanc', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Maurice Leblanc')
             ->withNavigation([
@@ -27,10 +30,10 @@ $app->group('/profile', function () use ($app, $pageData) {
             ])
             ->data(['profilesNav' => true, 'leblancNav' => true]);
 
-        $app->render('view/profile/maurice-leblanc.php', $data);
-    })->name('profile-maurice-leblanc');
+        return $this->view->render($res, 'view/profile/maurice-leblanc.php', $data);
+    })->setName('profile-maurice-leblanc');
 
-    $app->get('/lupin-iii/', function () use ($app, $pageData) {
+    $app->get('/lupin-iii', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Ars&egrave;ne Lupin III')
             ->withNavigation([
@@ -38,10 +41,10 @@ $app->group('/profile', function () use ($app, $pageData) {
             ])
             ->data(['profilesNav' => true, 'lupinIIINav' => true]);
 
-        $app->render('view/profile/lupin-iii.php', $data);
-    })->name('profile-lupin-iii');
+        return $this->view->render($res, 'view/profile/lupin-iii.php', $data);
+    })->setName('profile-lupin-iii');
 
-    $app->get('/jigen-daisuke/', function () use ($app, $pageData) {
+    $app->get('/jigen-daisuke', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Jigen Daisuke')
             ->withNavigation([
@@ -49,10 +52,10 @@ $app->group('/profile', function () use ($app, $pageData) {
             ])
             ->data(['profilesNav' => true, 'jigenDaisukeNav' => true]);
 
-        $app->render('view/profile/jigen-daisuke.php', $data);
-    })->name('profile-jigen-daisuke');
+        return $this->view->render($res, 'view/profile/jigen-daisuke.php', $data);
+    })->setName('profile-jigen-daisuke');
 
-    $app->get('/ishikawa-goemon/', function () use ($app, $pageData) {
+    $app->get('/ishikawa-goemon', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Ishikawa Goemon')
             ->withNavigation([
@@ -60,10 +63,10 @@ $app->group('/profile', function () use ($app, $pageData) {
             ])
             ->data(['profilesNav' => true, 'ishikawaGoemonNav' => true]);
 
-        $app->render('view/profile/ishikawa-goemon.php', $data);
-    })->name('profile-ishikawa-goemon');
+        return $this->view->render($res, 'view/profile/ishikawa-goemon.php', $data);
+    })->setName('profile-ishikawa-goemon');
 
-    $app->get('/mine-fujiko/', function () use ($app, $pageData) {
+    $app->get('/mine-fujiko', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Mine Fujiko')
             ->withNavigation([
@@ -71,10 +74,10 @@ $app->group('/profile', function () use ($app, $pageData) {
             ])
             ->data(['profilesNav' => true, 'mineFujikoNav' => true]);
 
-        $app->render('view/profile/mine-fujiko.php', $data);
-    })->name('profile-mine-fujiko');
+        return $this->view->render($res, 'view/profile/mine-fujiko.php', $data);
+    })->setName('profile-mine-fujiko');
 
-    $app->get('/inspector-zenigata-koichi/', function () use ($app, $pageData) {
+    $app->get('/inspector-zenigata-koichi', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Inspector Zenigata Koichi')
             ->withNavigation([
@@ -82,6 +85,6 @@ $app->group('/profile', function () use ($app, $pageData) {
             ])
             ->data(['profilesNav' => true, 'zenigataKoichiNav' => true]);
 
-        $app->render('view/profile/inspector-zenigata-koichi.php', $data);
-    })->name('profile-inspector-zenigata-koichi');
+        return $this->view->render($res, 'view/profile/inspector-zenigata-koichi.php', $data);
+    })->setName('profile-inspector-zenigata-koichi');
 });

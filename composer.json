@@ -3,7 +3,7 @@
 
   "description": "Lupin III Encyclopedia web site",
 
-  "version": "3.4.5",
+  "version": "3.5.0",
 
   "type": "project",
 
@@ -21,12 +21,9 @@
   ],
 
   "require": {
-    "slim/slim": "2.*",
-    "sprak3000/anime-news-network-data-api": "1.*"
-  },
-
-  "require-dev": {
-
+    "slim/slim": "^3.0",
+    "sprak3000/anime-news-network-data-api": "1.*",
+    "ext-json": "*"
   },
 
   "scripts" : {

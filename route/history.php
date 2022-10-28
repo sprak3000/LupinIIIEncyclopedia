@@ -1,8 +1,11 @@
 <?php
+use \Psr\Http\Message\ServerRequestInterface as Request;
+use \Psr\Http\Message\ResponseInterface as Response;
+
 /**
  * Route for the History page
  */
-$app->get('/history', function () use ($app) {
+$app->get('/history', function (Request $req,  Response $res, $args = []) use ($app) {
   $includeCss = array ();
   $includeCss[] = '/dist/css/timeline/assets/css/card.css';
 
@@ -23,5 +26,5 @@ $app->get('/history', function () use ($app) {
   $pageData['homeNav'] = true;
   $pageData['historyNav'] = true;
 
-  $app->render('view/history.php', $pageData);
-})->name('history');
+  return $this->view->render($res, 'view/history.php', $pageData);
+})->setName('history');

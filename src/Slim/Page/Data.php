@@ -100,7 +100,7 @@ class Data
 
         try {
             $this->forumRSS = simplexml_load_file("https://www.lupinencyclopedia.com/forums/index.php?action=.xml;type=rss2");
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             // TODO: Log this appropriately
         }
 
@@ -113,7 +113,7 @@ class Data
 
         try {
             $this->eBayRSS = simplexml_load_file("http://www.lupinencyclopedia.com/rss/ebay");
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             // TODO: Log this appropriately
         }
 
