@@ -1,6 +1,9 @@
 <?php
 
 use sprak3000\lupinencyclopedia\Slim\Page;
+use \Psr\Http\Message\ServerRequestInterface as Request;
+use \Psr\Http\Message\ResponseInterface as Response;
+use \Slim\app;
 
 $pageUtil = new Page\Util();
 $pageData = new Page\Data();
@@ -8,11 +11,11 @@ $pageData = new Page\Data();
 /**
  * Routes for /anime and below
  */
-$app->group('/anime', function () use ($app, $pageUtil, $pageData) {
+$app->group('/anime', function (App $app) use ($pageUtil, $pageData) {
     /**
      * Route(s) for the Pilot Film
      */
-    $app->get('/pilot-film/', function () use ($app, $pageUtil, $pageData) {
+    $app->get('/pilot-film/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
         $data = $pageData
             ->withTitle('Lupin III Pilot Film')
             ->withNavigation([
@@ -25,14 +28,14 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                 'app' => $app->getInstance(),
             ]);
 
-        $app->render('view/anime/pilot-film.php', $data);
-    })->name('pilot-film');
+        return $this->view->render('view/anime/pilot-film.php', $data);
+    })->setName('pilot-film');
 
     /**
      * Routes for Theatrical Films
      */
-    $app->group('/theatrical-films', function () use ($app, $pageUtil, $pageData) {
-        $app->get('/', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/theatrical-films', function (App $app) use ($pageUtil, $pageData) {
+        $app->get('/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Theatrical Films')
                 ->withNavigation([
@@ -41,10 +44,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                 ->withTimeline()
                 ->data(['animeNav' => true, 'filmNav' => true,]);
 
-            $app->render('view/anime/theatrical-films.php', $data);
-        })->name('theatrical-films');
+            return $this->view->render('view/anime/theatrical-films.php', $data);
+        })->setName('theatrical-films');
 
-        $app->get('/the-first/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/the-first/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin III THE FIRST')
                 ->withNavigation([
@@ -58,10 +61,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/the-first.php', $data);
-        })->name('the-first');
+            return $this->view->render('view/anime/theatrical-films/the-first.php', $data);
+        })->setName('the-first');
 
-        $app->get('/fujiko-mines-lie/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/fujiko-mines-lie/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Fujiko Mine\'s Lie')
                 ->withNavigation([
@@ -75,10 +78,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/fujiko-mines-lie.php', $data);
-        })->name('fujiko-mines-lie');
+            return $this->view->render('view/anime/theatrical-films/fujiko-mines-lie.php', $data);
+        })->setName('fujiko-mines-lie');
 
-        $app->get('/goemon-spray-blood/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/goemon-spray-blood/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Goemon Ishikawa\'s Spray of Blood')
                 ->withNavigation([
@@ -92,10 +95,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/goemon-spray-blood.php', $data);
-        })->name('goemon-spray-blood');
+            return $this->view->render('view/anime/theatrical-films/goemon-spray-blood.php', $data);
+        })->setName('goemon-spray-blood');
 
-        $app->get('/jigen-daisuke-gravestone/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/jigen-daisuke-gravestone/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Jigen Daisuke\'s Gravestone')
                 ->withNavigation([
@@ -109,10 +112,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/jigen-daisuke-gravestone.php', $data);
-        })->name('jigen-daisuke-gravestone');
+            return $this->view->render('view/anime/theatrical-films/jigen-daisuke-gravestone.php', $data);
+        })->setName('jigen-daisuke-gravestone');
 
-        $app->get('/strange-psychokinetic-strategy/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/strange-psychokinetic-strategy/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Strange Psychokinetic Strategy')
                 ->withNavigation([
@@ -125,10 +128,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/strange-psychokinetic-strategy.php', $data);
-        })->name('strange-psychokinetic-strategy');
+            return $this->view->render('view/anime/theatrical-films/strange-psychokinetic-strategy.php', $data);
+        })->setName('strange-psychokinetic-strategy');
 
-        $app->get('/castle-of-cagliostro/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/castle-of-cagliostro/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Castle of Cagliostro')
                 ->withNavigation([
@@ -143,10 +146,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/castle-of-cagliostro.php', $data);
-        })->name('castle-of-cagliostro');
+            return $this->view->render('view/anime/theatrical-films/castle-of-cagliostro.php', $data);
+        })->setName('castle-of-cagliostro');
 
-        $app->get('/dead-or-alive/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/dead-or-alive/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Dead or Alive')
                 ->withNavigation([
@@ -161,10 +164,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/dead-or-alive.php', $data);
-        })->name('dead-or-alive');
+            return $this->view->render('view/anime/theatrical-films/dead-or-alive.php', $data);
+        })->setName('dead-or-alive');
 
-        $app->get('/farewell-to-nostradamus/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/farewell-to-nostradamus/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Farewell to Nostradamus')
                 ->withNavigation([
@@ -179,10 +182,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/farewell-to-nostradamus.php', $data);
-        })->name('farewell-to-nostradamus');
+            return $this->view->render('view/anime/theatrical-films/farewell-to-nostradamus.php', $data);
+        })->setName('farewell-to-nostradamus');
 
-        $app->get('/legend-of-the-gold-of-babylon/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/legend-of-the-gold-of-babylon/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Legend of the Gold of Babylon')
                 ->withNavigation([
@@ -197,10 +200,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/legend-of-the-gold-of-babylon.php', $data);
-        })->name('legend-of-the-gold-of-babylon');
+            return $this->view->render('view/anime/theatrical-films/legend-of-the-gold-of-babylon.php', $data);
+        })->setName('legend-of-the-gold-of-babylon');
 
-        $app->get('/lupin-the-third-2014/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/lupin-the-third-2014/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin the Third (2014)')
                 ->withNavigation([
@@ -214,10 +217,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/lupin-the-third-2014.php', $data);
-        })->name('lupin-the-third-2014');
+            return $this->view->render('view/anime/theatrical-films/lupin-the-third-2014.php', $data);
+        })->setName('lupin-the-third-2014');
 
-        $app->get('/lupin-vs-detective-conan/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/lupin-vs-detective-conan/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin the Third vs. Detective Conan: The Movie')
                 ->withNavigation([
@@ -232,10 +235,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/lupin-vs-detective-conan.php', $data);
-        })->name('lupin-vs-detective-conan');
+            return $this->view->render('view/anime/theatrical-films/lupin-vs-detective-conan.php', $data);
+        })->setName('lupin-vs-detective-conan');
 
-        $app->get('/secret-of-mamo/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/secret-of-mamo/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Secret of Mamo')
                 ->withNavigation([
@@ -250,15 +253,15 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/theatrical-films/secret-of-mamo.php', $data);
-        })->name('secret-of-mamo');
+            return $this->view->render('view/anime/theatrical-films/secret-of-mamo.php', $data);
+        })->setName('secret-of-mamo');
     });
 
     /**
      * Routes for OVAs
      */
-    $app->group('/original-video-animation', function () use ($app, $pageUtil, $pageData) {
-        $app->get('/', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/original-video-animation', function (App $app) use ($pageUtil, $pageData) {
+        $app->get('/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Original Video Animation (OVA)')
                 ->withNavigation([
@@ -271,10 +274,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/original-video-animation.php', $data);
-        })->name('original-video-animation');
+            return $this->view->render('view/anime/original-video-animation.php', $data);
+        })->setName('original-video-animation');
 
-        $app->get('/trailers-collection/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/trailers-collection/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Trailers Collection \'71 - \'95')
                 ->withNavigation([
@@ -287,10 +290,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/original-video-animation/trailers-collection.php', $data);
-        })->name('trailers-collection');
+            return $this->view->render('view/anime/original-video-animation/trailers-collection.php', $data);
+        })->setName('trailers-collection');
 
-        $app->get('/secret-files-2/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/secret-files-2/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('The Secret Files 2 ~Sound Collection~')
                 ->withNavigation([
@@ -303,10 +306,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/original-video-animation/secret-files-2.php', $data);
-        })->name('secret-files-2');
+            return $this->view->render('view/anime/original-video-animation/secret-files-2.php', $data);
+        })->setName('secret-files-2');
 
-        $app->get('/secret-files/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/secret-files/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('The Secret Files')
                 ->withNavigation([
@@ -320,10 +323,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/original-video-animation/secret-files.php', $data);
-        })->name('secret-files');
+            return $this->view->render('view/anime/original-video-animation/secret-files.php', $data);
+        })->setName('secret-files');
 
-        $app->get('/return-of-the-magician/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/return-of-the-magician/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Return of the Magician')
                 ->withNavigation([
@@ -338,10 +341,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/original-video-animation/return-of-the-magician.php', $data);
-        })->name('return-of-the-magician');
+            return $this->view->render('view/anime/original-video-animation/return-of-the-magician.php', $data);
+        })->setName('return-of-the-magician');
 
-        $app->get('/plot-of-the-fuma-clan/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/plot-of-the-fuma-clan/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Plot of the Fuma Clan')
                 ->withNavigation([
@@ -356,10 +359,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/original-video-animation/plot-of-the-fuma-clan.php', $data);
-        })->name('plot-of-the-fuma-clan');
+            return $this->view->render('view/anime/original-video-animation/plot-of-the-fuma-clan.php', $data);
+        })->setName('plot-of-the-fuma-clan');
 
-        $app->get('/green-vs-red/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/green-vs-red/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Green VS Red')
                 ->withNavigation([
@@ -374,15 +377,15 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/original-video-animation/green-vs-red.php', $data);
-        })->name('green-vs-red');
+            return $this->view->render('view/anime/original-video-animation/green-vs-red.php', $data);
+        })->setName('green-vs-red');
     });
 
     /**
      * Routes for TV Specials
      */
-    $app->group('/tv-specials', function () use ($app, $pageUtil, $pageData) {
-        $app->get('/', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/tv-specials', function (App $app) use ($pageUtil, $pageData) {
+        $app->get('/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('TV Specials')
                 ->withNavigation([
@@ -395,10 +398,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials.php', $data);
-        })->name('tv-specials');
+            return $this->view->render('view/anime/tv-specials.php', $data);
+        })->setName('tv-specials');
 
-        $app->get('/bye-bye-liberty-crisis/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/bye-bye-liberty-crisis/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Bye Bye Liberty Crisis')
                 ->withNavigation([
@@ -412,10 +415,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/bye-bye-liberty-crisis.php', $data);
-        })->name('bye-bye-liberty-crisis');
+            return $this->view->render('view/anime/tv-specials/bye-bye-liberty-crisis.php', $data);
+        })->setName('bye-bye-liberty-crisis');
 
-        $app->get('/hemingway-papers/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/hemingway-papers/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Hemingway Papers')
                 ->withNavigation([
@@ -429,10 +432,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/hemingway-papers.php', $data);
-        })->name('hemingway-papers');
+            return $this->view->render('view/anime/tv-specials/hemingway-papers.php', $data);
+        })->setName('hemingway-papers');
 
-        $app->get('/napoleons-dictionary/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/napoleons-dictionary/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Napoleon\'s Dictionary')
                 ->withNavigation([
@@ -446,10 +449,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/napoleons-dictionary.php', $data);
-        })->name('napoleons-dictionary');
+            return $this->view->render('view/anime/tv-specials/napoleons-dictionary.php', $data);
+        })->setName('napoleons-dictionary');
 
-        $app->get('/from-russia-with-love/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/from-russia-with-love/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('From Russia with Love')
                 ->withNavigation([
@@ -463,10 +466,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/from-russia-with-love.php', $data);
-        })->name('from-russia-with-love');
+            return $this->view->render('view/anime/tv-specials/from-russia-with-love.php', $data);
+        })->setName('from-russia-with-love');
 
-        $app->get('/voyage-to-danger/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/voyage-to-danger/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Voyage to Danger')
                 ->withNavigation([
@@ -480,10 +483,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/voyage-to-danger.php', $data);
-        })->name('voyage-to-danger');
+            return $this->view->render('view/anime/tv-specials/voyage-to-danger.php', $data);
+        })->setName('voyage-to-danger');
 
-        $app->get('/dragon-of-doom/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/dragon-of-doom/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Dragon of Doom')
                 ->withNavigation([
@@ -498,10 +501,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/dragon-of-doom.php', $data);
-        })->name('dragon-of-doom');
+            return $this->view->render('view/anime/tv-specials/dragon-of-doom.php', $data);
+        })->setName('dragon-of-doom');
 
-        $app->get('/the-pursuit-of-harimaos-treasure/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/the-pursuit-of-harimaos-treasure/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('The Pursuit of Harimao\'s Treasure')
                 ->withNavigation([
@@ -515,10 +518,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/the-pursuit-of-harimaos-treasure.php', $data);
-        })->name('the-pursuit-of-harimaos-treasure');
+            return $this->view->render('view/anime/tv-specials/the-pursuit-of-harimaos-treasure.php', $data);
+        })->setName('the-pursuit-of-harimaos-treasure');
 
-        $app->get('/the-secret-of-twilight-gemini/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/the-secret-of-twilight-gemini/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('The Secret of Twilight Gemini')
                 ->withNavigation([
@@ -532,10 +535,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/the-secret-of-twilight-gemini.php', $data);
-        })->name('the-secret-of-twilight-gemini');
+            return $this->view->render('view/anime/tv-specials/the-secret-of-twilight-gemini.php', $data);
+        })->setName('the-secret-of-twilight-gemini');
 
-        $app->get('/island-of-assassins/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/island-of-assassins/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Island of Assassins')
                 ->withNavigation([
@@ -549,10 +552,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/island-of-assassins.php', $data);
-        })->name('island-of-assassins');
+            return $this->view->render('view/anime/tv-specials/island-of-assassins.php', $data);
+        })->setName('island-of-assassins');
 
-        $app->get('/crisis-in-tokyo/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/crisis-in-tokyo/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Crisis in Tokyo')
                 ->withNavigation([
@@ -566,10 +569,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/crisis-in-tokyo.php', $data);
-        })->name('crisis-in-tokyo');
+            return $this->view->render('view/anime/tv-specials/crisis-in-tokyo.php', $data);
+        })->setName('crisis-in-tokyo');
 
-        $app->get('/the-columbus-files/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/the-columbus-files/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('The Columbus Files')
                 ->withNavigation([
@@ -583,10 +586,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/the-columbus-files.php', $data);
-        })->name('the-columbus-files');
+            return $this->view->render('view/anime/tv-specials/the-columbus-files.php', $data);
+        })->setName('the-columbus-files');
 
-        $app->get('/missed-by-a-dollar/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/missed-by-a-dollar/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Missed by a Dollar')
                 ->withNavigation([
@@ -600,10 +603,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/missed-by-a-dollar.php', $data);
-        })->name('missed-by-a-dollar');
+            return $this->view->render('view/anime/tv-specials/missed-by-a-dollar.php', $data);
+        })->setName('missed-by-a-dollar');
 
-        $app->get('/alcatraz-connection/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/alcatraz-connection/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Alcatraz Connection')
                 ->withNavigation([
@@ -618,10 +621,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/alcatraz-connection.php', $data);
-        })->name('alcatraz-connection');
+            return $this->view->render('view/anime/tv-specials/alcatraz-connection.php', $data);
+        })->setName('alcatraz-connection');
 
-        $app->get('/episode-0-first-contact/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/episode-0-first-contact/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Episode:0 First Contact')
                 ->withNavigation([
@@ -636,10 +639,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/episode-0-first-contact.php', $data);
-        })->name('episode-0-first-contact');
+            return $this->view->render('view/anime/tv-specials/episode-0-first-contact.php', $data);
+        })->setName('episode-0-first-contact');
 
-        $app->get('/operation-return-the-treasure/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/operation-return-the-treasure/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Operation: Return the Treasure!!')
                 ->withNavigation([
@@ -653,10 +656,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/operation-return-the-treasure.php', $data);
-        })->name('operation-return-the-treasure');
+            return $this->view->render('view/anime/tv-specials/operation-return-the-treasure.php', $data);
+        })->setName('operation-return-the-treasure');
 
-        $app->get('/stolen-lupin/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/stolen-lupin/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Stolen Lupin')
                 ->withNavigation([
@@ -670,10 +673,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/stolen-lupin.php', $data);
-        })->name('stolen-lupin');
+            return $this->view->render('view/anime/tv-specials/stolen-lupin.php', $data);
+        })->setName('stolen-lupin');
 
-        $app->get('/angels-tactics/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/angels-tactics/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Angel\'s Tactics')
                 ->withNavigation([
@@ -687,10 +690,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/angels-tactics.php', $data);
-        })->name('angels-tactics');
+            return $this->view->render('view/anime/tv-specials/angels-tactics.php', $data);
+        })->setName('angels-tactics');
 
-        $app->get('/seven-days-rhapsody/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/seven-days-rhapsody/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Seven Days Rhapsody')
                 ->withNavigation([
@@ -705,10 +708,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/seven-days-rhapsody.php', $data);
-        })->name('seven-days-rhapsody');
+            return $this->view->render('view/anime/tv-specials/seven-days-rhapsody.php', $data);
+        })->setName('seven-days-rhapsody');
 
-        $app->get('/elusiveness-of-the-fog/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/elusiveness-of-the-fog/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Elusiveness of the Fog')
                 ->withNavigation([
@@ -723,10 +726,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/elusiveness-of-the-fog.php', $data);
-        })->name('elusiveness-of-the-fog');
+            return $this->view->render('view/anime/tv-specials/elusiveness-of-the-fog.php', $data);
+        })->setName('elusiveness-of-the-fog');
 
-        $app->get('/sweet-lost-night/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/sweet-lost-night/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Sweet Lost Night ~Magic Lamp\'s Nightmare Premonition')
                 ->withNavigation([
@@ -741,10 +744,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/sweet-lost-night.php', $data);
-        })->name('sweet-lost-night');
+            return $this->view->render('view/anime/tv-specials/sweet-lost-night.php', $data);
+        })->setName('sweet-lost-night');
 
-        $app->get('/lupin-iii-vs-detective-conan/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/lupin-iii-vs-detective-conan/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin III vs. Detective Conan')
                 ->withNavigation([
@@ -759,10 +762,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/lupin-iii-vs-detective-conan.php', $data);
-        })->name('lupin-iii-vs-detective-conan');
+            return $this->view->render('view/anime/tv-specials/lupin-iii-vs-detective-conan.php', $data);
+        })->setName('lupin-iii-vs-detective-conan');
 
-        $app->get('/the-last-job/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/the-last-job/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('The Last Job')
                 ->withNavigation([
@@ -777,10 +780,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/the-last-job.php', $data);
-        })->name('the-last-job');
+            return $this->view->render('view/anime/tv-specials/the-last-job.php', $data);
+        })->setName('the-last-job');
 
-        $app->get('/blood-seal-eternal-mermaid/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/blood-seal-eternal-mermaid/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Blood Seal ~Eternal Mermaid~')
                 ->withNavigation([
@@ -796,10 +799,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                 ]);
 
 
-            $app->render('view/anime/tv-specials/blood-seal-eternal-mermaid.php', $data);
-        })->name('blood-seal-eternal-mermaid');
+            return $this->view->render('view/anime/tv-specials/blood-seal-eternal-mermaid.php', $data);
+        })->setName('blood-seal-eternal-mermaid');
 
-        $app->get('/record-of-observations-of-the-east/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/record-of-observations-of-the-east/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Record of Observations of the East - Another Page')
                 ->withNavigation([
@@ -813,10 +816,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/record-of-observations-of-the-east.php', $data);
-        })->name('record-of-observations-of-the-east');
+            return $this->view->render('view/anime/tv-specials/record-of-observations-of-the-east.php', $data);
+        })->setName('record-of-observations-of-the-east');
 
-        $app->get('/princess-of-the-breeze/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/princess-of-the-breeze/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Princess of the Breeze - Hidden City in the Sky')
                 ->withNavigation([
@@ -830,10 +833,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/princess-of-the-breeze.php', $data);
-        })->name('princess-of-the-breeze');
+            return $this->view->render('view/anime/tv-specials/princess-of-the-breeze.php', $data);
+        })->setName('princess-of-the-breeze');
 
-        $app->get('/goodbye-partner/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/goodbye-partner/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Goodbye Partner')
                 ->withNavigation([
@@ -847,10 +850,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/goodbye-partner.php', $data);
-        })->name('goodbye-partner');
+            return $this->view->render('view/anime/tv-specials/goodbye-partner.php', $data);
+        })->setName('goodbye-partner');
 
-        $app->get('/prison-of-the-past/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/prison-of-the-past/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Prison of the Past')
                 ->withNavigation([
@@ -864,10 +867,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/prison-of-the-past.php', $data);
-        })->name('prison-of-the-past');
+            return $this->view->render('view/anime/tv-specials/prison-of-the-past.php', $data);
+        })->setName('prison-of-the-past');
 
-        $app->get('/italian-game/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/italian-game/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Italian Game')
                 ->withNavigation([
@@ -881,15 +884,15 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-specials/italian-game.php', $data);
-        })->name('italian-game');
+            return $this->view->render('view/anime/tv-specials/italian-game.php', $data);
+        })->setName('italian-game');
     });
 
     /**
      * Routes for TV Series
      */
-    $app->group('/tv-series', function () use ($app, $pageUtil, $pageData) {
-        $app->get('/fifth/', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/tv-series', function (App $app) use ($pageUtil, $pageData) {
+        $app->get('/fifth/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin III Fifth TV Series')
                 ->withNavigation([
@@ -904,10 +907,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-series/fifth.php', $data);
-        })->name('fifth-tv-series');
+            return $this->view->render('view/anime/tv-series/fifth.php', $data);
+        })->setName('fifth-tv-series');
 
-        $app->get('/fourth/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/fourth/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin III Fourth TV Series')
                 ->withNavigation([
@@ -922,10 +925,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-series/fourth.php', $data);
-        })->name('fourth-tv-series');
+            return $this->view->render('view/anime/tv-series/fourth.php', $data);
+        })->setName('fourth-tv-series');
 
-        $app->get('/third/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/third/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin III Third TV Series')
                 ->withNavigation([
@@ -940,10 +943,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-series/third.php', $data);
-        })->name('third-tv-series');
+            return $this->view->render('view/anime/tv-series/third.php', $data);
+        })->setName('third-tv-series');
 
-        $app->get('/second/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/second/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin III Second TV Series')
                 ->withNavigation([
@@ -958,10 +961,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-series/second.php', $data);
-        })->name('second-tv-series');
+            return $this->view->render('view/anime/tv-series/second.php', $data);
+        })->setName('second-tv-series');
 
-        $app->get('/lupin-viii/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/lupin-viii/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin VIII TV Series')
                 ->withDescription('Lupin VIII TV Series - an abandoned co-production between France and Japan')
@@ -976,10 +979,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-series/lupin-viii.php', $data);
-        })->name('lupin-viii-tv-series');
+            return $this->view->render('view/anime/tv-series/lupin-viii.php', $data);
+        })->setName('lupin-viii-tv-series');
 
-        $app->get('/first/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/first/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin III First TV Series')
                 ->withNavigation([
@@ -994,10 +997,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/tv-series/first.php', $data);
-        })->name('first-tv-series');
+            return $this->view->render('view/anime/tv-series/first.php', $data);
+        })->setName('first-tv-series');
 
-        $app->get('/woman-called-mine-fujiko/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/woman-called-mine-fujiko/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin the Third: The Woman Called Mine Fujiko')
                 ->withNavigation([
@@ -1014,15 +1017,15 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                         true),
                 ]);
 
-            $app->render('view/anime/tv-series/woman-called-mine-fujiko.php', $data);
-        })->name('woman-called-mine-fujiko');
+            return $this->view->render('view/anime/tv-series/woman-called-mine-fujiko.php', $data);
+        })->setName('woman-called-mine-fujiko');
     });
 
     /**
      * Routes for non-Lupin
      */
-    $app->group('/non-lupin', function () use ($app, $pageUtil, $pageData) {
-        $app->get('/', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/non-lupin', function (App $app) use ($pageUtil, $pageData) {
+        $app->get('/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Non-Lupin Anime')
                 ->withNavigation([
@@ -1035,10 +1038,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/non-lupin.php', $data);
-        })->name('non-lupin');
+            return $this->view->render('view/anime/non-lupin.php', $data);
+        })->setName('non-lupin');
 
-        $app->get('/scoopers/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/scoopers/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Scoopers')
                 ->withNavigation([
@@ -1052,10 +1055,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/non-lupin/scoopers.php', $data);
-        })->name('scoopers');
+            return $this->view->render('view/anime/non-lupin/scoopers.php', $data);
+        })->setName('scoopers');
 
-        $app->get('/alice/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/alice/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Alice')
                 ->withNavigation([
@@ -1070,10 +1073,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/non-lupin/alice.php', $data);
-        })->name('alice');
+            return $this->view->render('view/anime/non-lupin/alice.php', $data);
+        })->setName('alice');
 
-        $app->get('/siamese-cat-first-mission/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/siamese-cat-first-mission/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Siamese Cat - First Mission')
                 ->withNavigation([
@@ -1088,10 +1091,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/non-lupin/siamese-cat-first-mission.php', $data);
-        })->name('siamese-cat-first-mission');
+            return $this->view->render('view/anime/non-lupin/siamese-cat-first-mission.php', $data);
+        })->setName('siamese-cat-first-mission');
 
-        $app->get('/cinderella-boy/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/cinderella-boy/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Cinderella Boy')
                 ->withNavigation([
@@ -1107,10 +1110,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/non-lupin/cinderella-boy.php', $data);
-        })->name('cinderella-boy');
+            return $this->view->render('view/anime/non-lupin/cinderella-boy.php', $data);
+        })->setName('cinderella-boy');
 
-        $app->get('/mankatsu/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/mankatsu/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Mankatsu')
                 ->withNavigation([
@@ -1125,10 +1128,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/non-lupin/mankatsu.php', $data);
-        })->name('mankatsu');
+            return $this->view->render('view/anime/non-lupin/mankatsu.php', $data);
+        })->setName('mankatsu');
 
-        $app->get('/gundoh-musashi/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/gundoh-musashi/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Gundoh Musashi')
                 ->withNavigation([
@@ -1144,10 +1147,10 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/non-lupin/gundoh-musashi.php', $data);
-        })->name('gundoh-musashi');
+            return $this->view->render('view/anime/non-lupin/gundoh-musashi.php', $data);
+        })->setName('gundoh-musashi');
 
-        $app->get('/bakumatsu-gijinden-roman/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/bakumatsu-gijinden-roman/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Bakumatsu Gijinden Roman')
                 ->withNavigation([
@@ -1162,7 +1165,7 @@ $app->group('/anime', function () use ($app, $pageUtil, $pageData) {
                     'app' => $app->getInstance(),
                 ]);
 
-            $app->render('view/anime/non-lupin/bakumatsu-gijinden-roman.php', $data);
-        })->name('bakumatsu-gijinden-roman');
+            return $this->view->render('view/anime/non-lupin/bakumatsu-gijinden-roman.php', $data);
+        })->setName('bakumatsu-gijinden-roman');
     });
 });

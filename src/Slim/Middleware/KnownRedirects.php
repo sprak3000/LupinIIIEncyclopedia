@@ -2,29 +2,29 @@
 
 namespace sprak3000\lupinencyclopedia\Slim\Middleware;
 
-use \Slim\Middleware;
+use Psr\Http\Message\RequestInterface as Request;
+use Psr\Http\Message\ResponseInterface as Response;
 
-class KnownRedirects extends Middleware
+class KnownRedirects
 {
-    public function call()
+    public function __invoke(Request $req,  Response $res, callable $next)
     {
-        $app = $this->app;
-
-        $route = $app->request()->getResourceUri();
+        $route = $req->getUri()->getPath();
 
         // Special catch-all for any lingering /news/* links
         if (false !== stripos($route, "/news/")) {
-            return $app->response->redirect($app->urlFor("homepage"), 301);
+            // TODO: Test this path
+            return $res->withRedirect($req->getAttribute('route')->pathFor("homepage"), 301);
         }
 
         $redirects = json_decode(file_get_contents(__DIR__ . '/../../../application/redirects.json'), true);
 
         // Perform any known redirects
         if (array_key_exists($route, $redirects)) {
-            return $app->response->redirect($app->urlFor($redirects[$route]), 301);
+            // TODO: Test this path
+            return $res->withRedirect($req->getAttribute('route')->pathFor($redirects[$route]), 301);
         }
 
-        // Otherwise, keep on rendering
-        $this->next->call();
+        return $next($req, $res);
     }
 }

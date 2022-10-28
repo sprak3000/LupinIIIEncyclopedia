@@ -1,6 +1,9 @@
 <?php
 
 use sprak3000\lupinencyclopedia\Slim\Page;
+use \Psr\Http\Message\ServerRequestInterface as Request;
+use \Psr\Http\Message\ResponseInterface as Response;
+use \Slim\app;
 
 $pageUtil = new Page\Util();
 $pageData = new Page\Data();
@@ -8,22 +11,22 @@ $pageData = new Page\Data();
 /**
  * Routes for /games and below
  */
-$app->group('/games', function () use ($app, $pageUtil, $pageData) {
+$app->group('/games', function (App $app) use ($pageUtil, $pageData) {
     /**
      * Route(s) for base game page
      */
-    $app->get('/', function () use ($app, $pageUtil, $pageData) {
+    $app->get('/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
         $data = $pageData
             ->withTitle('Games')
             ->data(['gamesNav' => true]);
 
-        $app->render('view/games/index.php', $data);
-    })->name('games');
+        return $this->view->render('view/games/index.php', $data);
+    })->setName('games');
 
     /**
      * Route(s) for Super Cassette Vision
      */
-    $app->get('/super-cassette-vision/lupin-iii/', function () use ($app, $pageUtil, $pageData) {
+    $app->get('/super-cassette-vision/lupin-iii/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
         $data = $pageData
             ->withTitle('Lupin III')
             ->withNavigation([
@@ -32,18 +35,18 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
             ])
             ->data(['gamesNav' => true]);
 
-        $app->render('view/games/super-cassette-vision/lupin-iii.php', $data);
-    })->name('super-cassette-vision-lupin-iii');
+        return $this->view->render('view/games/super-cassette-vision/lupin-iii.php', $data);
+    })->setName('super-cassette-vision-lupin-iii');
 
     /**
      * Routes for Nintendo
      */
-    $app->group('/nintendo', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/nintendo', function (App $app) use ($pageUtil, $pageData) {
         /**
          * Routes for DS
          */
-        $app->group('/ds', function () use ($app, $pageUtil, $pageData) {
-            $app->get('/shijyou-saidai-no-sunou-ikusa/', function () use ($app, $pageUtil, $pageData) {
+        $app->group('/ds', function (App $app) use ($pageUtil, $pageData) {
+            $app->get('/shijyou-saidai-no-sunou-ikusa/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Shijyou Saidai no Sunou Ikusa')
                     ->withNavigation([
@@ -53,15 +56,15 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ->withGallery(__DIR__ . "/../public/dist/asset/img/games/nintendo/ds/shijyou-saidai-no-sunou-ikusa/media")
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/nintendo/ds/shijyou-saidai-no-sunou-ikusa.php', $data);
-            })->name('nintendo-ds-shijyou-saidai-no-sunou-ikusa');
+                return $this->view->render('view/games/nintendo/ds/shijyou-saidai-no-sunou-ikusa.php', $data);
+            })->setName('nintendo-ds-shijyou-saidai-no-sunou-ikusa');
         });
 
         /**
          * Routes for Gamecube
          */
-        $app->group('/gamecube', function () use ($app, $pageUtil, $pageData) {
-            $app->get('/umi-ni-kieta-hihou/', function () use ($app, $pageUtil, $pageData) {
+        $app->group('/gamecube', function (App $app) use ($pageUtil, $pageData) {
+            $app->get('/umi-ni-kieta-hihou/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Umi ni Kieta Hihou')
                     ->withNavigation([
@@ -70,15 +73,15 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/nintendo/gamecube/umi-ni-kieta-hihou.php', $data);
-            })->name('nintendo-gamecube-umi-ni-kieta-hihou');
+                return $this->view->render('view/games/nintendo/gamecube/umi-ni-kieta-hihou.php', $data);
+            })->setName('nintendo-gamecube-umi-ni-kieta-hihou');
         });
 
         /**
          * Routes for Super Famicom
          */
-        $app->group('/super-famicom', function () use ($app, $pageUtil, $pageData) {
-            $app->get('/lupin-iii-densetsu-no-hihou-o-oe/', function () use ($app, $pageUtil, $pageData) {
+        $app->group('/super-famicom', function (App $app) use ($pageUtil, $pageData) {
+            $app->get('/lupin-iii-densetsu-no-hihou-o-oe/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Lupin III: Densetsu no Hihou o Oe!')
                     ->withNavigation([
@@ -87,15 +90,15 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/nintendo/super-famicom/lupin-iii-densetsu-no-hihou-o-oe.php', $data);
-            })->name('nintendo-super-famicom-lupin-iii-densetsu-no-hihou-o-oe');
+                return $this->view->render('view/games/nintendo/super-famicom/lupin-iii-densetsu-no-hihou-o-oe.php', $data);
+            })->setName('nintendo-super-famicom-lupin-iii-densetsu-no-hihou-o-oe');
         });
 
         /**
          * Routes for Gameboy
          */
-        $app->group('/gameboy', function () use ($app, $pageUtil, $pageData) {
-            $app->get('/sd-lupin-iii-kinko-yaburi-daisakusen/', function () use ($app, $pageUtil, $pageData) {
+        $app->group('/gameboy', function (App $app) use ($pageUtil, $pageData) {
+            $app->get('/sd-lupin-iii-kinko-yaburi-daisakusen/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('SD Lupin III Kinko Yaburi Daisakusen')
                     ->withNavigation([
@@ -104,15 +107,15 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/nintendo/gameboy/sd-lupin-iii-kinko-yaburi-daisakusen.php', $data);
-            })->name('nintendo-gameboy-sd-lupin-iii-kinko-yaburi-daisakusen');
+                return $this->view->render('view/games/nintendo/gameboy/sd-lupin-iii-kinko-yaburi-daisakusen.php', $data);
+            })->setName('nintendo-gameboy-sd-lupin-iii-kinko-yaburi-daisakusen');
         });
 
         /**
          * Routes for Famicom
          */
-        $app->group('/famicom', function () use ($app, $pageUtil, $pageData) {
-            $app->get('/lupin-iii-pandora-no-isan/', function () use ($app, $pageUtil, $pageData) {
+        $app->group('/famicom', function (App $app) use ($pageUtil, $pageData) {
+            $app->get('/lupin-iii-pandora-no-isan/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Lupin III: Pandora no Isan')
                     ->withNavigation([
@@ -121,20 +124,20 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/nintendo/famicom/lupin-iii-pandora-no-isan.php', $data);
-            })->name('nintendo-famicom-lupin-iii-pandora-no-isan');
+                return $this->view->render('view/games/nintendo/famicom/lupin-iii-pandora-no-isan.php', $data);
+            })->setName('nintendo-famicom-lupin-iii-pandora-no-isan');
         });
     });
 
     /**
      * Routes for Sony
      */
-    $app->group('/sony', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/sony', function (App $app) use ($pageUtil, $pageData) {
         /**
          * Routes for PS1
          */
-        $app->group('/playstation', function () use ($app, $pageUtil, $pageData) {
-            $app->get('/lupin-iii-chateau-de-cagliostro-saikai/', function () use ($app, $pageUtil, $pageData) {
+        $app->group('/playstation', function (App $app) use ($pageUtil, $pageData) {
+            $app->get('/lupin-iii-chateau-de-cagliostro-saikai/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Lupin III: Chateau de Cagliostro Saikai')
                     ->withNavigation([
@@ -143,10 +146,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps1/lupin-iii-chateau-de-cagliostro-saikai.php', $data);
-            })->name('sony-ps1-lupin-iii-chateau-de-cagliostro-saikai');
+                return $this->view->render('view/games/sony/ps1/lupin-iii-chateau-de-cagliostro-saikai.php', $data);
+            })->setName('sony-ps1-lupin-iii-chateau-de-cagliostro-saikai');
 
-            $app->get('/lupin-the-3rd/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/lupin-the-3rd/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Lupin the 3rd')
                     ->withNavigation([
@@ -155,10 +158,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps1/lupin-the-3rd.php', $data);
-            })->name('sony-ps1-lupin-the-3rd');
+                return $this->view->render('view/games/sony/ps1/lupin-the-3rd.php', $data);
+            })->setName('sony-ps1-lupin-the-3rd');
 
-            $app->get('/heiwa-parlor-pro-lupin-the-iii-special/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/heiwa-parlor-pro-lupin-the-iii-special/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('HEIWA Parlor! PRO LUPIN the III Special')
                     ->withNavigation([
@@ -167,10 +170,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps1/heiwa-parlor-pro-lupin-the-iii-special.php', $data);
-            })->name('sony-ps1-heiwa-parlor-pro-lupin-the-iii-special');
+                return $this->view->render('view/games/sony/ps1/heiwa-parlor-pro-lupin-the-iii-special.php', $data);
+            })->setName('sony-ps1-heiwa-parlor-pro-lupin-the-iii-special');
 
-            $app->get('/punch-the-monkey-game-edition/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/punch-the-monkey-game-edition/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('PUNCH THE MONKEY! GAME EDITION')
                     ->withNavigation([
@@ -179,10 +182,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps1/punch-the-monkey-game-edition.php', $data);
-            })->name('sony-ps1-punch-the-monkey-game-edition');
+                return $this->view->render('view/games/sony/ps1/punch-the-monkey-game-edition.php', $data);
+            })->setName('sony-ps1-punch-the-monkey-game-edition');
 
-            $app->get('/pachi-slot-simulator-7-maker-suishou-manual/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/pachi-slot-simulator-7-maker-suishou-manual/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('PACHI-SLOT Simulator 7 maker suishou manual')
                     ->withNavigation([
@@ -191,10 +194,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps1/pachi-slot-simulator-7-maker-suishou-manual.php', $data);
-            })->name('sony-ps1-pachi-slot-simulator-7-maker-suishou-manual');
+                return $this->view->render('view/games/sony/ps1/pachi-slot-simulator-7-maker-suishou-manual.php', $data);
+            })->setName('sony-ps1-pachi-slot-simulator-7-maker-suishou-manual');
 
-            $app->get('/heiwa-parlor-pro-fujiko-ni-o-ma-ka-se-special/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/heiwa-parlor-pro-fujiko-ni-o-ma-ka-se-special/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('HEIWA Parlor! PRO Fujiko ni o.ma.ka.se Special')
                     ->withNavigation([
@@ -203,10 +206,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps1/heiwa-parlor-pro-fujiko-ni-o-ma-ka-se-special.php', $data);
-            })->name('sony-ps1-heiwa-parlor-pro-fujiko-ni-o-ma-ka-se-special');
+                return $this->view->render('view/games/sony/ps1/heiwa-parlor-pro-fujiko-ni-o-ma-ka-se-special.php', $data);
+            })->setName('sony-ps1-heiwa-parlor-pro-fujiko-ni-o-ma-ka-se-special');
 
-            $app->get('/parlor-pro-jr-vol-2/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/parlor-pro-jr-vol-2/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Parlor! PRO Jr. Vol.2')
                     ->withNavigation([
@@ -215,11 +218,11 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps1/parlor-pro-jr-vol-2.php', $data);
-            })->name('sony-ps1-parlor-pro-jr-vol-2');
+                return $this->view->render('view/games/sony/ps1/parlor-pro-jr-vol-2.php', $data);
+            })->setName('sony-ps1-parlor-pro-jr-vol-2');
 
             $app->get('/pachinko-pachislot-parlor-pro-ex-cr-inakappe-daishou-a/',
-                function () use ($app, $pageUtil, $pageData) {
+                function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                     $data = $pageData
                         ->withTitle('Pachinko &amp; Pachislot Parlor! PRO EX CR.Inakappe Daishou A &amp;')
                         ->withNavigation([
@@ -228,16 +231,16 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         ])
                         ->data(['gamesNav' => true]);
 
-                    $app->render('view/games/sony/ps1/pachinko-pachislot-parlor-pro-ex-cr-inakappe-daishou-a.php',
+                    return $this->view->render('view/games/sony/ps1/pachinko-pachislot-parlor-pro-ex-cr-inakappe-daishou-a.php',
                         $data);
-                })->name('sony-ps1-pachinko-pachislot-parlor-pro-ex-cr-inakappe-daishou-a');
+                })->setName('sony-ps1-pachinko-pachislot-parlor-pro-ex-cr-inakappe-daishou-a');
         });
 
         /**
          * Routes for PS2
          */
-        $app->group('/playstation-2', function () use ($app, $pageUtil, $pageData) {
-            $app->get('/lupin-iii-majutsu-ou-no-isan/', function () use ($app, $pageUtil, $pageData) {
+        $app->group('/playstation-2', function (App $app) use ($pageUtil, $pageData) {
+            $app->get('/lupin-iii-majutsu-ou-no-isan/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Lupin III: Majutsu-Ou no Isan')
                     ->withNavigation([
@@ -246,10 +249,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps2/lupin-iii-majutsu-ou-no-isan.php', $data);
-            })->name('sony-ps2-lupin-iii-majutsu-ou-no-isan');
+                return $this->view->render('view/games/sony/ps2/lupin-iii-majutsu-ou-no-isan.php', $data);
+            })->setName('sony-ps2-lupin-iii-majutsu-ou-no-isan');
 
-            $app->get('/slot-pro-dx-fujiko-2/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/slot-pro-dx-fujiko-2/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Slot! Pro Dx: Fujiko 2')
                     ->withNavigation([
@@ -258,10 +261,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps2/slot-pro-dx-fujiko-2.php', $data);
-            })->name('sony-ps2-slot-pro-dx-fujiko-2');
+                return $this->view->render('view/games/sony/ps2/slot-pro-dx-fujiko-2.php', $data);
+            })->setName('sony-ps2-slot-pro-dx-fujiko-2');
 
-            $app->get('/lupin-iii-columbus-no-isan-wa-akenisomaru/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/lupin-iii-columbus-no-isan-wa-akenisomaru/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Lupin III: Columbus no Isan wa Akenisomaru')
                     ->withNavigation([
@@ -270,11 +273,11 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps2/lupin-iii-columbus-no-isan-wa-akenisomaru.php', $data);
-            })->name('sony-ps2-lupin-iii-columbus-no-isan-wa-akenisomaru');
+                return $this->view->render('view/games/sony/ps2/lupin-iii-columbus-no-isan-wa-akenisomaru.php', $data);
+            })->setName('sony-ps2-lupin-iii-columbus-no-isan-wa-akenisomaru');
 
             $app->get('/slotter-up-core-5-lupin-daisuki-shuyaku-wa-zenigata/',
-                function () use ($app, $pageUtil, $pageData) {
+                function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                     $data = $pageData
                         ->withTitle('Slotter Up Core 5 Lupin Daisuki! Shuyaku wa Zenigata')
                         ->withNavigation([
@@ -283,11 +286,11 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                         ])
                         ->data(['gamesNav' => true]);
 
-                    $app->render('view/games/sony/ps2/slotter-up-core-5-lupin-daisuki-shuyaku-wa-zenigata.php',
+                    return $this->view->render('view/games/sony/ps2/slotter-up-core-5-lupin-daisuki-shuyaku-wa-zenigata.php',
                         $data);
-                })->name('sony-ps2-slotter-up-core-5-lupin-daisuki-shuyaku-wa-zenigata');
+                })->setName('sony-ps2-slotter-up-core-5-lupin-daisuki-shuyaku-wa-zenigata');
 
-            $app->get('/lupin-iii-lupin-niwa-shi-o-zenigata-niwa-koi-o/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/lupin-iii-lupin-niwa-shi-o-zenigata-niwa-koi-o/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('LuLupin III: Lupin niwa shi o, Zenigata niwa koi o')
                     ->withNavigation([
@@ -296,15 +299,15 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/ps2/lupin-iii-lupin-niwa-shi-o-zenigata-niwa-koi-o.php', $data);
-            })->name('sony-ps2-lupin-iii-lupin-niwa-shi-o-zenigata-niwa-koi-o');
+                return $this->view->render('view/games/sony/ps2/lupin-iii-lupin-niwa-shi-o-zenigata-niwa-koi-o.php', $data);
+            })->setName('sony-ps2-lupin-iii-lupin-niwa-shi-o-zenigata-niwa-koi-o');
         });
 
         /**
          * Routes for PSP
          */
-        $app->group('/playstation-portable', function () use ($app, $pageUtil, $pageData) {
-            $app->get('/shuyaku-wa-zenigata/', function () use ($app, $pageUtil, $pageData) {
+        $app->group('/playstation-portable', function (App $app) use ($pageUtil, $pageData) {
+            $app->get('/shuyaku-wa-zenigata/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Shuyaku wa Zenigata')
                     ->withNavigation([
@@ -313,16 +316,16 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sony/psp/shuyaku-wa-zenigata.php', $data);
-            })->name('sony-psp-shuyaku-wa-zenigata');
+                return $this->view->render('view/games/sony/psp/shuyaku-wa-zenigata.php', $data);
+            })->setName('sony-psp-shuyaku-wa-zenigata');
         });
     });
 
     /**
      * Routes for Arcade
      */
-    $app->group('/arcade', function () use ($app, $pageUtil, $pageData) {
-        $app->get('/lupin-iii/', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/arcade', function (App $app) use ($pageUtil, $pageData) {
+        $app->get('/lupin-iii/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin III')
                 ->withNavigation([
@@ -331,10 +334,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                 ])
                 ->data(['gamesNav' => true]);
 
-            $app->render('view/games/arcade/lupin-iii.php', $data);
-        })->name('arcade-lupin-iii');
+            return $this->view->render('view/games/arcade/lupin-iii.php', $data);
+        })->setName('arcade-lupin-iii');
 
-        $app->get('/cliff-hanger/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/cliff-hanger/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Cliff Hanger')
                 ->withNavigation([
@@ -343,10 +346,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                 ])
                 ->data(['gamesNav' => true]);
 
-            $app->render('view/games/arcade/cliff-hanger.php', $data);
-        })->name('arcade-cliff-hanger');
+            return $this->view->render('view/games/arcade/cliff-hanger.php', $data);
+        })->setName('arcade-cliff-hanger');
 
-        $app->get('/lupin-the-3rd-the-shooting/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/lupin-the-3rd-the-shooting/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin the 3rd: The Shooting')
                 ->withNavigation([
@@ -355,10 +358,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                 ])
                 ->data(['gamesNav' => true]);
 
-            $app->render('view/games/arcade/lupin-the-3rd-the-shooting.php', $data);
-        })->name('arcade-lupin-the-3rd-the-shooting');
+            return $this->view->render('view/games/arcade/lupin-the-3rd-the-shooting.php', $data);
+        })->setName('arcade-lupin-the-3rd-the-shooting');
 
-        $app->get('/lupin-the-3rd-the-typing/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/lupin-the-3rd-the-typing/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Lupin the 3rd: The Typing')
                 ->withNavigation([
@@ -367,19 +370,19 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                 ])
                 ->data(['gamesNav' => true]);
 
-            $app->render('view/games/arcade/lupin-the-3rd-the-typing.php', $data);
-        })->name('arcade-lupin-the-3rd-the-typing');
+            return $this->view->render('view/games/arcade/lupin-the-3rd-the-typing.php', $data);
+        })->setName('arcade-lupin-the-3rd-the-typing');
     });
 
     /**
      * Routes for Sega
      */
-    $app->group('/sega', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/sega', function (App $app) use ($pageUtil, $pageData) {
         /**
          * Routes for Sega Saturn
          */
-        $app->group('/saturn', function () use ($app, $pageUtil, $pageData) {
-            $app->get('/lupin-the-3rd-the-master-file/', function () use ($app, $pageUtil, $pageData) {
+        $app->group('/saturn', function (App $app) use ($pageUtil, $pageData) {
+            $app->get('/lupin-the-3rd-the-master-file/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Lupin the 3rd: The Master File')
                     ->withNavigation([
@@ -388,10 +391,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sega/saturn/lupin-the-3rd-the-master-file.php', $data);
-            })->name('sega-saturn-lupin-the-3rd-the-master-file');
+                return $this->view->render('view/games/sega/saturn/lupin-the-3rd-the-master-file.php', $data);
+            })->setName('sega-saturn-lupin-the-3rd-the-master-file');
 
-            $app->get('/lupin-the-3rd-chronicles/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/lupin-the-3rd-chronicles/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Lupin the 3rd Chronicles')
                     ->withNavigation([
@@ -400,10 +403,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sega/saturn/lupin-the-3rd-chronicles.php', $data);
-            })->name('sega-saturn-lupin-the-3rd-chronicles');
+                return $this->view->render('view/games/sega/saturn/lupin-the-3rd-chronicles.php', $data);
+            })->setName('sega-saturn-lupin-the-3rd-chronicles');
 
-            $app->get('/lupin-iii-sage-of-the-pyramid/', function () use ($app, $pageUtil, $pageData) {
+            $app->get('/lupin-iii-sage-of-the-pyramid/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
                 $data = $pageData
                     ->withTitle('Lupin III: Sage of the Pyramid')
                     ->withNavigation([
@@ -412,16 +415,16 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                     ])
                     ->data(['gamesNav' => true]);
 
-                $app->render('view/games/sega/saturn/lupin-iii-sage-of-the-pyramid.php', $data);
-            })->name('sega-saturn-lupin-iii-sage-of-the-pyramid');
+                return $this->view->render('view/games/sega/saturn/lupin-iii-sage-of-the-pyramid.php', $data);
+            })->setName('sega-saturn-lupin-iii-sage-of-the-pyramid');
         });
     });
 
     /**
      * Routes for MSX
      */
-    $app->group('/msx', function () use ($app, $pageUtil, $pageData) {
-        $app->get('/castle-of-cagliostro/', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/msx', function (App $app) use ($pageUtil, $pageData) {
+        $app->get('/castle-of-cagliostro/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Castle of Cagliostro')
                 ->withNavigation([
@@ -430,10 +433,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                 ])
                 ->data(['gamesNav' => true]);
 
-            $app->render('view/games/msx/castle-of-cagliostro.php', $data);
-        })->name('msx-castle-of-cagliostro');
+            return $this->view->render('view/games/msx/castle-of-cagliostro.php', $data);
+        })->setName('msx-castle-of-cagliostro');
 
-        $app->get('/legend-of-the-gold-of-babylon/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/legend-of-the-gold-of-babylon/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Legend of the Gold of Babylon')
                 ->withNavigation([
@@ -442,15 +445,15 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                 ])
                 ->data(['gamesNav' => true]);
 
-            $app->render('view/games/msx/legend-of-the-gold-of-babylon.php', $data);
-        })->name('msx-legend-of-the-gold-of-babylon');
+            return $this->view->render('view/games/msx/legend-of-the-gold-of-babylon.php', $data);
+        })->setName('msx-legend-of-the-gold-of-babylon');
     });
 
     /**
      * Routes for NEC PC-8801
      */
-    $app->group('/nec-pc-8801', function () use ($app, $pageUtil, $pageData) {
-        $app->get('/castle-of-cagliostro/', function () use ($app, $pageUtil, $pageData) {
+    $app->group('/nec-pc-8801', function (App $app) use ($pageUtil, $pageData) {
+        $app->get('/castle-of-cagliostro/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Castle of Cagliostro')
                 ->withNavigation([
@@ -459,10 +462,10 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                 ])
                 ->data(['gamesNav' => true]);
 
-            $app->render('view/games/nec-pc-8801/castle-of-cagliostro.php', $data);
-        })->name('nec-pc-8801-castle-of-cagliostro');
+            return $this->view->render('view/games/nec-pc-8801/castle-of-cagliostro.php', $data);
+        })->setName('nec-pc-8801-castle-of-cagliostro');
 
-        $app->get('/legend-of-the-gold-of-babylon/', function () use ($app, $pageUtil, $pageData) {
+        $app->get('/legend-of-the-gold-of-babylon/', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
             $data = $pageData
                 ->withTitle('Legend of the Gold of Babylon')
                 ->withNavigation([
@@ -471,7 +474,7 @@ $app->group('/games', function () use ($app, $pageUtil, $pageData) {
                 ])
                 ->data(['gamesNav' => true]);
 
-            $app->render('view/games/nec-pc-8801/legend-of-the-gold-of-babylon.php', $data);
-        })->name('nec-pc-8801-legend-of-the-gold-of-babylon');
+            return $this->view->render('view/games/nec-pc-8801/legend-of-the-gold-of-babylon.php', $data);
+        })->setName('nec-pc-8801-legend-of-the-gold-of-babylon');
     });
 });

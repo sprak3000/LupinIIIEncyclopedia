@@ -1,16 +1,19 @@
 <?php
 use sprak3000\lupinencyclopedia\Slim\Page;
+use \Psr\Http\Message\ServerRequestInterface as Request;
+use \Psr\Http\Message\ResponseInterface as Response;
+use \Slim\app;
 
 $pageUtil = new Page\Util();
 
 /**
  * Routes for /games and below
  */
-$app->group('/rss', function () use ($app, $pageUtil) {
+$app->group('/rss', function (App $app) use ($pageUtil) {
   /**
    * Route for eBay Auctions
    */
-  $app->get('/ebay', function () use ($app, $pageUtil) {
+  $app->get('/ebay', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil) {
     $pageData = [];
     $pageData['ebayResults'] = [];
 
@@ -57,9 +60,9 @@ $app->group('/rss', function () use ($app, $pageUtil) {
       }
 
       $app->response->headers->set('Content-Type', 'text/xml; charset=utf-8');
-      $app->render('view/rss/ebay.php', $pageData);
+      return $this->view->render('view/rss/ebay.php', $pageData);
     } catch (Exception $e) {
       // TODO: Log this appropriately
     }
-  })->name('ebay-rss');
+  })->setName('ebay-rss');
 });

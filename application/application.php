@@ -3,13 +3,16 @@
 use sprak3000\lupinencyclopedia\Slim\Page;
 use sprak3000\lupinencyclopedia\Slim\Middleware\KnownRedirects;
 
-$config = [
-    'templates.path' => '../template',
-    'view' => new Page\View(),
-];
-
 /** Create the application */
-$app = new \Slim\app($config);
+$app = new \Slim\App(); //$config);
+
+/** Get app container */
+$container = $app->getContainer();
+
+/** Register view handler in container */
+$container['view'] = function ($container) {
+    return new Page\View('../template');
+};
 
 /** Redirect middleware */
 $app->add(new KnownRedirects());

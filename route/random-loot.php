@@ -1,6 +1,9 @@
 <?php
 
 use sprak3000\lupinencyclopedia\Slim\Page;
+use \Psr\Http\Message\ServerRequestInterface as Request;
+use \Psr\Http\Message\ResponseInterface as Response;
+use \Slim\app;
 
 $pageUtil = new Page\Util();
 $pageData = new Page\Data();
@@ -8,8 +11,8 @@ $pageData = new Page\Data();
 /**
  * Routes for /random-loot and below
  */
-$app->group('/random-loot', function () use ($app, $pageUtil, $pageData) {
-    $app->get('/music', function () use ($app, $pageData) {
+$app->group('/random-loot', function (App $app) use ($pageUtil, $pageData) {
+    $app->get('/music', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Music')
             ->withDescription('Lupin the Third music on CD, vinyl, etc.')
@@ -18,9 +21,10 @@ $app->group('/random-loot', function () use ($app, $pageUtil, $pageData) {
             ])
             ->data(['lootNav' => true, 'musicNav' => true]);
 
-        $app->render('view/random-loot/music.php', $data);
-    })->name('music');
+        return $this->view->render('view/random-loot/music.php', $data);
+    })->setName('music');
 
+    // TODO: Request $req,  Response $res, $args = [] for function sig?
     $app->get('/newsletter(/:year/:month)/', function ($pYear = '2002', $pMonth = '12') use ($app, $pageData) {
         $data = $pageData
             ->withTitle('The LupinTheThird Newsletter')
@@ -37,10 +41,10 @@ $app->group('/random-loot', function () use ($app, $pageUtil, $pageData) {
                 'issue' => date('F Y', strtotime($pMonth . '/01/' . $pYear)),
             ]);
 
-        $app->render('view/random-loot/newsletter.php', $data);
-    })->name('newsletter');
+        return $this->view->render('view/random-loot/newsletter.php', $data);
+    })->setName('newsletter');
 
-    $app->get('/kent-state-lupin-mailing-list', function () use ($app, $pageData) {
+    $app->get('/kent-state-lupin-mailing-list', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Lupin Mailing List (lupin AT mcs DOT kent DOT edu) Archive')
             ->withDescription('This is an incomplete archive of the Lupin III mailing list that ran from roughly from 1998 to 2002.')
@@ -50,10 +54,10 @@ $app->group('/random-loot', function () use ($app, $pageUtil, $pageData) {
             ->withMailingList()
             ->data(['lootNav' => true, 'mlNav' => true]);
 
-        $app->render('view/random-loot/kent-state-lupin-mailing-list.php', $data);
-    })->name('mailing-list');
+        return $this->view->render('view/random-loot/kent-state-lupin-mailing-list.php', $data);
+    })->setName('mailing-list');
 
-    $app->get('/tokyo-international-anime-fair', function () use ($app, $pageData) {
+    $app->get('/tokyo-international-anime-fair', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Tokyo International Anime Fair')
             ->withDescription('An overview of the various booths Lupin has had at the Tokyo International Anime Fair')
@@ -63,10 +67,10 @@ $app->group('/random-loot', function () use ($app, $pageUtil, $pageData) {
             ->withGallery()
             ->data(['lootNav' => true, 'tafNav' => true]);
 
-        $app->render('view/random-loot/tokyo-international-anime-fair.php', $data);
-    })->name('tokyo-international-anime-fair');
+        return $this->view->render('view/random-loot/tokyo-international-anime-fair.php', $data);
+    })->setName('tokyo-international-anime-fair');
 
-    $app->get('/loose-change', function () use ($app, $pageUtil, $pageData) {
+    $app->get('/loose-change', function (Request $req,  Response $res, $args = []) use ($app, $pageUtil, $pageData) {
         $data = $pageData
             ->withTitle('Loose Change')
             ->withDescription('E-mail interview with Robert Woodhead from AnimEigo, Pioneer Playing Cards')
@@ -78,10 +82,10 @@ $app->group('/random-loot', function () use ($app, $pageUtil, $pageData) {
 
         $data['images']['lupin-the-box-tv-movie'] = $pageUtil->GetImagesForGallery(__DIR__ . "/../public/dist/asset/img/lupin-the-box-tv-movie");
 
-        $app->render('view/random-loot/loose-change.php', $data);
-    })->name('loose-change');
+        return $this->view->render('view/random-loot/loose-change.php', $data);
+    })->setName('loose-change');
 
-    $app->get('/cosplay', function () use ($app, $pageData) {
+    $app->get('/cosplay', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Cosplay')
             ->withDescription('Gallery of Lupin cosplayers')
@@ -91,10 +95,10 @@ $app->group('/random-loot', function () use ($app, $pageUtil, $pageData) {
             ->withGallery()
             ->data(['lootNav' => true, 'cosplayNav' => true]);
 
-        $app->render('view/random-loot/cosplay.php', $data);
-    })->name('cosplay');
+        return $this->view->render('view/random-loot/cosplay.php', $data);
+    })->setName('cosplay');
 
-    $app->get('/cameos', function () use ($app, $pageData) {
+    $app->get('/cameos', function (Request $req,  Response $res, $args = []) use ($app, $pageData) {
         $data = $pageData
             ->withTitle('Cameos')
             ->withDescription('Gallery of cameos Lupin and the gang have had in other media')
@@ -104,6 +108,6 @@ $app->group('/random-loot', function () use ($app, $pageUtil, $pageData) {
             ->withGallery()
             ->data(['lootNav' => true, 'cameosNav' => true]);
 
-        $app->render('view/random-loot/cameos.php', $data);
-    })->name('cameos');
+        return $this->view->render('view/random-loot/cameos.php', $data);
+    })->setName('cameos');
 });
