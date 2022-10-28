@@ -15,7 +15,7 @@ $container['view'] = function ($container) {
 };
 
 /** Redirect middleware */
-$app->add(new KnownRedirects());
+$app->add(new KnownRedirects($container));
 
 /** Iterate over the available routes */
 $dirIterator = new RecursiveDirectoryIterator('../route');
