@@ -22,10 +22,6 @@
                   minimal plot serving to only introduce all of the characters, sans Goemon. Discotek released it in the US
                   on DVD on 2006 February 28.
                 </p>
-                <div>
-                  <strong>Buy It: </strong>
-                  <a href="http://www.amazon.com/gp/product/B000E6EK6K/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000E6EK6K&linkCode=as2&tag=lupiniiiencyc-20&linkId=ZVCSGNKHGZ4KUFWA" class="linked color-green" target="_blank">Amazon</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=lupiniiiencyc-20&l=as2&o=1&a=B000E6EK6K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-                </div>
               </div>
               <div class="col-md-2">
                 <img class="img-responsive" src="/dist/asset/img/live-action/strange-psychokinetic-strategy/strange-psychokinetic-strategy.gif" alt="Promotional photo" />

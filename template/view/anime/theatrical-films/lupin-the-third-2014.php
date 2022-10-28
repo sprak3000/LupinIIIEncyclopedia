@@ -17,9 +17,6 @@
           <div id="overview" class="tab-pane fade in active">
             <div class="row">
               <div class="col-md-10">
-                <p>
-                  The latest live-action film from Japan; more information needed!
-                </p>
                 <dl class="dl-horizontal">
                   <dt>Japanese Title:</dt><dd><em>Rupan Sansei</em></dd>
                   <dt>Jacket Color:</dt><dd>Red</dd>
@@ -30,8 +27,16 @@
                   <h4>Synopsis</h4>
                 </div>
                 <p>
-                  Lupin and friends infiltrate a highly secured fortress-like safe named the &quot;Ark of Navarone&quot;
-                  to claim the &quot;Crimson Heart of Cleopatra&quot;.
+                    Can the world's slickest thief triumph again?
+                </p>
+                <p>
+                    Lupin, the world's greatest gentlemen thief, and his partners-in-crime are at it again. In a
+                    gripping heist like no other, they must infiltrate a remote high-security facility to steal
+                    &quot;The Crimson Heart of Cleopatra&quot;. But with Inspector Zenigata hot on their tails,
+                    can they pull off this daring feat?
+                </p>
+                <p>
+                    Synopsis from Madman Entertainment DVD release announcement
                 </p>
               </div>
               <div class="col-md-2">

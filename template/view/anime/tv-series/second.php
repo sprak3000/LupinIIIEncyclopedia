@@ -74,12 +74,6 @@
                   episodes also. Scorpion are one of only two villains to appear more than once in Lupin III, and the only
                   one to appear three times.
                 </p>
-
-                <div>
-                  <a href="http://www.hulu.com/watch/" class="linked"  target="_blank" title="Watch on Hulu (dubbed)"><img src="/dist/asset/img/hulu-icon.png" /></a>
-                  <a href="http://www.hulu.com/watch/" class="linked"  target="_blank" title="Watch on Hulu (subbed)"><img src="/dist/asset/img/hulu-icon.png" /></a>
-                </div>
-
               </div>
             </div>
 

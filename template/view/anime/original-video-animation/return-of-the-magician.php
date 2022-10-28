@@ -45,10 +45,6 @@
                   one of the most memorable villains of the franchise, the film was dangerously close to being a complete bore.
                   A priced down version of the DVD set stripped of most of the extras was released a year later.
                 </p>
-                <div>
-                  <strong>Buy It: </strong>
-                  <a href="http://www.cdjapan.co.jp/aff/click.cgi/PytJTGW7Lok/259/A387694/detailview.html?KEY=VPBV-11722" class="linked color-green" target="_blank">CD Japan</a>
-                </div>
                 <dl class="dl-horizontal">
                   <dt>Japanese Title:</dt><dd><em>Rupan Sansei: ikiteita majutsushi</em></dd>
                   <dt>Jacket Color:</dt><dd>Green</dd>

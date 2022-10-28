@@ -33,7 +33,6 @@ class Util
 
         sort($images);
 
-        $rowCount = ceil(count($images) / $pImagesPerRow);
         $currentRow = 0;
         $currentColumn = 0;
         foreach ($images as $image) {
@@ -59,19 +58,21 @@ class Util
         try {
             $data = $client->getAnime(['anime' => $pAnimeNewsNetworkId])->toArray();
 
+            if (empty($data['anime']['staff'])) {
+                return [];
+            }
+
             // Transform the staff data into "task" buckets
             $staff = [];
-            if (!empty($data['anime']['staff'])) {
-                foreach ($data['anime']['staff'] as $index => $item) {
-                    if (!is_numeric($index)) {
-                        continue;
-                    }
-
-                    $staff[$item['task']][] = $item['person'];
+            foreach ($data['anime']['staff'] as $index => $item) {
+                if (!is_numeric($index)) {
+                    continue;
                 }
 
-                $data['calculated']['staff'] = $staff;
+                $staff[$item['task']][] = $item['person'];
             }
+
+            $data['calculated']['staff'] = $staff;
         } catch (Exception $e) {
             $data = [];
         }

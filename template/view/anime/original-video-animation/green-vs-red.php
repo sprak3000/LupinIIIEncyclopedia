@@ -30,15 +30,8 @@
                   The film kicked up quite the storm with fans, as the ambiguous nature of the story left the ending open to
                   interpretation. Some found this to be an enjoyable twist on the usually formulaic franchise; others simply
                   thought it was a confusing mess. Discotek allowed US fans to belatedly join the discussion in May 2013 with their
-                  subtitled release of the film. The film is also currently streaming on Hulu.
+                  subtitled release of the film. The film has also been streamed on Hulu.
                 </p>
-                <div>
-                  <a href="http://www.hulu.com/watch/512374" class="linked"  target="_blank" title="Watch on Hulu"><img src="/dist/asset/img/hulu-icon.png" /></a>
-                  &nbsp;&nbsp;<strong>Buy It: </strong>
-                  <a href="http://www.rightstuf.com/catalog/browse/link/t=item,c=right-stuf,v=right-stuf,i=es049,a=lupin-iii-encycloped" class="linked color-green" target="_blank">RightStuf</a>,
-                  <a href="http://www.amazon.com/gp/product/B00BUAEZMS/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00BUAEZMS&linkCode=as2&tag=lupiniiiencyc-20&linkId=GEG2IXKFYHWMVVMW" class="linked color-green" target="_blank">Amazon</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=lupiniiiencyc-20&l=as2&o=1&a=B00BUAEZMS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />,
-                  <a href="http://www.cdjapan.co.jp/aff/click.cgi/PytJTGW7Lok/259/A387694/detailview.html?KEY=VPBV-13041" class="linked color-green" target="_blank">CD Japan</a>
-                </div>
                 <dl class="dl-horizontal">
                   <dt>Japanese Title:</dt><dd><em>Rupan Sansei: Green VS Red</em></dd>
                   <dt>Jacket Color:</dt><dd>Green, Red</dd>
