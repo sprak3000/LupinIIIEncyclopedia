@@ -73,11 +73,11 @@
           </div>
 
           <div id="cast" class="tab-pane fade in">
-              <?php echo $app->render('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
+              <?php echo $view->renderPageFragment('partial/cast.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="staff" class="tab-pane fade in">
-              <?php echo $app->render('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
+              <?php echo $view->renderPageFragment('partial/staff.php', ['partial' => true, 'annData' => $annData]); ?>
           </div>
 
           <div id="soundtracks" class="tab-pane fade in">

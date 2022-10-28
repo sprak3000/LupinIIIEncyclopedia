@@ -48,7 +48,7 @@ class View
      * @return string               The rendered template
      * @throws \RuntimeException    If resolved template pathname is not a valid file
      */
-    protected function renderPageFragment(string $pTemplate, array $pData = []): string
+    public function renderPageFragment(string $pTemplate, array $pData = []): string
     {
         $templatePathname = $this->templatePath . $pTemplate;
         if (!is_file($templatePathname)) {

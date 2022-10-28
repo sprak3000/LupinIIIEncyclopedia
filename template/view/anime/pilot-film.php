@@ -137,7 +137,7 @@
           </div>
 
           <div id="media" class="tab-pane fade in">
-              <?php echo $app->render('partial/media.php', ['partial' => true, 'images' => $images]); ?>
+              <?php echo $view->renderPageFragment('partial/media.php', ['partial' => true, 'images' => $images]); ?>
           </div>
 
         </div>

@@ -17,7 +17,7 @@ $app->get('/live-action/zenigata-keibu', function (Request $req,  Response $res,
             'Profiles' => '',
         ])
         ->withGallery(__DIR__ . "/../public/dist/asset/img/live-action/zenigata-keibu/media")
-        ->data(['homeNav' => true, 'animeNav' => true, 'zenigataNav' => true, 'app' => $app->getInstance()]);
+        ->data(['homeNav' => true, 'animeNav' => true, 'zenigataNav' => true, 'view' => $this->view]);
 
     return $this->view->render($res, 'view/live-action/zenigata-keibu.php', $data);
 })->setName('live-action-zenigata-keibu');
