@@ -22,8 +22,8 @@
       <div class="panel panel-profile no-bg">
 
         <div class="panel-heading overflow-h">
-          <h2 class="panel-title heading-sm pull-left"><i class="fa fa-comments-o"></i>Recent Forum Posts</h2>
-          <span class="pull-right"><a href="/forums/index.php?action=.xml;type=rss2" title="Subscribe to Feed" target="_blank"><i class="fa fa-rss-square"></i></a></span>
+          <h2 class="panel-title heading-sm pull-left"><i class="fa fa-comments-o"></i>Recent Lupin III Club Forum Posts</h2>
+          <span class="pull-right"><a href="https://lupiniii.club/index.php?forums/-/index.rss" title="Subscribe to Feed" target="_blank"><i class="fa fa-rss-square"></i></a></span>
         </div>
 
         <div id="scrollbar2" class="panel-body contentHolder">

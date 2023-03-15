@@ -108,8 +108,6 @@ if(!$is404) {
                 <ul class="nav navbar-nav">
                   <li<?php if(isset($homeNav)) { ?> class="active"<?php } ?>><a href="/">Home</a></li>
 
-                  <li><a href="/forums">Forums</a></li>
-
                   <li class="dropdown<?php if(isset($animeNav)) { echo ' active'; } ?>">
                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                       Anime
