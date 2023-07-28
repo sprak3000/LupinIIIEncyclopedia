@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.7.0 - 2023 July 27
+### Enhancements:
+- Update to latest version of ANN API client.
+
 ## 3.6.0 - 2022 October 28
 ### Enhancements:
 - Issue #60: Upgrade to Slim3
