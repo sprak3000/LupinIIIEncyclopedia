@@ -22,7 +22,7 @@
 
   "require": {
     "slim/slim": "3.12.4",
-    "sprak3000/anime-news-network-data-api": "3.0.0",
+    "sprak3000/anime-news-network-data-api": "3.3.0",
     "ext-json": "*"
   },
 
